@@ -1,0 +1,2 @@
+nicemiceportrait is used when SAIL sends you a chat message
+nicemicequestportrait is used for the quest log

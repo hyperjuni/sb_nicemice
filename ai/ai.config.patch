@@ -4,9 +4,15 @@
 		"path" : "/species/nicemice",
 		"value" : 
 		{
-			"aiFrames" : "apexAi.png",
-			"portraitFrames" : "portraits/apexportrait.png",
-			"staticFrames" : "staticApex.png"
+			//this is used for popups from an object (when SAIL is harassing you to wake up)
+			//it is also used within SAIL
+			"aiFrames" : "nicemiceai.png",
+			
+			//this is used for chat popups
+			"portraitFrames" : "portraits/nicemiceportrait.png",
+			
+			//this is used a background in SAIL behind the scanlines
+			"staticFrames" : "staticnicemice.png"
 		}
 	}
 ]

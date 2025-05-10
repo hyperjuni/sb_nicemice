@@ -1,0 +1,111 @@
+{
+  "name" : "nicemice",
+  "prefixSize" : 2,
+  "endSize" : 2,
+  "sourceNames" : [
+  
+	"Alni",
+	"Amila",
+	"Azvi",
+	
+	"Bezvi",
+	"Bezka",
+	"Bimni",
+	
+    "Calli",
+	"Cezna",
+	"Czavni",
+	
+	"Dezali",
+	"Damia",
+	"Desvi",
+	
+	"Elia",
+	"Enimi",
+	"Ezmi",
+	
+	"Felvi",
+	"Fina",
+	"Fuzni",
+	
+	"Gazmil",
+	"Gevni",
+	"Gilni",
+	
+	"Hasva",
+	"Hili",
+	"Hizna",
+	
+	"Ilnia",
+	"Ivzi",
+	"Izbi",
+	
+	"Jali",
+	"Jenmi",
+	"Jesva",
+	
+	"Kali",
+	"Kezna",
+	"Kivmi",
+	
+	"Lazbi",
+	"Lensvi",
+	"Lisva",
+	
+	"Milia",
+	"Milva",
+	"Misi",
+	
+	"Nenmi",
+	"Ninva",
+	"Nilna",
+	
+	"Osvi",
+	"Obni",
+	"Onisva",
+	
+	"Pesvi",
+	"Pavsvi",
+	"Pfesvi",
+	
+	"Qizmi",
+	"Qetbi",
+	"Qileni",
+	
+	"Risbi",
+	"Renva",
+	"Razvimi",
+	
+	"Savna",
+	"Selni",
+	"Svazi",
+	
+	"Tilmi",
+	"Tetzvi",
+	"Tasni",
+	
+	"Uzvi",
+	"Unzila",
+	"Uzmia",
+	
+	"Vesi",
+	"Vilsa",
+	"Vevzni",
+	
+	"Wizbi",
+	"Wesni",
+	"Wazfa",
+	
+	"Xini",
+	"Xva",
+	"Xevni",
+	
+	"Yizil",
+	"Yevna",
+	"Yetzvi",
+	
+	"Zavne",
+	"Zisva",
+	"Zezna"
+  ]
+}

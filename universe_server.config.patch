@@ -1,0 +1,16 @@
+[
+	{ "op" : "add",
+		"path" : "/speciesShips/nicemice",
+		"value" : [
+		    "/ships/nicemice/nicemicet0.structure",
+			"/ships/nicemice/nicemicet1.structure",
+			"/ships/nicemice/nicemicet2.structure",
+			"/ships/nicemice/nicemicet3.structure",
+			"/ships/nicemice/nicemicet4.structure",
+			"/ships/nicemice/nicemicet5.structure",
+			"/ships/nicemice/nicemicet6.structure",
+			"/ships/nicemice/nicemicet7.structure",
+			"/ships/nicemice/nicemicet8.structure"
+		]
+	}
+]

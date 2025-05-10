@@ -1,0 +1,12 @@
+[
+	{
+		"op" : "add",
+		"path" : "/species/nicemice",
+		"value" : 
+		{
+			"aiFrames" : "apexAi.png",
+			"portraitFrames" : "portraits/apexportrait.png",
+			"staticFrames" : "staticApex.png"
+		}
+	}
+]

@@ -1,0 +1,9 @@
+[
+	{
+		"op" : "add",
+		"path" : "/initialquests/nicemice",
+		"value" : [
+			"protectorate"
+		]
+	}
+]

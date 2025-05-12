@@ -4,7 +4,7 @@
   "charCreationTooltip" : {
       "title" : "Nicemice",
       "subTitle" : "U",
-      "description" : "A diminutive race that resembles rodents from Earth. When there's only one, it's simply called a Nouse."
+      "description" : "A diminutive zpeciez that rezembellez rodentz from ze planet Earth.\n...Vhen zhere'z only one, are zey called a Nouzemouze? It iz quite ze myzterie!"
   },
   
   "humanoidConfig" : "/species/nicemice.config",
@@ -103,12 +103,12 @@
       "hairGroup" : "ears",
       "hair" : 
 	  [ 
-		"mouse", "bigmouse", "chua", "chuadown", "jerboa", "largefolded", "wing", "droop"
+		"mouse", "bigmouse", "chua", "chuadown", "jerboa", "largefolded", "wing", "droop", "alert"
 	  ],
       "shirt" : [ "apexcommanderjacket", "apexnavyjacket", "apexofficerjacket", "apexspecialistjacket", "protectorateshirtchest", "protectoratevestchest" ],
       "pants" : [ "apexcommanderpants", "apexnavypants", "apexofficerpants", "apexspecialistpants" ],
       "facialHairGroup" : "hair",
-      "facialHair" : ["whisk", "quiff", "bangs", "bangs2", "curls"],
+      "facialHair" : ["whisk", "quiff", "bangs", "bangs2", "curls", "swirl"],
       "facialMaskGroup" : "",
       "facialMask" : []
     },
@@ -119,12 +119,12 @@
       "hairGroup" : "ears",
       "hair" : 
 	  [ 
-		"mouse", "bigmouse", "chua", "chuadown", "jerboa", "largefolded", "wing", "droop"
+		"mouse", "bigmouse", "chua", "chuadown", "jerboa", "largefolded", "wing", "droop", "alert"
 	  ],
 	  "shirt" : [ "apexcommanderjacket", "apexnavyjacket", "apexofficerjacket", "apexspecialistjacket", "protectorateshirtchest", "protectoratevestchest" ],
       "pants" : [ "apexcommanderpants", "apexnavypants", "apexofficerpants", "apexspecialistpants" ],
       "facialHairGroup" : "hair",
-      "facialHair" : ["whisk", "quiff", "bangs", "bangs2", "curls"],
+      "facialHair" : ["whisk", "quiff", "bangs", "bangs2", "curls", "swirl"],
       "facialMaskGroup" : "",
       "facialMask" : []
     }

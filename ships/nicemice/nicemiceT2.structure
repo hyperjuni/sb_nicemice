@@ -7,17 +7,17 @@
   },
 
   "backgroundOverlays" : [
-    {
-      "image" : "apexT2.png",
-      "position" : [9, 12],
-      "fullbright" : true
-    },
-    {
-      "image" : "apexT2lit.png",
-      "position" : [9, 12]
-    }
+    //{
+    //  "image" : "apexT2.png",
+    //  "position" : [9, 12],
+    //  "fullbright" : true
+    //},
+    //{
+    //  "image" : "apexT2lit.png",
+    //  "position" : [9, 12]
+    //}
   ],
 
-  "blockKey" : "blockKey.config:blockKey",
-  "blockImage" : "apexT2blocks.png"
+  "blockKey" : "nicemiceBlockKey.config:blockKey",
+  "blockImage" : "nicemiceT2blocks.png"
 }

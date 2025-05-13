@@ -1,0 +1,89 @@
+{
+	"objectName" : "nicemice_techstation",
+	"colonyTags" : ["nicemice"],
+	"printable" : false,
+	"rarity" : "Common",
+	"interactAction" : "OpenAiInterface",
+	"category" : "decorative",
+	"description" : "Mobile Assault Unit System, or M.A.U.S for short.",
+	"shortdescription" : "M.A.U.S",
+	"race" : "nicemice",
+	"lightColor" : [128, 32, 32],
+	"lightPosition" : [-1, 0],
+	
+	"apexDescription" : "I can talk to MAUS through this console.",
+	"avianDescription" : "I can use this station to talk to MAUS.",
+	"floranDescription" : "Floran use thisss magic panel to talk to MAUS!",
+	"glitchDescription" : "Happy. This station allows me to talk to MAUS.",
+	"humanDescription" : "This station allows me to communicate with MAUS.",
+	"hylotlDescription" : "This console allows me to communicate with MAUS.",
+	"novakidDescription" : "This here station lets me talk with MAUS.",
+	"nicemiceDescription" : "Ziz zyztem iz uzed to rezeive orderz from command.",
+
+	"inventoryIcon" : "nicemice_techstationicon.png",
+	"orientations" : 
+	[
+		{
+			"imageLayers" : 
+			[ 
+				{ 
+					"image" : "nicemice_techstation.png:<color>.<frame>", 
+					"fullbright" : true 
+				}, 
+				{ 
+					"image" : "nicemice_techstationlit.png:<color>.<frame>" 
+				} 
+			],
+			"imagePosition" : [-16, -8],
+			"frames" : 32,
+			"animationCycle" : 3.0,
+			"spaceScan" : 0.1,
+			"anchors" : [ "background" ]
+		}
+	],
+	"offeredQuests" : [ "gaterepair" ],
+	"animation" : "/objects/nicemice/ship/nicemice_techstation/nicemice_techstation.animation",
+	"scripts" : 
+	[
+		"/objects/nicemice/ship/nicemice_techstation/nicemice_techstation.lua"
+	],
+	"chatPortrait" : "/ai/portraits/nicemiceortrait.png:yell.1",
+	"dialog" : 
+	{
+		"wakePlayer" : 
+		[
+			[ 
+				"EMERGENCY LOCK ACTIVE. Scan biometric data to unlock.", 
+				"/ai/portraits/nicemiceportrait.png:unique.1"
+			]
+		],
+		"wakeUp" : 
+		[
+			[
+				"",
+				""
+			],
+			[ 
+				"Initializing...", 
+				"/ai/portraits/nicemiceportrait.png:unique.1" 
+			],
+			[ 
+				"M.A.U.S online. Running ztartup diagnozticz...",       
+				"/ai/portraits/nicemiceportrait.png:talk.0" 
+			],
+			[ 
+				"413 damaged componentz detected. Running pozt-combat analyziz...", 
+				"/ai/portraits/nicemiceportrait.png:talk.1" 
+			],
+			[ 
+				"Greetingz, Adjutant!\nOur previouz engagement appearz to have been a total lozz.", 
+				"/ai/portraits/nicemiceportrait.png:talk.0" 
+			],
+			[ 
+				"Ziz vezzel'z navigation zystemz were damaged in our ezcape. Our location iz currently unknown.", 
+				"/ai/portraits/nicemiceportrait.png:talk.1" 
+			]
+		]
+	},
+	"uniqueId" : "techstation"
+}

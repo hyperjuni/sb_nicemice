@@ -108,7 +108,7 @@
       "shirt" : [ "apexcommanderjacket", "apexnavyjacket", "apexofficerjacket", "apexspecialistjacket", "protectorateshirtchest", "protectoratevestchest" ],
       "pants" : [ "apexcommanderpants", "apexnavypants", "apexofficerpants", "apexspecialistpants" ],
       "facialHairGroup" : "hair",
-      "facialHair" : ["whisk", "quiff", "bangs", "curls", "swirl", "karen", "floop", "swoosh", "flower", "spike"],
+      "facialHair" : ["whisk", "quiff", "bangs", "bangs2", "curls", "curls2", "swirl", "karen", "karen2", "floop", "swoosh", "flower", "spike"],
       "facialMaskGroup" : "",
       "facialMask" : []
     },
@@ -124,7 +124,7 @@
 	  "shirt" : [ "apexcommanderjacket", "apexnavyjacket", "apexofficerjacket", "apexspecialistjacket", "protectorateshirtchest", "protectoratevestchest" ],
       "pants" : [ "apexcommanderpants", "apexnavypants", "apexofficerpants", "apexspecialistpants" ],
       "facialHairGroup" : "hair",
-      "facialHair" : ["whisk", "quiff", "bangs", "curls", "swirl", "karen", "floop", "swoosh", "flower", "spike"],
+      "facialHair" : ["whisk", "quiff", "bangs", "bangs2", "curls", "curls2", "swirl", "karen", "karen2", "floop", "swoosh", "flower", "spike"],
       "facialMaskGroup" : "",
       "facialMask" : []
     }

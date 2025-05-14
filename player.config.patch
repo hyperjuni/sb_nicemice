@@ -1,4 +1,5 @@
 [
+	//default codex entries
 	{
 		"op" : "add",
 		"path" : "/species/-",
@@ -8,5 +9,12 @@
 		"op" : "add",
 		"path" : "/defaultCodexes/nicemice",
 		"value" : []
+	},
+	
+	//tail recoloring
+	{
+		"op" : "add",
+		"path" : "/deploymentConfig/scripts/-",
+		"value" : "/scripts/player/nicemice_tail_recolor.lua"
 	}
 ]

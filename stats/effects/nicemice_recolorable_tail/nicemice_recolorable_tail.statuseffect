@@ -1,0 +1,12 @@
+{
+	"name" : "nicemice_recolorable_tail",
+	"effectConfig" : 
+	{
+		"tickRate" : 1
+	},
+	"defaultDuration" : 1.0,
+	"scripts" : 
+	[
+		"nicemice_recolorable_tail.lua"
+	]
+}

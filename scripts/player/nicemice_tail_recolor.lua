@@ -9,7 +9,9 @@ end
 
 function update(dt)
 	_update(dt)
-	status.setPersistentEffects("nicemice_recolorable_tail", {"nicemice_recolorable_tail"})
+	if player.species() == "nicemice" then
+		status.setPersistentEffects("nicemice_recolorable_tail", {"nicemice_recolorable_tail"})
+	end
 end
 
 function uninit()

@@ -1,0 +1,182 @@
+[
+	{
+		"op" : "add",
+		"path" : "/beacon/nicemice",
+		"value" : 
+		{
+			
+		//  Races with which nicemice exhibit a neutral disposition:
+		//  Nicemice will offer a short acknowledgment
+		//  They are not interested in being friendly
+			
+			"default" : 
+			[
+				"Yez?"
+			],
+			
+		//  Nicemice assume all Apex are spies for the Miniknog
+		
+			"apex" : 
+			[
+				"Need zomet'ing, enforzer?"
+			],
+			
+			"nuu" : 
+			[
+				"How may I azzizt?"
+			],
+			
+			"alta" : 
+			[
+				"TODO"
+			],
+			
+			"satkyterran" : 
+			[
+				"TODO"
+			],
+			
+			"burmecian" : 
+			[
+				"TODO"
+			],
+			
+			"viera" : 
+			[
+				"TODO"
+			],
+			
+			"blattra" : 
+			[
+				"TODO"
+			],
+			
+		//  Races with which nicemice exhibit a negative disposition:
+		//  Nicemice will begrudgingly acknowledge the landlord then insult them
+		
+			"human" : 
+			[
+				"Did you need zomet'ing, human?"
+			],
+			
+			"floran" : 
+			[
+				"Vat do you vant, you nazty veed?"
+			],
+			
+			"glitch" : 
+			[
+				"Zomet'ing I can azzizt vith, robot?"
+			],
+			
+			"avian" : 
+			[
+				"You zmell terrible. Vat do you vant?"
+			],
+			
+			"hylotl" : 
+			[
+				"I am buzy right now. Make it znappy, fizh."
+			],
+			
+			"novakid" : 
+			[
+				"Vat's up, glowie?"
+			],
+			
+			"neki" : 
+			[
+				"Vat ze hell do you vant?"
+			],
+			
+			"glutt" : 
+			[
+				"Vat is it?"
+			],
+			
+			"renamonlk" : 
+			[
+				"TODO"
+			],
+			
+			"sirene" : 
+			[
+				"TODO"
+			],
+			
+			"skumks" : 
+			[
+				"Vat iz it, fartzquirrel?"
+			],
+			
+			"denelaun" : 
+			[
+				"TODO"
+			],
+			
+			"aegi" : 
+			[
+				"TODO"
+			],
+			
+			"avikan" : 
+			[
+				"TODO"
+			],
+			
+			"akkimari" : 
+			[
+				"TODO"
+			],
+			
+		//  Races with which nicemice exhibit a positive disposition:
+		//  A lack of overt insults toward outsiders is notable
+		
+			"spirittree" : 
+			[
+				"Greetingz. How may I azzizt?"
+			],
+			
+			"shizubelle" : 
+			[
+				"Zalutationz."
+			],
+			
+			"lamia" : 
+			[
+				"TODO"
+			],
+			
+			"mollopod" : 
+			[
+				"TODO"
+			],
+			
+			"vesperian" : 
+			[
+				"TODO"
+			],
+			
+			"trink" : 
+			[
+				"TODO"
+			],
+			
+			"scyphojel" : 
+			[
+				"TODO"
+			]
+		}
+	},
+	{
+		"op" : "add",
+		"path" : "/rent/nicemice",
+		"value" : 
+		{
+			"default" : 
+			[
+				"Take ziz and get out of my faze."
+			]
+		}
+	}
+]

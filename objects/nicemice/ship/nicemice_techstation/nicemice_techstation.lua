@@ -33,17 +33,13 @@ function init()
 end
 
 function findTechstationByUniqueId()
-	sb.logInfo("find")
 	local id = "techstation"
 	-- (\_/) see also: loadBountyManager in bounty.lua
 	while true do
-		sb.logInfo("womp " .. tostring(id))
 		local findManager = world.findUniqueEntity(id)
-		sb.logInfo("spinlock")
 		while not findManager:finished() do
 			coroutine.yield()
 		end
-		sb.logInfo("result")
 		if findManager:succeeded() then
 			--  findManager:result() returns Vec2f position of entity in question
 			--  fire an entityQuery and iterate results to pinpoint desired target
@@ -51,14 +47,12 @@ function findTechstationByUniqueId()
 			for v in ipairs(wQuery) do
 				if world.entityUniqueId(v) == id then
 					self.lastKnownTechStation = v
-					sb.logInfo("found")
 					break
 				end
 			end
 		else
 			world.setUniqueId(entity.id(),id)
 			self.lastKnownTechStation = entity.id()
-			sb.logInfo("not found")
 		end
 		coroutine.yield()
 	end

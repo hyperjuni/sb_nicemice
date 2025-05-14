@@ -1,0 +1,25 @@
+{
+	"nicemice_initHooks" : 
+	{
+		"type": "action",
+		"name": "nicemice_initHooks",
+		"title": "nicemice_initHooks",
+		"properties": {},
+		"category": "nicemice",
+		"script": "/npcs/nicemice_npcHooks.lua",
+		"output": {}
+	},
+	"nicemice_scriptedVillagerBehavior" : 
+	{
+		"type": "action",
+		"name": "nicemice_scriptedVillagerBehavior",
+		"title": "nicemice_scriptedVillagerBehavior",
+		"properties": 
+		{
+			"behavior": {"type": "string", "value": "villager"}
+		},
+		"category": "nicemice",
+		"script": "/npcs/nicemice_scriptedVillagerBehavior.lua",
+		"output": {}
+	}
+}

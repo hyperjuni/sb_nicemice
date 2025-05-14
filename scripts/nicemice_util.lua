@@ -10,3 +10,11 @@ function nicemice_getPlayerSkinDirectives()
 	end
 	return nil
 end
+
+function nicemice_setNPCBehavior(b)
+	--copypasted from npcs/bmain.lua @ line 34
+	self.behavior = behavior.behavior(b, config.getParameter("behaviorConfig", {}), _ENV)
+    self.board = self.behavior:blackboard()
+    self.board:setPosition("spawn", storage.spawnPosition)	
+	return true
+end

@@ -14,6 +14,10 @@
   "maleFrames" : "back.png",
   "femaleFrames" : "back.png",
   "maxStack" : 1,
+  
+  "statusEffects" : [
+    "nicemice_recolorable_tail"
+  ],
 
   //even though tails recolor to match the player,
   //these are still useful for dyed rings and etc that might decorate the tail

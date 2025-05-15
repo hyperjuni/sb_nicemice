@@ -20,7 +20,7 @@ codex entries
 
 verify beam-up and beam-down teleport colors, make them match other related effects
 
-hurt sfx
+remove the grainy click from the hurt sfx
 
 ///////////////////////////////////////////////////////////////////////////////////////
 

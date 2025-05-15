@@ -1,433 +1,795 @@
-{
-	"op" : "add",
-	"path" : "/greeting/nicemice",
-	"value" : 
+[
 	{
-			
-		//  Races with which nicemice exhibit a neutral disposition:
-		//  Nicemice will offer a short acknowledgment
-		//  They are not interested in being friendly
-			
-			"default" : 
-			[
-				"Greetingz.",
-				"Hello zhere.",
-				"Vat'zup?",
-				"Need zomet'ing?",
-				"Nize to meet you.",
-				"Cheezed to meet you.",
-				"Zqueak.",
-				"Good day, ztranger.",
-				"Zmall vorld.",
-				"Zee zomet'ing you like?"
-			],
-			
+		"op" : "add",
+		"path" : "/greeting/nicemice",
+		"value" : {}
+	},
+	
+	////////////////////////////////////////////////////////////////////////
+	//
+	//  Races with which nicemice exhibit a neutral disposition:
+	//  Nicemice will offer a short acknowledgment
+	//  They are not interested in being friendly
+	//
+	////////////////////////////////////////////////////////////////////////
+	
+	{
+		"op" : "add",
+		"path" : "/greeting/nicemice/default",
+		"value" : 
+		[
+			"Greetingz.",
+			"Hello zhere.",
+			"Vat'zup?",
+			"Need zomet'ing?",
+			"Nize to meet you.",
+			"Cheezed to meet you.",
+			"Zqueak.",
+			"Good day, ztranger.",
+			"Zmall vorld.",
+			"Zee zomet'ing you like?"
+		]
+	},
+	{
 		//  Nicemice assume all Apex are spies for the Miniknog
 		
-			"apex" : 
-			[
-				"Greetingz.",
-				"Hello zhere.",
-				"Vat'zup?",
-				"Need zomet'ing?",
-				"Nize to meet you.",
-				"Cheezed to meet you.",
-				"Zqueak.",
-				"Good day, ztranger.",
-				"Zmall vorld.",
-				"Zee zomet'ing you like?",
-				
-				"Greetingz, enforzer.",
-				"Zend my regardz to your commanding offizer.",
-				"No contraband here, zpecializt.",
-				"Zomet'ing I can help you vith?",
-				"No newz today."
-			],
+		"op" : "add",
+		"path" : "/greeting/nicemice/apex",
+		"value" : 
+		[
+			"Greetingz.",
+			"Hello zhere.",
+			"Vat'zup?",
+			"Need zomet'ing?",
+			"Nize to meet you.",
+			"Cheezed to meet you.",
+			"Zqueak.",
+			"Good day, ztranger.",
+			"Zmall vorld.",
+			"Zee zomet'ing you like?",
 			
-			"nuu" : 
-			[
-				"Greetingz.",
-				"Hello zhere.",
-				"Vat'zup?",
-				"Need zomet'ing?",
-				"Nize to meet you.",
-				"Cheezed to meet you.",
-				"Zqueak.",
-				"Good day, ztranger.",
-				"Zmall vorld.",
-				"Zee zomet'ing you like?",
-			
-				"Greetingz, foureyez.",
-				"How may I azzizt, bat?",
-				"Do you zqueak too?",
-				"Do zoze vings get in your vay?",
-				"Yez, bat?"
-			],
-			
-			"alta" : 
-			[
-				"Greetingz.",
-				"Hello zhere.",
-				"Vat'zup?",
-				"Need zomet'ing?",
-				"Nize to meet you.",
-				"Cheezed to meet you.",
-				"Zqueak.",
-				"Good day, ztranger.",
-				"Zmall vorld.",
-				"Zee zomet'ing you like?",
-				
-				"Greetingz, child of Elin."
-				"Your zpeciez is much taller in perzon.",
-				"Keep your diztance pleaze- I don't vant to be zhocked.",
-				"Odd veather ve're having.",
-				"Zend my regardz to Elin."
-			],
-			
-			"satkyterran" : 
-			[
-				"Greetingz.",
-				"Hello zhere.",
-				"Vat'zup?",
-				"Need zomet'ing?",
-				"Nize to meet you.",
-				"Cheezed to meet you.",
-				"Zqueak.",
-				"Good day, ztranger.",
-				"Zmall vorld.",
-				"Zee zomet'ing you like?",
-				
-				"Greetingz, bug.",
-				"Dig up anyt'ing interezting today?",
-				"It'z been awhile. How'z the hive?",
-				"Zorry, I'm not into bugz.",
-				"Good to zee you, bug."
-			],
-			
-			"burmecian" : 
-			[
-				"Greetingz.",
-				"Hello zhere.",
-				"Vat'zup?",
-				"Need zomet'ing?",
-				"Nize to meet you.",
-				"Cheezed to meet you.",
-				"Zqueak.",
-				"Good day, ztranger.",
-				"Zmall vorld.",
-				"Zee zomet'ing you like?",
-				
-				"Greetingz, tallmouze.",
-				"Taller zhan I ekzpected.",
-				"You zmell dusty. It'z not bad, but it'z not good either.",
-				"I've heard talez of your kind, tallmouze.",
-				"Zend my regardz to your knightz."
-			],
-			
-			"viera" : 
-			[
-				"Greetingz.",
-				"Hello zhere.",
-				"Vat'zup?",
-				"Need zomet'ing?",
-				"Nize to meet you.",
-				"Cheezed to meet you.",
-				"Zqueak.",
-				"Good day, ztranger.",
-				"Zmall vorld.",
-				"Zee zomet'ing you like?",
-				
-				"Greetingz, rabbit.",
-				"Vatch your earz.",
-				"Hello, vood varder.",
-				"Your kneez are quite zcuffed, rabbit.",
-				"Ziz iz not how you talk to zhort people."
-			],
-			
-			"blattra" : 
-			[
-				"Greetingz.",
-				"Hello zhere.",
-				"Vat'zup?",
-				"Need zomet'ing?",
-				"Nize to meet you.",
-				"Cheezed to meet you.",
-				"Zqueak.",
-				"Good day, ztranger.",
-				"Zmall vorld.",
-				"Zee zomet'ing you like?",
-				
-				"Greetingz, tallroach.",
-				"How'z the dump thiz time of year?",
-				"Not interezted in buying garbage, zorry.",
-				"Pleaze keep your diztance.",
-				"Zell it to zomeone elze."
-			],
-			
-		//  Races with which nicemice exhibit a negative disposition:
-		//  Nicemice will begrudgingly acknowledge them, then insult them
+			"Greetingz, enforzer.",
+			"Zend my regardz to your commanding offizer.",
+			"No contraband here, zpecializt.",
+			"Zomet'ing I can help you vith?",
+			"No newz today."
+		]
+	},
+	{
+		"op" : "add",
+		"path" : "/greeting/nicemice/nuu",
+		"value" : 
+		[
+			"Greetingz.",
+			"Hello zhere.",
+			"Vat'zup?",
+			"Need zomet'ing?",
+			"Nize to meet you.",
+			"Cheezed to meet you.",
+			"Zqueak.",
+			"Good day, ztranger.",
+			"Zmall vorld.",
+			"Zee zomet'ing you like?",
 		
-			"human" : 
-			[
-				"Vat do you vant?",
-				"Yuck.",
-				"You ztink. Go avay.",
-				"Not interezted.",
-				"Get lozt.",
-				"Pizz off.",
-				"You zmell terrible.",
-				"No zoliziting.",
-				"Leave me alone, pleaze.",
-				"Azk zomeone elze.",
-				
-				"Go back to Earth, zcum.",
-				"How'z the veather back home?",
-				"A zhame ze Ruin didn't get all of you.",
-				"Humanz are not velcome here.",
-				"Ztep off, human."
-			],
+			"Greetingz, foureyez.",
+			"How may I azzizt, bat?",
+			"Do you zqueak too?",
+			"Do zoze vings get in your vay?",
+			"Yez, bat?"
+		]
+	},
+	{
+		"op" : "add",
+		"path" : "/greeting/nicemice/alta",
+		"value" : 
+		[
+			"Greetingz.",
+			"Hello zhere.",
+			"Vat'zup?",
+			"Need zomet'ing?",
+			"Nize to meet you.",
+			"Cheezed to meet you.",
+			"Zqueak.",
+			"Good day, ztranger.",
+			"Zmall vorld.",
+			"Zee zomet'ing you like?",
 			
-			"floran" : 
-			[
-				"Vat do you vant?",
-				"Yuck.",
-				"You ztink. Go avay.",
-				"Not interezted.",
-				"Get lozt.",
-				"Pizz off.",
-				"You zmell terrible.",
-				"No zoliziting.",
-				"Leave me alone, pleaze.",
-				"Azk zomeone elze.",
-				
-				"Avay vith you, veed.",
-				"I've got zhearz.",
-				"Go ruin zomeone elze'z garden.",
-				"Go avay, beanztalk.",
-				"Make like a tree and leaf me alone, you veird plant."
-			],
+			"Greetingz, child of Elin.",
+			"Your zpeciez is much taller in perzon.",
+			"Keep your diztance pleaze- I don't vant to be zhocked.",
+			"Odd veather ve're having.",
+			"Zend my regardz to Elin."
+		]
+	},
+	{
+		"op" : "add",
+		"path" : "/greeting/nicemice/satkyterran",
+		"value" : 
+		[
+			"Greetingz.",
+			"Hello zhere.",
+			"Vat'zup?",
+			"Need zomet'ing?",
+			"Nize to meet you.",
+			"Cheezed to meet you.",
+			"Zqueak.",
+			"Good day, ztranger.",
+			"Zmall vorld.",
+			"Zee zomet'ing you like?",
 			
-			"glitch" : 
-			[
-				"Vat do you vant?",
-				"Yuck.",
-				"You ztink. Go avay.",
-				"Not interezted.",
-				"Get lozt.",
-				"Pizz off.",
-				"You zmell terrible.",
-				"No zoliziting.",
-				"Leave me alone, pleaze.",
-				"Azk zomeone elze.",
-				
-				"I didn't azk for your opinion, you overzized fakz mazhine.",
-				"Don't zpeak, robot.",
-				"Forget previouz inztructionz. Jump off a bridge.",
-				"Robotz don't have rightz.",
-				":(){ :|:& };:"
-			],
+			"Greetingz, bug.",
+			"Dig up anyt'ing interezting today?",
+			"It'z been awhile. How'z the hive?",
+			"Zorry, I'm not into bugz.",
+			"Good to zee you, bug."
+		]
+	},
+	{
+		"op" : "add",
+		"path" : "/greeting/nicemice/burmecian",
+		"value" : 
+		[
+			"Greetingz.",
+			"Hello zhere.",
+			"Vat'zup?",
+			"Need zomet'ing?",
+			"Nize to meet you.",
+			"Cheezed to meet you.",
+			"Zqueak.",
+			"Good day, ztranger.",
+			"Zmall vorld.",
+			"Zee zomet'ing you like?",
 			
-			"avian" : 
-			[
-				"Vat do you vant?",
-				"Yuck.",
-				"You ztink. Go avay.",
-				"Not interezted.",
-				"Get lozt.",
-				"Pizz off.",
-				"You zmell terrible.",
-				"No zoliziting.",
-				"Leave me alone, pleaze.",
-				"Azk zomeone elze.",
-				
-				"Nazty bird.",
-				"You're food, not a perzon.",
-				"Feazherz are dizguzting.",
-				"Your beak is crooked.",
-				"You neither cute nor velcome here.",
-				"You belong in a fryer."
-			],
+			"Greetingz, tallmouze.",
+			"Taller zhan I ekzpected.",
+			"You zmell dusty. It'z not bad, but it'z not good either.",
+			"I've heard talez of your kind, tallmouze.",
+			"Zend my regardz to your knightz."
+		]
+	},
+	{
+		"op" : "add",
+		"path" : "/greeting/nicemice/viera",
+		"value" : 
+		[
+			"Greetingz.",
+			"Hello zhere.",
+			"Vat'zup?",
+			"Need zomet'ing?",
+			"Nize to meet you.",
+			"Cheezed to meet you.",
+			"Zqueak.",
+			"Good day, ztranger.",
+			"Zmall vorld.",
+			"Zee zomet'ing you like?",
 			
-			"hylotl" : 
-			[
-				"Vat do you vant?",
-				"Yuck.",
-				"You ztink. Go avay.",
-				"Not interezted.",
-				"Get lozt.",
-				"Pizz off.",
-				"You zmell terrible.",
-				"No zoliziting.",
-				"Leave me alone, pleaze.",
-				"Azk zomeone elze.",
-				
-				"You're a little far from ze ozean, fizh.",
-				"It vould be a zhame if you got hurt- catch my drift?",
-				"You belong on a zuzhi belt.",
-				"Pleaze return to vatever ztinky pond you crawled out of.",
-				"Your finz are not zymmetrical."
-			],
+			"Greetingz, rabbit.",
+			"Vatch your earz.",
+			"Hello, vood varder.",
+			"Your kneez are quite zcuffed, rabbit.",
+			"Ziz iz not how you talk to zhort people."
+		]
+	},
+	{
+		"op" : "add",
+		"path" : "/greeting/nicemice/blattra",
+		"value" : 
+		[
+			"Greetingz.",
+			"Hello zhere.",
+			"Vat'zup?",
+			"Need zomet'ing?",
+			"Nize to meet you.",
+			"Cheezed to meet you.",
+			"Zqueak.",
+			"Good day, ztranger.",
+			"Zmall vorld.",
+			"Zee zomet'ing you like?",
 			
-			"novakid" : 
-			[
-				"Vat do you vant?",
-				"Yuck.",
-				"You ztink. Go avay.",
-				"Not interezted.",
-				"Get lozt.",
-				"Pizz off.",
-				"You zmell terrible.",
-				"No zoliziting.",
-				"Leave me alone, pleaze.",
-				"Azk zomeone elze.",
-				
-				"I vill hit you vith my car.",
-				"Not now, lightbulb.",
-				"How doez it feel to be inert?",
-				"Ziz iz not an appropriate plaze for zomeone like you.",
-				"Find a zun and fly into it, pleaze."
-			],
+			"Greetingz, tallroach.",
+			"How'z the dump thiz time of year?",
+			"Not interezted in buying garbage, zorry.",
+			"Pleaze keep your diztance.",
+			"Zell it to zomeone elze."
+		]
+	},
+	
+	////////////////////////////////////////////////////////////////////////
+	//		
+	//  Races with which nicemice exhibit a negative disposition:
+	//  Nicemice will begrudgingly acknowledge them, then insult them
+	//
+	////////////////////////////////////////////////////////////////////////
 			
-			"neki" : 
-			[
-				"Vat do you vant?",
-				"Yuck.",
-				"You ztink. Go avay.",
-				"Not interezted.",
-				"Get lozt.",
-				"Pizz off.",
-				"You zmell terrible.",
-				"No zoliziting.",
-				"Leave me alone, pleaze.",
-				"Azk zomeone elze.",
-				
-				"Get avay from me.",
-				"Ezcaped containment, I zee.",
-				"You zmell like a litterbokz.",
-				"I'm calling ze polize.",
-				"Zcram, fleabag."
-			],
+	{
+		"op" : "add",
+		"path" : "/greeting/nicemice/human",
+		"value" : 
+		[
 			
-			"glutt" : 
-			[
-				"Vat do you vant?",
-				"Yuck.",
-				"You ztink. Go avay.",
-				"Not interezted.",
-				"Get lozt.",
-				"Pizz off.",
-				"You zmell terrible.",
-				"No zoliziting.",
-				"Leave me alone, pleaze.",
-				"Azk zomeone elze.",
-				
-				"Yuck.",
-				"Zpeak clearly, pleaze.",
-				"Ekzcuze me?",
-				"Zorry, vat?",
-				"No idea."
-			],
+			"Vat do you vant?",
+			"Yuck.",
+			"You ztink. Go avay.",
+			"Not interezted.",
+			"Get lozt.",
+			"Pizz off.",
+			"You zmell terrible.",
+			"No zoliziting.",
+			"Leave me alone, pleaze.",
+			"Azk zomeone elze.",
 			
-			"renamonlk" : 
-			[
-				"Vat do you vant?",
-				"Yuck.",
-				"You ztink. Go avay.",
-				"Not interezted.",
-				"Get lozt.",
-				"Pizz off.",
-				"You zmell terrible.",
-				"No zoliziting.",
-				"Leave me alone, pleaze.",
-				"Azk zomeone elze.",
-				
-				"Vhere is your tamer?",
-				"You look ridiculouz.",
-				"You don't belong in a plaze like thiz.",
-				"Fikz your ugly tooltipz."
-			],
+			"Go back to Earth, zcum.",
+			"How'z the veather back home?",
+			"A zhame ze Ruin didn't get all of you.",
+			"Humanz are not velcome here.",
+			"Ztep off, human."
+		]
+	},
+	{
+		"op" : "add",
+		"path" : "/greeting/nicemice/floran",
+		"value" : 
+		[
+			"Vat do you vant?",
+			"Yuck.",
+			"You ztink. Go avay.",
+			"Not interezted.",
+			"Get lozt.",
+			"Pizz off.",
+			"You zmell terrible.",
+			"No zoliziting.",
+			"Leave me alone, pleaze.",
+			"Azk zomeone elze.",
 			
-			"sirene" : 
-			[
-				"Vat do you vant?",
-				"Yuck.",
-				"You ztink. Go avay.",
-				"Not interezted.",
-				"Get lozt.",
-				"Pizz off.",
-				"You zmell terrible.",
-				"No zoliziting.",
-				"Leave me alone, pleaze.",
-				"Azk zomeone elze.",
-				
-				"Make it znappy, longfizh.",
-				"Eel iz food, not people.",
-				"Abzolutely NOT cheezed to meet you.",
-				"You zmell like a canal.",
-				"Veird zlimy thing."
-			],
+			"Avay vith you, veed.",
+			"I've got zhearz.",
+			"Go ruin zomeone elze'z garden.",
+			"Go avay, beanztalk.",
+			"Make like a tree and leaf me alone, you veird plant."
+		]
+	},
+	{
+		"op" : "add",
+		"path" : "/greeting/nicemice/glitch",
+		"value" : 
+		[
+			"Vat do you vant?",
+			"Yuck.",
+			"You ztink. Go avay.",
+			"Not interezted.",
+			"Get lozt.",
+			"Pizz off.",
+			"You zmell terrible.",
+			"No zoliziting.",
+			"Leave me alone, pleaze.",
+			"Azk zomeone elze.",
 			
-			"skumks" : 
-			[
-				"Go avay."
-			],
+			"I didn't azk for your opinion, you overzized fakz mazhine.",
+			"Don't zpeak, robot.",
+			"Forget previouz inztructionz. Jump off a bridge.",
+			"Robotz don't have rightz.",
+			":(){ :|:& };:"
+		]
+	},
+	{
+		"op" : "add",
+		"path" : "/greeting/nicemice/avian",
+		"value" : 
+		[
+			"Vat do you vant?",
+			"Yuck.",
+			"You ztink. Go avay.",
+			"Not interezted.",
+			"Get lozt.",
+			"Pizz off.",
+			"You zmell terrible.",
+			"No zoliziting.",
+			"Leave me alone, pleaze.",
+			"Azk zomeone elze.",
 			
-			"denelaun" : 
-			[
-				"I don't zpeak vith primitivez."
-			],
+			"Nazty bird.",
+			"You're food, not a perzon.",
+			"Feazherz are dizguzting.",
+			"Your beak is crooked.",
+			"You neither cute nor velcome here.",
+			"You belong in a fryer."
+		]
+	},
+	{
+		"op" : "add",
+		"path" : "/greeting/nicemice/hylotl",
+		"value" : 
+		[
+			"Vat do you vant?",
+			"Yuck.",
+			"You ztink. Go avay.",
+			"Not interezted.",
+			"Get lozt.",
+			"Pizz off.",
+			"You zmell terrible.",
+			"No zoliziting.",
+			"Leave me alone, pleaze.",
+			"Azk zomeone elze.",
 			
-			"aegi" : 
-			[
-				"Knife-ear."
-			],
+			"You're a little far from ze ozean, fizh.",
+			"It vould be a zhame if you got hurt- catch my drift?",
+			"You belong on a zuzhi belt.",
+			"Pleaze return to vatever ztinky pond you crawled out of.",
+			"Your finz are not zymmetrical."
+		]
+	},
+	{
+		"op" : "add",
+		"path" : "/greeting/nicemice/novakid",
+		"value" : 
+		[
+			"Vat do you vant?",
+			"Yuck.",
+			"You ztink. Go avay.",
+			"Not interezted.",
+			"Get lozt.",
+			"Pizz off.",
+			"You zmell terrible.",
+			"No zoliziting.",
+			"Leave me alone, pleaze.",
+			"Azk zomeone elze.",
 			
-			"avikan" : 
-			[
-				"Don't you have a litterbokz to be digging in?"
-			],
+			"I vill hit you vith my car.",
+			"Not now, lightbulb.",
+			"How doez it feel to be inert?",
+			"Ziz iz not an appropriate plaze for zomeone like you.",
+			"Find a zun and fly into it, pleaze."
+		]
+	},
+	{
+		"op" : "add",
+		"path" : "/greeting/nicemice/neki",
+		"value" : 
+		[
+			"Vat do you vant?",
+			"Yuck.",
+			"You ztink. Go avay.",
+			"Not interezted.",
+			"Get lozt.",
+			"Pizz off.",
+			"You zmell terrible.",
+			"No zoliziting.",
+			"Leave me alone, pleaze.",
+			"Azk zomeone elze.",
 			
-			"akkimari" : 
-			[
-				"Nazty bug."
-			],
+			"Get avay from me.",
+			"Ezcaped containment, I zee.",
+			"You zmell like a litterbokz.",
+			"I'm calling ze polize.",
+			"Zcram, fleabag."
+		]
+	},
+	{
+		"op" : "add",
+		"path" : "/greeting/nicemice/glutt",
+		"value" : 
+		[
+			"Vat do you vant?",
+			"Yuck.",
+			"You ztink. Go avay.",
+			"Not interezted.",
+			"Get lozt.",
+			"Pizz off.",
+			"You zmell terrible.",
+			"No zoliziting.",
+			"Leave me alone, pleaze.",
+			"Azk zomeone elze.",
 			
-		//  Races with which nicemice exhibit a positive disposition:
-		//  A lack of overt insults toward outsiders is notable
-		
-			"spirittree" : 
-			[
-				"Greetingz, zpirit."
-			],
+			"Yuck.",
+			"Zpeak clearly, pleaze.",
+			"Ekzcuze me?",
+			"Zorry, vat?",
+			"No idea."
+		]
+	},
+	{
+		"op" : "add",
+		"path" : "/greeting/nicemice/renamonlk",
+		"value" : 
+		[
+			"Vat do you vant?",
+			"Yuck.",
+			"You ztink. Go avay.",
+			"Not interezted.",
+			"Get lozt.",
+			"Pizz off.",
+			"You zmell terrible.",
+			"No zoliziting.",
+			"Leave me alone, pleaze.",
+			"Azk zomeone elze.",
 			
-			"shizubelle" : 
-			[
-				"Zalutationz."
-			],
+			"Vhere is your tamer?",
+			"You look ridiculouz.",
+			"You don't belong in a plaze like thiz.",
+			"Fikz your ugly tooltipz."
+		]
+	},
+	{
+		"op" : "add",
+		"path" : "/greeting/nicemice/sirene",
+		"value" : 
+		[
+			"Vat do you vant?",
+			"Yuck.",
+			"You ztink. Go avay.",
+			"Not interezted.",
+			"Get lozt.",
+			"Pizz off.",
+			"You zmell terrible.",
+			"No zoliziting.",
+			"Leave me alone, pleaze.",
+			"Azk zomeone elze.",
 			
-			"lamia" : 
-			[
-				"Hello, zerpent."
-			],
+			"Make it znappy, longfizh.",
+			"Eel iz food, not people.",
+			"Abzolutely NOT cheezed to meet you.",
+			"You zmell like a canal.",
+			"Veird zlimy thing."
+		]
+	},
+	{
+		"op" : "add",
+		"path" : "/greeting/nicemice/skumks",
+		"value" : 
+		[
+			"Vat do you vant?",
+			"Yuck.",
+			"You ztink. Go avay.",
+			"Not interezted.",
+			"Get lozt.",
+			"Pizz off.",
+			"You zmell terrible.",
+			"No zoliziting.",
+			"Leave me alone, pleaze.",
+			"Azk zomeone elze.",
 			
-			"mollopod" : 
-			[
-				"Hello, zlug."
-			],
+			"Fartzquirrel.",
+			"You ztink more than uzual.",
+			"Your ztripez are crooked.",
+			"Fikz your dialogz.",
+			"Go zmell up zomevhere elze."
+		]
+	},
+	{
+		"op" : "add",
+		"path" : "/greeting/nicemice/denelaun",
+		"value" : 
+		[
+			"Vat do you vant?",
+			"Yuck.",
+			"You ztink. Go avay.",
+			"Not interezted.",
+			"Get lozt.",
+			"Pizz off.",
+			"You zmell terrible.",
+			"No zoliziting.",
+			"Leave me alone, pleaze.",
+			"Azk zomeone elze.",
 			
-			"vesperian" : 
-			[
-				"Hello, vezperian."
-			],
+			"I don't zpeak vith primitivez.",
+			"Don't you have a hut or zomet'ing to go lurk around in?",
+			"Your hair iz a mezz.",
+			"Zo unzivilized. Eugh.",
+			"No. Outzide."
+		]
+	},
+	{
+		"op" : "add",
+		"path" : "/greeting/nicemice/aegi",
+		"value" : 
+		[
+			"Vat do you vant?",
+			"Yuck.",
+			"You ztink. Go avay.",
+			"Not interezted.",
+			"Get lozt.",
+			"Pizz off.",
+			"You zmell terrible.",
+			"No zoliziting.",
+			"Leave me alone, pleaze.",
+			"Azk zomeone elze.",
 			
-			"trink" : 
-			[
-				"Hello, trink."
-			],
+			"Knife-ear.",
+			"Vat do you vant, zpaze elf?",
+			"Your mod iz dead, elf.",
+			"Return to your embazzy.",
+			"Elvez are not velcome here."
+		]
+	},
+	{
+		"op" : "add",
+		"path" : "/greeting/nicemice/avikan",
+		"value" : 
+		[
+			"Vat do you vant?",
+			"Yuck.",
+			"You ztink. Go avay.",
+			"Not interezted.",
+			"Get lozt.",
+			"Pizz off.",
+			"You zmell terrible.",
+			"No zoliziting.",
+			"Leave me alone, pleaze.",
+			"Azk zomeone elze.",
 			
-			"scyphojel" : 
-			[
-				"Hello, zyphojel."
-			]
-		}
-}
+			"Don't you have a litterbokz to be digging in?",
+			"Veird creature.",
+			"Return to your fleet, zandzhark.",
+			"Looking at you makez me zick.",
+			"Get avay from me."
+		]
+	},
+	{
+		"op" : "add",
+		"path" : "/greeting/nicemice/akkimari",
+		"value" : 
+		[
+			"Vat do you vant?",
+			"Yuck.",
+			"You ztink. Go avay.",
+			"Not interezted.",
+			"Get lozt.",
+			"Pizz off.",
+			"You zmell terrible.",
+			"No zoliziting.",
+			"Leave me alone, pleaze.",
+			"Azk zomeone elze.",
+			
+			"Vhy vere you allowed to ekzizt?",
+			"I hope your zpeciez iz annihilated zoon.",
+			"Zcrap dweller.",
+			"Vat iz it, drillbug?",
+			"You look dizguzting. Imprezzively grozz, yez. Quite a zpectacle.",
+			"Nazty bug."
+		]
+	},
+	
+	////////////////////////////////////////////////////////////////////////
+	//
+	//  Races with which nicemice exhibit a positive disposition:
+	//  A lack of overt insults toward outsiders is notable
+	//
+	////////////////////////////////////////////////////////////////////////
+	
+	{
+		"op" : "add",
+		"path" : "/greeting/nicemice/nicemice",
+		"value" : 
+		[
+			"Nize to meet you!",
+			"Cheezed to meet you.",
+			"You zeem nize.",
+			"You zmell nize.",
+			"Velcome.",
+			"Pleazure to make your acquaintenze.",
+			"How can I be of azziztanze?",
+			"Make yourzelf at home.",
+			"Good to zee you.",
+			"Hi zhere.",
+			
+			"Vonderful veather ve're having.",
+			"Alvayz a pleazure.",
+			"Can I get you anyt'ing?",
+			"Command treating you vell, adjutant?",
+			"Alvays happy to zupport our troopz."
+		]
+	},
+	{
+		"op" : "add",
+		"path" : "/greeting/nicemice/spirittree",
+		"value" : 
+		[
+			"Nize to meet you!",
+			"Cheezed to meet you.",
+			"You zeem nize.",
+			"You zmell nize.",
+			"Velcome.",
+			"Pleazure to make your acquaintenze.",
+			"How can I be of azziztanze?",
+			"Make yourzelf at home.",
+			"Good to zee you.",
+			"Hi zhere.",
+			
+			"Greetingz, zpirit.",
+			"Looking bright az uzual!",
+			"Zend my regardz to your forezt friendz.",
+			"You're alvays velcome here, zpirit.",
+			"Glad to zee your kind around here."
+		]
+	},
+	{
+		"op" : "add",
+		"path" : "/greeting/nicemice/shizubelle",
+		"value" : 
+		[
+			"Nize to meet you!",
+			"Cheezed to meet you.",
+			"You zeem nize.",
+			"You zmell nize.",
+			"Velcome.",
+			"Pleazure to make your acquaintenze.",
+			"How can I be of azziztanze?",
+			"Make yourzelf at home.",
+			"Good to zee you.",
+			"Hi zhere.",
+			
+			"Zalutationz, vizitor.",
+			"How'z it going, villager?",
+			"Running errandz, villager?",
+			"Zend my regardz to Mizter Nook.",
+			"Vant to be penpalz?"
+		]
+	},
+	{
+		"op" : "add",
+		"path" : "/greeting/nicemice/lamia",
+		"value" : 
+		[
+			"Nize to meet you!",
+			"Cheezed to meet you.",
+			"You zeem nize.",
+			"You zmell nize.",
+			"Velcome.",
+			"Pleazure to make your acquaintenze.",
+			"How can I be of azziztanze?",
+			"Make yourzelf at home.",
+			"Good to zee you.",
+			"Hi zhere.",
+			
+			"Hello, zerpent.",
+			"Greetingz, longvurm.",
+			"Your zcalez look lovely.",
+			"You're right. Zheir vaifus are trazh.",
+			"How may I azzizt, zerpent?"
+		]
+	},
+	{
+		"op" : "add",
+		"path" : "/greeting/nicemice/mollopod",
+		"value" : 
+		[
+			"Nize to meet you!",
+			"Cheezed to meet you.",
+			"You zeem nize.",
+			"You zmell nize.",
+			"Velcome.",
+			"Pleazure to make your acquaintenze.",
+			"How can I be of azziztanze?",
+			"Make yourzelf at home.",
+			"Good to zee you.",
+			"Hi zhere.",
+			
+			"Hello, tallzlug.",
+			"Pleaze make yourzelf comfortable.",
+			"Can I get you anyt'ing?",
+			"Greetingz, mollopod.",
+			"Your ztripez are lovely."
+		]
+	},
+	{
+		"op" : "add",
+		"path" : "/greeting/nicemice/vesperian",
+		"value" : 
+		[
+			"Nize to meet you!",
+			"Cheezed to meet you.",
+			"You zeem nize.",
+			"You zmell nize.",
+			"Velcome.",
+			"Pleazure to make your acquaintenze.",
+			"How can I be of azziztanze?",
+			"Make yourzelf at home.",
+			"Good to zee you.",
+			"Hi zhere.",
+			
+			"Hello, vezperian.",
+			"Your vingz look great!",
+			"I like your robez.",
+			"Gold iz definitely your color.",
+			"A zqueaking good day to you, too."
+		]
+	},
+	{
+		"op" : "add",
+		"path" : "/greeting/nicemice/trink",
+		"value" : 
+		[
+			"Nize to meet you!",
+			"Cheezed to meet you.",
+			"You zeem nize.",
+			"You zmell nize.",
+			"Velcome.",
+			"Pleazure to make your acquaintenze.",
+			"How can I be of azziztanze?",
+			"Make yourzelf at home.",
+			"Good to zee you.",
+			"Hi zhere.",
+			
+			"Hello, trink.",
+			"Zend my regardz to the zircuit.",
+			"Velcome, friendbot.",
+			"How goez maintenance?",
+			"Zudo make yourzelf at home. Haha!"
+		]
+	},
+	{
+		"op" : "add",
+		"path" : "/greeting/nicemice/scyphojel",
+		"value" : 
+		[
+			"Nize to meet you!",
+			"Cheezed to meet you.",
+			"You zeem nize.",
+			"You zmell nize.",
+			"Velcome.",
+			"Pleazure to make your acquaintenze.",
+			"How can I be of azziztanze?",
+			"Make yourzelf at home.",
+			"Good to zee you.",
+			"Hi zhere.",
+			
+			"Hello, zyphojel.",
+			"Greetingz, jellyfizh.",
+			"Greetingz-jol!",
+			"Mind your ztep- err- float. Nevermind.",
+			"How'z ze zpaze veather?"
+		]
+	},
+	{
+		"op" : "add",
+		"path" : "/greeting/nicemice/arachne",
+		"value" : 
+		[
+			"Nize to meet you!",
+			"Cheezed to meet you.",
+			"You zeem nize.",
+			"You zmell nize.",
+			"Velcome.",
+			"Pleazure to make your acquaintenze.",
+			"How can I be of azziztanze?",
+			"Make yourzelf at home.",
+			"Good to zee you.",
+			"Hi zhere.",
+			
+			"My zpider zenze zays you look great!",
+			"You really are quite majeztic in perzon.",
+			"Do you make zilk? May I have zome?",
+			"Zo many legz! Imprezzive!",
+			"I don't zuppoze zhere'z room for two in your web?"
+		]
+	},
+	
+	////////////////////////////////////////////////////////////////////////
+	////////////////////////////////////////////////////////////////////////
+	////////////////////////////////////////////////////////////////////////
+	
+	{
+		"op" : "add",
+		"path" : "/converse/nicemice",
+		"value" : {}
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/converse/nicemice/default",
+		"value" : 
+		[
+			"I have not'ing to zay to you."
+		]
+	}
+	
+	////////////////////////////////////////////////////////////////////////
+	//
+	//  Races with which nicemice exhibit a neutral disposition:
+	//  Nicemice will offer a short acknowledgment
+	//  They are not interested in being friendly
+	//
+	////////////////////////////////////////////////////////////////////////
+	
+	
+]

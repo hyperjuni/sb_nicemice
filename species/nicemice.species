@@ -105,8 +105,8 @@
 	  [ 
 		"mouse", "bigmouse", "chua", "chuadown", "jerboa", "largefolded", "wing", "droop", "alert", "burmecian"
 	  ],
-      "shirt" : [ "apexcommanderjacket", "apexnavyjacket", "apexofficerjacket", "apexspecialistjacket", "protectorateshirtchest", "protectoratevestchest" ],
-      "pants" : [ "apexcommanderpants", "apexnavypants", "apexofficerpants", "apexspecialistpants" ],
+      "shirt" : [ "nicemice_hazmatchest" ],
+      "pants" : [ "nicemice_hazmatlegs" ],
       "facialHairGroup" : "hair",
       "facialHair" : ["whisk", "quiff", "bangs", "bangs2", "curls", "curls2", "swirl", "karen", "karen2", "floop", "swoosh", "flower", "spike"],
       "facialMaskGroup" : "",
@@ -121,8 +121,8 @@
 	  [ 
 		"mouse", "bigmouse", "chua", "chuadown", "jerboa", "largefolded", "wing", "droop", "alert", "burmecian"
 	  ],
-	  "shirt" : [ "apexcommanderjacket", "apexnavyjacket", "apexofficerjacket", "apexspecialistjacket", "protectorateshirtchest", "protectoratevestchest" ],
-      "pants" : [ "apexcommanderpants", "apexnavypants", "apexofficerpants", "apexspecialistpants" ],
+	  "shirt" : [ "nicemice_hazmatchest" ],
+      "pants" : [ "nicemice_hazmatlegs" ],
       "facialHairGroup" : "hair",
       "facialHair" : ["whisk", "quiff", "bangs", "bangs2", "curls", "curls2", "swirl", "karen", "karen2", "floop", "swoosh", "flower", "spike"],
       "facialMaskGroup" : "",

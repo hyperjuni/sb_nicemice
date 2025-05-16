@@ -12,7 +12,7 @@
 		"behavior" : "nicemice_scriptedVillagerBehavior",
 		"behaviorConfig" : 
 		{
-			"greetingChance" : 0.5,
+			"greetingChance" : 0.95,
 			"hostileDamageTeam" : 
 			{ 
 				"type" : "enemy", 

@@ -16,5 +16,12 @@
 		"op" : "add",
 		"path" : "/deploymentConfig/scripts/-",
 		"value" : "/scripts/player/nicemice_tail_recolor.lua"
+	},
+	
+	//nicemice equipment swaps
+	{
+		"op" : "add",
+		"path" : "/deploymentConfig/scripts/-",
+		"value" : "/scripts/player/nicemice_swap_equipment.lua"
 	}
 ]

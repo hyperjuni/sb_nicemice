@@ -2,7 +2,7 @@
 	"itemName" : "nicemice_hazmatback",
 	
 	//automatically convert compatible nicemice items to their vanilla counterparts for other races
-	"nicemice_convertItem" : 
+	"nicemice_otherSpeciesConversion" : 
 	{
 		"default" : "hazmatback",
 		"human" : "hazmatback"

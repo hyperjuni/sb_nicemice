@@ -1,20 +1,20 @@
 {
-	"itemName" : "nicemice_officecasuallegs_m",
+	"itemName" : "nicemice_template_legs_anklecut",
 
 	//automatically convert compatible nicemice items to their vanilla counterparts for other races
-	//  "nicemice_otherSpeciesConversion" : 
-	//  {
-	//	  "default" : "perfectlygenericitem",
-	//	  "human" : "perfectlygenericitem"
-	//  },
+	"nicemice_otherSpeciesConversion" : 
+	{
+		"default" : "perfectlygenericitem",
+		"human" : "perfectlygenericitem"
+	},
 
-	"price" : 35,
+	"price" : 0,
 	"inventoryIcon" : "icons.png:pants",
 	"maxStack" : 1,
 	"rarity" : "Common",
 	"category" : "legwear",
-	"description" : "Legwear for the office.",
-	"shortdescription" : "Office Casual Pants",
+	"description" : "This template is for modders that want to make their own clothing.",
+	"shortdescription" : "Nicemice Template Pants (Ankle Cut)",
 	"tooltipKind" : "armor",
 
 	"maleFrames" : "pants.png",
@@ -22,8 +22,8 @@
 
 	"colorOptions" : 
 	[
-		// DEFAULT  
-		{ "ffca8a" : "ffffa7", "e0975c" : "e2c344", "a85636" : "a46e06", "6f2919" : "642f00" },
+		// DEFAULT - DYEABLE TAN
+		{ "ffca8a" : "ffca8a", "e0975c" : "e0975c", "a85636" : "a85636", "6f2919" : "6f2919" },
 		
 		// BLACK
 		{ "ffca8a" : "838383", "e0975c" : "555555", "a85636" : "383838", "6f2919" : "151515" },

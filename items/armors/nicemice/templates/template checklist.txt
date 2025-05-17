@@ -1,0 +1,25 @@
+Did you update the item name?
+Did you update the item rarity?
+Did you update the item automatic conversions?
+Did you update the item price?
+Did you update the default colors?
+Did you update the icons?
+
+MALE BODY:
+Did you test walking animations?
+Did you test running animations?
+Did you test crouching animations?
+Did you test jumping and falling animations?
+Did you test swimming animations?
+
+FEMALE BODY: (Check the bouncing chest frames)
+Did you test walking animations?
+Did you test running animations?
+Did you test crouching animations?
+Did you test jumping and falling animations?
+Did you test swimming animations?
+
+Is the blueprint available for players to craft it somewhere? 
+DO NOT PUT CLOTHING RECIPES IN THE CRAFT-AT-HANDS MENU
+
+If this is starter clothing, has the .species file been updated?

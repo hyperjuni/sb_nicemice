@@ -105,8 +105,8 @@
 	  [ 
 		"mouse", "bigmouse", "chua", "chuadown", "jerboa", "largefolded", "wing", "droop", "alert", "burmecian"
 	  ],
-      "shirt" : [ "nicemice_officecasualchest" ],
-      "pants" : [ "nicemice_officecasuallegs" ],
+      "shirt" : [ "nicemice_officecasualchest_m", "nicemice_template_chest_bodysuit", "nicemice_template_chest_longsleeve", "nicemice_template_chest_shortsleeve", "nicemice_template_chest_sleeveless" ],
+      "pants" : [ "nicemice_officecasuallegs_m" ],
       "facialHairGroup" : "hair",
       "facialHair" : ["whisk", "quiff", "bangs", "bangs2", "curls", "curls2", "swirl", "karen", "karen2", "floop", "swoosh", "flower", "spike"],
       "facialMaskGroup" : "",
@@ -121,8 +121,8 @@
 	  [ 
 		"mouse", "bigmouse", "chua", "chuadown", "jerboa", "largefolded", "wing", "droop", "alert", "burmecian"
 	  ],
-	  "shirt" : [ "nicemice_officecasualchest" ],
-      "pants" : [ "nicemice_officecasuallegs" ],
+	  "shirt" : [ "nicemice_officecasualchest_f", "nicemice_template_chest_bodysuit", "nicemice_template_chest_longsleeve", "nicemice_template_chest_shortsleeve", "nicemice_template_chest_sleeveless" ],
+      "pants" : [ "nicemice_officecasuallegs_f" ],
       "facialHairGroup" : "hair",
       "facialHair" : ["whisk", "quiff", "bangs", "bangs2", "curls", "curls2", "swirl", "karen", "karen2", "floop", "swoosh", "flower", "spike"],
       "facialMaskGroup" : "",

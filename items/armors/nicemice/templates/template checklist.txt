@@ -5,6 +5,8 @@ Did you update the item price?
 Did you update the default colors?
 Did you update the icons?
 
+Check all the idle poses in character creator for male and female
+
 MALE BODY:
 Did you test walking animations?
 Did you test running animations?
@@ -19,7 +21,6 @@ Did you test crouching animations?
 Did you test jumping and falling animations?
 Did you test swimming animations?
 
-HATS: (Add the hat to the .species file for quick testing)
 Verify the mask for each ear style
 Verify the mask for each hair style
 

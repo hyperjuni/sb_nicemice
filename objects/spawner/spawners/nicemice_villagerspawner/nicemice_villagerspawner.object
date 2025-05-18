@@ -1,0 +1,50 @@
+{
+  "objectName" : "nicemice_villagerspawner",
+  "rarity" : "Common",
+  "description" : "Spawn a very nice villager!",
+  "shortdescription" : "Nicemice Spawner",
+  "race" : "nicemice",
+  "printable" : false,
+  "category" : "spawner",
+  "price" : 100,
+  "smashDropOptions" : [],
+  "apexDescription" : "This beacon will summon a nouse. Is this legal?",
+  "avianDescription" : "Do we really need more nicemice around here?",
+  "floranDescription" : "Floran doess not like mousesss.",
+  "glitchDescription" : "Hesitant. Do nicemice chew on wires?",
+  "humanDescription" : "Back on Earth, having mice in your house was considered a bad thing.",
+  "hylotlDescription" : "This spawner does not instill a sense of harmony.",
+  "novakidDescription" : "Varmint spawner? Whole galaxy's gone sideways.",
+  "nicemiceDescription" : "Ziz beacon vill zummon anot'er nouzemouze. Very uzeful!",
+  
+  "inventoryIcon" : "nicemice_villagerspawnericon.png",
+  "orientations" : [
+    {
+      "image" : "nicemice_villagerspawner.png",
+      "imagePosition" : [-8, 0],
+      "direction" : "right",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "scripts" : [ "/objects/spawner/spawners/nicemice_villagerspawner/spawner.lua" ],
+  "scriptDelta" : 1,
+  //6000,
+  "animation" : "/objects/spawner/spawners/nicemice_villagerspawner/nicemice_villagerspawner.animation",
+  "animationParts" : {
+    "switch" : "nicemice_villagerspawner.png"
+  },
+  "animationPosition" : [-8, 0],
+  "inboundNodes" : [ ],
+  "outboundNodes" : [ ],
+  "spawner" : {
+    "searchRadius" : 32.0,
+    "npcSpeciesOptions" : [ "nicemice" ],
+    "npcTypeOptions" : [ "nicemice_villager" ],
+    "npcParameterOptions" : [
+      {
+        "dropPools" : [ ]
+      }
+    ]
+  }
+}

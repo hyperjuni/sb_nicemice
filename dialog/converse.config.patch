@@ -1500,6 +1500,29 @@
 			"I don't zuppoze zhere'z room for two in your web?"
 		]
 	},
+	{
+		"op" : "add",
+		"path" : "/greeting/nicemice/canera",
+		"value" : 
+		[
+			"Nize to meet you!",
+			"Cheezed to meet you.",
+			"You zeem nize.",
+			"You zmell nize.",
+			"Velcome.",
+			"Pleazure to make your acquaintenze.",
+			"How can I be of azziztanze?",
+			"Make yourzelf at home.",
+			"Good to zee you.",
+			"Hi zhere.",
+			
+			"Zhere iz alvayz a uze for colliez, yez?",
+			"Greetingz, talldog.",
+			"Have zome zcritchez.",
+			"Good dogz get treatz.",
+			"Come. Ztay. Good dog."
+		]
+	},
 	
 	////////////////////////////////////////////////////////////////////////
 	////////////////////////////////////////////////////////////////////////

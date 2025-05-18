@@ -21,6 +21,7 @@ Did you test crouching animations?
 Did you test jumping and falling animations?
 Did you test swimming animations?
 
+HATS
 Verify the mask for each ear style
 Verify the mask for each hair style
 

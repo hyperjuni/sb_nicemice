@@ -19,6 +19,10 @@ Did you test crouching animations?
 Did you test jumping and falling animations?
 Did you test swimming animations?
 
+HATS: (Add the hat to the .species file for quick testing)
+Verify the mask for each ear style
+Verify the mask for each hair style
+
 Is the blueprint available for players to craft it somewhere? 
 DO NOT PUT CLOTHING RECIPES IN THE CRAFT-AT-HANDS MENU
 

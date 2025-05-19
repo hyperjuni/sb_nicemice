@@ -1,0 +1,5 @@
+This needs to be a hat and not a backpiece
+
+backpieces will render behind the ears 
+which creates a situation where avoiding clipping 
+forces the pom wire to be twice as long as it should be

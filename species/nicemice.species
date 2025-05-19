@@ -103,10 +103,10 @@
       "hairGroup" : "ears",
       "hair" : 
 	  [ 
-		"mouse", "bigmouse", "chua", "chuadown", "jerboa", "largefolded", "wing", "droop", "alert", "burmecian"
+		"mouse", "bigmouse", "chua", "chuadown", "jerboa", "largefolded", "wing", "droop", "alert", "burmecian", "bluey"
 	  ],
-      "shirt" : [ "nicemice_officecasualchest_m", "nicemice_template_chest_bodysuit", "nicemice_template_chest_longsleeve", "nicemice_template_chest_shortsleeve", "nicemice_template_chest_sleeveless" ],
-      "pants" : [ "nicemice_officecasuallegs_m" ],
+      "shirt" : [ "nicemice_template_chest_bodysuit", "nicemice_template_chest_longsleeve", "nicemice_template_chest_shortsleeve", "nicemice_template_chest_sleeveless" ],
+      "pants" : [ "nicemice_template_legs_bodysuit", "nicemice_template_legs_anklecut", "nicemice_template_legs_thighcut" ],
       "facialHairGroup" : "hair",
       "facialHair" : ["whisk", "quiff", "bangs", "bangs2", "curls", "curls2", "swirl", "karen", "karen2", "floop", "swoosh", "flower", "spike"],
       "facialMaskGroup" : "",
@@ -119,10 +119,10 @@
       "hairGroup" : "ears",
       "hair" : 
 	  [ 
-		"mouse", "bigmouse", "chua", "chuadown", "jerboa", "largefolded", "wing", "droop", "alert", "burmecian"
+		"mouse", "bigmouse", "chua", "chuadown", "jerboa", "largefolded", "wing", "droop", "alert", "burmecian", "bluey"
 	  ],
-	  "shirt" : [ "nicemice_officecasualchest_f", "nicemice_template_chest_bodysuit", "nicemice_template_chest_longsleeve", "nicemice_template_chest_shortsleeve", "nicemice_template_chest_sleeveless" ],
-      "pants" : [ "nicemice_officecasuallegs_f" ],
+	  "shirt" : [ "nicemice_template_chest_bodysuit", "nicemice_template_chest_longsleeve", "nicemice_template_chest_shortsleeve", "nicemice_template_chest_sleeveless" ],
+      "pants" : [ "nicemice_template_legs_bodysuit", "nicemice_template_legs_anklecut", "nicemice_template_legs_thighcut" ],
       "facialHairGroup" : "hair",
       "facialHair" : ["whisk", "quiff", "bangs", "bangs2", "curls", "curls2", "swirl", "karen", "karen2", "floop", "swoosh", "flower", "spike"],
       "facialMaskGroup" : "",

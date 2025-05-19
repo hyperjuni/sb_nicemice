@@ -129,6 +129,14 @@
 						"back" : 
 						[
 							{ "name" : "nicemice_tail_mouse" }
+						],
+						"chest" :
+						[
+							{ "name" : "nicemice_jumpsuitchest" }
+						],
+						"legs" :
+						[
+							{ "name" : "nicemice_jumpsuitlegs" }
 						]
 					}
 				] 

@@ -108,7 +108,7 @@
       "shirt" : [ "nicemice_jumpsuitchest" ],
       "pants" : [ "nicemice_jumpsuitlegs" ],
       "facialHairGroup" : "hair",
-      "facialHair" : ["whisk", "quiff", "bangs", "bangs2", "curls", "curls2", "swirl", "karen", "karen2", "floop", "swoosh", "flower", "spike"],
+      "facialHair" : ["whisk", "quiff", "bangs", "bangs2", "curls", "curls2", "swirl", "karen", "karen2", "floop", "swoosh", "flower", "spike", "long", "long2"],
       "facialMaskGroup" : "",
       "facialMask" : []
     },
@@ -124,7 +124,7 @@
 	  "shirt" : [ "nicemice_jumpsuitchest" ],
       "pants" : [ "nicemice_jumpsuitlegs" ],
       "facialHairGroup" : "hair",
-      "facialHair" : ["whisk", "quiff", "bangs", "bangs2", "curls", "curls2", "swirl", "karen", "karen2", "floop", "swoosh", "flower", "spike"],
+      "facialHair" : ["whisk", "quiff", "bangs", "bangs2", "curls", "curls2", "swirl", "karen", "karen2", "floop", "swoosh", "flower", "spike", "long", "long2"],
       "facialMaskGroup" : "",
       "facialMask" : []
     }

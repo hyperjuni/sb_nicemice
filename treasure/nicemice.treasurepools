@@ -6,12 +6,20 @@
 			{
 				"fill" : 
 				[
-					{"item" : "flashlight"},
+					{"item" : [ "cannedfood", 1 ]},
+					{"item" : [ "cannedfood", 1 ]},
+					{"item" : [ "cannedfood", 1 ]},
+					{"item" : [ "cannedfood", 1 ]},
+					{"item" : [ "flashlight", 1 ]},
 					{"item" : [ "torch", 10 ]},
-					{"item" : [ "cannedfood", 1 ]},
-					{"item" : [ "cannedfood", 1 ]},
-					{"item" : [ "cannedfood", 1 ]},
-					{"item" : [ "cannedfood", 1 ]}
+					{"item" : [ "nicemice_nakedvillagerspawner", 10 ]},
+					{"item" : [ "nicemice_villagerspawner", 10 ]},
+					{"item" : [ "apexshipwall", 1000 ]},
+					{"item" : [ "apexshipwall", 1000 ]},
+					{"item" : [ "apexshipdetails", 1000 ]},
+					{"item" : [ "apexshipsupport", 1000 ]},
+					{"item" : [ "apexshiplight", 20 ]},
+					{"item" : [ "cheese", 1 ]}
 				]
 			}
 		]

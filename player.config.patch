@@ -23,5 +23,12 @@
 		"op" : "add",
 		"path" : "/deploymentConfig/scripts/-",
 		"value" : "/scripts/player/nicemice_swap_equipment.lua"
+	},
+	
+	//mech helmet remover
+	{
+		"op" : "add",
+		"path" : "/deploymentConfig/scripts/-",
+		"value" : "/scripts/deployment/nicemice_playermechdeployment.lua"
 	}
 ]

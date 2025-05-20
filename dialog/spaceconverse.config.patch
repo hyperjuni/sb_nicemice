@@ -1,0 +1,43 @@
+[
+	{
+		"op" : "add",
+		"path" : "/converse/nicemice",
+		"value" : {}
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/converse/nicemice/default",
+		"value" : 
+		[
+			"Hello, ztranger.",
+			"Zomet'ing you need help vith?",
+			"Yez?",
+			"Move along, pleaze.",
+			"Not'ing to zay to you.",
+			"Leave me alone, pleaze.",
+			"I juzt vant to ztare out ze vindowz for avhile, zorry.",
+			"No rain in zpaze. Boring.",
+			"Today'z veather iz... Ztarz, I guezz.",
+			"Zut."
+		]
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/converse/nicemice/nicemice",
+		"value" : 
+		[
+			"Greetingz, friend.",
+			"Cheezed to meet you.",
+			"At eaze!",
+			"Adjutant - it'z good to zee you!",
+			"Got room for one more on your zhip, adjutant? Ziz plaze iz boring me to death.",
+			"Lotz of zhady typez on zeze ztationz. Bezt to keep to yourzelf, adjutant.",
+			"Between you and me, I don't truzt zeze nonmize.",
+			"You know, zey rezycle vazte on zeze ztationz. I'm not a fan.",
+			"It iz peazeful here, but terribly boring.",
+			"It iz a miracle zat ziz ztation iz ztill operational conzidering how many outziderz are running amok in it."
+		]
+	}
+]

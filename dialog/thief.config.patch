@@ -1,0 +1,39 @@
+[
+	{
+		"op" : "add",
+		"path" : "/accuse/nicemice",
+		"value" : {}
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/accuse/nicemice/default",
+		"value" : 
+		[
+			"Zut! Zat iz not yourz!",
+			"Ztealing iz not nize!",
+			"Replaze zat item at onze!",
+			"You are not aut'orized to take zat!",
+			"You vill be punizhed for t'ievery!"
+		]
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/alert/nicemice",
+		"value" : {}
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/alert/nicemice/default",
+		"value" : 
+		[
+			"Guardz! Ziz one iz a t'ief!",
+			"Punizh ziz t'ief at onze!",
+			"Zecurity!",
+			"Ziz one haz ztolen goodz!",
+			"Do not let ziz t'ief ezcape!"
+		]
+	}
+]

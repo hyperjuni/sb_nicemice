@@ -1,0 +1,11 @@
+//this object is only used in the lunar base mission and the shockhopper mission
+//when nicemice approach the door in the lunar base mission, they're not tall enough to trigger the sensor
+//this patch adjusts the sensor range to allow nicemice players to play the mission normally
+//it also allows players to open the lunar base mission door if they have distortion sphere active etc
+[
+	{
+		"op" : "replace",
+		"path" : "/detectArea",
+		"value" : [ [ -1, -2 ], [ 1, 1 ] ]
+	}
+]

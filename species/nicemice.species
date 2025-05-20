@@ -21,12 +21,12 @@
       { "item" : "nicemice_flag" },
 
 // Anvil
-      { "item" : "apextier1head" },
-      { "item" : "apextier1chest" },
-      { "item" : "apextier1pants" },
-      { "item" : "apextier2head" },
-      { "item" : "apextier2chest" },
-      { "item" : "apextier2pants" },
+      { "item" : "nicemiceier1head" },
+      { "item" : "nicemiceier1chest" },
+      { "item" : "nicemiceier1pants" },
+      { "item" : "nicemiceier2head" },
+      { "item" : "nicemiceier2chest" },
+      { "item" : "nicemiceier2pants" },
 
       { "item" : "ironshortsword" },
       { "item" : "ironbroadsword" },
@@ -34,12 +34,12 @@
       { "item" : "tungstenhammer" },
 
 // Anvil2
-      { "item" : "apextier3head" },
-      { "item" : "apextier3chest" },
-      { "item" : "apextier3pants" },
-      { "item" : "apextier4head" },
-      { "item" : "apextier4chest" },
-      { "item" : "apextier4pants" },
+      { "item" : "nicemicetier3head" },
+      { "item" : "nicemicetier3chest" },
+      { "item" : "nicemicetier3pants" },
+      { "item" : "nicemicetier4head" },
+      { "item" : "nicemicetier4chest" },
+      { "item" : "nicemicetier4pants" },
 
       { "item" : "titaniumdagger" },
       { "item" : "titaniumspear" },
@@ -47,26 +47,26 @@
       { "item" : "durasteelshortsword" },
 
 // Anvil3
-      { "item" : "apextier5ahead" },
-      { "item" : "apextier5achest" },
-      { "item" : "apextier5apants" },
-      { "item" : "apextier6ahead" },
-      { "item" : "apextier6achest" },
-      { "item" : "apextier6apants" },
+      { "item" : "nicemicetier5ahead" },
+      { "item" : "nicemicetier5achest" },
+      { "item" : "nicemicetier5apants" },
+      { "item" : "nicemicetier6ahead" },
+      { "item" : "nicemicetier6achest" },
+      { "item" : "nicemicetier6apants" },
 
-      { "item" : "apextier5mhead" },
-      { "item" : "apextier5mchest" },
-      { "item" : "apextier5mpants" },
-      { "item" : "apextier6mhead" },
-      { "item" : "apextier6mchest" },
-      { "item" : "apextier6mpants" },
+      { "item" : "nicemicetier5mhead" },
+      { "item" : "nicemicetier5mchest" },
+      { "item" : "nicemicetier5mpants" },
+      { "item" : "nicemicetier6mhead" },
+      { "item" : "nicemicetier6mchest" },
+      { "item" : "nicemicetier6mpants" },
 
-      { "item" : "apextier5shead" },
-      { "item" : "apextier5schest" },
-      { "item" : "apextier5spants" },
-      { "item" : "apextier6shead" },
-      { "item" : "apextier6schest" },
-      { "item" : "apextier6spants" },
+      { "item" : "nicemicetier5shead" },
+      { "item" : "nicemicetier5schest" },
+      { "item" : "nicemicetier5spants" },
+      { "item" : "nicemicetier6shead" },
+      { "item" : "nicemicetier6schest" },
+      { "item" : "nicemicetier6spants" },
 
       { "item" : "aegisaltpistol" },
       { "item" : "aegisaltbow" },
@@ -81,14 +81,8 @@
       { "item" : "apexshiphatch" },
 
 // Spinning Wheel
-      { "item" : "apexcommanderjacket" },
-      { "item" : "apexcommanderpants" },
-      { "item" : "apexnavyjacket" },
-      { "item" : "apexnavypants" },
-      { "item" : "apexofficerjacket" },
-      { "item" : "apexofficerpants" },
-      { "item" : "apexspecialistjacket" },
-      { "item" : "apexspecialistpants" }
+      { "item" : "nicemice_jumpsuitchest" },
+      { "item" : "nicemice_jumpsuitlegs" }
     ]
   },
   

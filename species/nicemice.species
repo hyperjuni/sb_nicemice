@@ -21,12 +21,12 @@
       { "item" : "nicemice_flag" },
 
 // Anvil
-      { "item" : "nicemiceier1head" },
-      { "item" : "nicemiceier1chest" },
-      { "item" : "nicemiceier1pants" },
-      { "item" : "nicemiceier2head" },
-      { "item" : "nicemiceier2chest" },
-      { "item" : "nicemiceier2pants" },
+      { "item" : "nicemicetier1head" },
+      { "item" : "nicemicetier1chest" },
+      { "item" : "nicemicetier1pants" },
+      { "item" : "nicemicetier2head" },
+      { "item" : "nicemicetier2chest" },
+      { "item" : "nicemicetier2pants" },
 
       { "item" : "ironshortsword" },
       { "item" : "ironbroadsword" },

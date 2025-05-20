@@ -25,6 +25,13 @@
 		"value" : "/scripts/player/nicemice_swap_equipment.lua"
 	},
 	
+	//mech stuff
+	{
+		"op" : "add",
+		"path" : "/deploymentConfig/speciesStarterMechBody/nicemice",
+		"value" : "mechbodyapexproto"
+	},
+	
 	//mech helmet remover
 	{
 		"op" : "add",

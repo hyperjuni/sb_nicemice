@@ -39,16 +39,11 @@
 			{
 				"nextNpcType" : 
 				[
-					[1, "crewmember"],
-					[0.25, "crewmemberchemistblue"],
-					[0.25, "crewmemberchemistgreen"],
-					[0.25, "crewmemberchemistyellow"],
-					[0.25, "crewmemberchemistorange"],
-					[1, "crewmemberengineer"],
-					[1, "crewmembermechanic"],
-					[1, "crewmembermedic"],
-					[1, "crewmemberjanitor"],
-					[1, "crewmembertailor"]
+					[1, "nicemice_crewmemberengineer"],
+					[1, "nicemice_crewmembermechanic"],
+					[1, "nicemice_crewmembermedic"],
+					[1, "nicemice_crewmemberjanitor"],
+					[1, "nicemice_crewmembertailor"]
 				]
 			}
 		},

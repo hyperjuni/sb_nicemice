@@ -1,13 +1,13 @@
 [
 	{
 		"op" : "add",
-		"path" : "/converse/nicemice",
+		"path" : "/converse/nicemice_npc",
 		"value" : {}
 	},
 	
 	{
 		"op" : "add",
-		"path" : "/converse/nicemice/default",
+		"path" : "/converse/nicemice_npc/default",
 		"value" : 
 		[
 			"Hello, ztranger.",
@@ -25,7 +25,7 @@
 	
 	{
 		"op" : "add",
-		"path" : "/converse/nicemice/nicemice",
+		"path" : "/converse/nicemice_npc/nicemice",
 		"value" : 
 		[
 			"Greetingz, friend.",

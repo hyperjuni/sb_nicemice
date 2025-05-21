@@ -39,7 +39,7 @@
   "outboundNodes" : [ ],
   "spawner" : {
     "searchRadius" : 32.0,
-    "npcSpeciesOptions" : [ "nicemice" ],
+    "npcSpeciesOptions" : [ "nicemice_npc" ],
     "npcTypeOptions" : [ "nicemice_villager" ],
     "npcParameterOptions" : [
       {

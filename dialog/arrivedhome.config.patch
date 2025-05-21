@@ -1,12 +1,12 @@
 [
 	{
 		"op" : "add",
-		"path" : "/beacon/nicemice",
+		"path" : "/beacon/nicemice_npc",
 		"value" : {}
 	},
 	{
 		"op" : "add",
-		"path" : "/beacon/nicemice/default",
+		"path" : "/beacon/nicemice_npc/default",
 		"value" : 
 		[
 			"Yez?"
@@ -14,12 +14,12 @@
 	},
 	{
 		"op" : "add",
-		"path" : "/rent/nicemice",
+		"path" : "/rent/nicemice_npc",
 		"value" : {}
 	},
 	{
 		"op" : "add",
-		"path" : "/rent/nicemice/default",
+		"path" : "/rent/nicemice_npc/default",
 		"value" : 
 		[
 			"Take ziz and get out of my fayz."

@@ -1,7 +1,7 @@
 [
 	{
 		"op" : "add",
-		"path" : "/greeting/nicemice",
+		"path" : "/greeting/nicemice_npc",
 		"value" : {}
 	},
 	
@@ -15,7 +15,7 @@
 	
 	{
 		"op" : "add",
-		"path" : "/greeting/nicemice/default",
+		"path" : "/greeting/nicemice_npc/default",
 		"value" : 
 		[
 			"Greetingz.",
@@ -34,7 +34,7 @@
 		//  Nicemice assume all Apex are spies for the Miniknog
 		
 		"op" : "add",
-		"path" : "/greeting/nicemice/apex",
+		"path" : "/greeting/nicemice_npc/apex",
 		"value" : 
 		[
 			"Greetingz.",
@@ -57,7 +57,7 @@
 	},
 	{
 		"op" : "add",
-		"path" : "/greeting/nicemice/nuu",
+		"path" : "/greeting/nicemice_npc/nuu",
 		"value" : 
 		[
 			"Greetingz.",
@@ -80,7 +80,7 @@
 	},
 	{
 		"op" : "add",
-		"path" : "/greeting/nicemice/peglaci",
+		"path" : "/greeting/nicemice_npc/peglaci",
 		"value" : 
 		[
 			"Greetingz.",
@@ -103,7 +103,7 @@
 	},
 	{
 		"op" : "add",
-		"path" : "/greeting/nicemice/alta",
+		"path" : "/greeting/nicemice_npc/alta",
 		"value" : 
 		[
 			"Greetingz.",
@@ -126,7 +126,7 @@
 	},
 	{
 		"op" : "add",
-		"path" : "/greeting/nicemice/satkyterran",
+		"path" : "/greeting/nicemice_npc/satkyterran",
 		"value" : 
 		[
 			"Greetingz.",
@@ -149,7 +149,7 @@
 	},
 	{
 		"op" : "add",
-		"path" : "/greeting/nicemice/burmecian",
+		"path" : "/greeting/nicemice_npc/burmecian",
 		"value" : 
 		[
 			"Greetingz.",
@@ -172,7 +172,7 @@
 	},
 	{
 		"op" : "add",
-		"path" : "/greeting/nicemice/viera",
+		"path" : "/greeting/nicemice_npc/viera",
 		"value" : 
 		[
 			"Greetingz.",
@@ -195,7 +195,7 @@
 	},
 	{
 		"op" : "add",
-		"path" : "/greeting/nicemice/femalefeolviera",
+		"path" : "/greeting/nicemice_npc/femalefeolviera",
 		"value" : 
 		[
 			"Greetingz.",
@@ -218,7 +218,7 @@
 	},
 	{
 		"op" : "add",
-		"path" : "/greeting/nicemice/femaleveenaravaviera",
+		"path" : "/greeting/nicemice_npc/femaleveenaravaviera",
 		"value" : 
 		[
 			"Greetingz.",
@@ -241,7 +241,7 @@
 	},
 	{
 		"op" : "add",
-		"path" : "/greeting/nicemice/malefeolviera",
+		"path" : "/greeting/nicemice_npc/malefeolviera",
 		"value" : 
 		[
 			"Greetingz.",
@@ -264,7 +264,7 @@
 	},
 	{
 		"op" : "add",
-		"path" : "/greeting/nicemice/maleveenaravaviera",
+		"path" : "/greeting/nicemice_npc/maleveenaravaviera",
 		"value" : 
 		[
 			"Greetingz.",
@@ -287,7 +287,7 @@
 	},
 	{
 		"op" : "add",
-		"path" : "/greeting/nicemice/moogle",
+		"path" : "/greeting/nicemice_npc/moogle",
 		"value" : 
 		[
 			"Greetingz.",
@@ -310,7 +310,7 @@
 	},
 	{
 		"op" : "add",
-		"path" : "/greeting/nicemice/blattra",
+		"path" : "/greeting/nicemice_npc/blattra",
 		"value" : 
 		[
 			"Greetingz.",
@@ -333,7 +333,7 @@
 	},
 	{
 		"op" : "add",
-		"path" : "/greeting/nicemice/gilten",
+		"path" : "/greeting/nicemice_npc/gilten",
 		"value" : 
 		[
 			"Greetingz.",
@@ -356,7 +356,7 @@
 	},
 	{
 		"op" : "add",
-		"path" : "/greeting/nicemice/bangaa",
+		"path" : "/greeting/nicemice_npc/bangaa",
 		"value" : 
 		[
 			"Greetingz.",
@@ -379,7 +379,7 @@
 	},
 	{
 		"op" : "add",
-		"path" : "/greeting/nicemice/squamaeft",
+		"path" : "/greeting/nicemice_npc/squamaeft",
 		"value" : 
 		[
 			"Greetingz.",
@@ -402,7 +402,7 @@
 	},
 	{
 		"op" : "add",
-		"path" : "/greeting/nicemice/penguin",
+		"path" : "/greeting/nicemice_npc/penguin",
 		"value" : 
 		[
 			"Greetingz.",
@@ -425,7 +425,7 @@
 	},
 	{
 		"op" : "add",
-		"path" : "/greeting/nicemice/lastree",
+		"path" : "/greeting/nicemice_npc/lastree",
 		"value" : 
 		[
 			"Greetingz.",
@@ -456,7 +456,7 @@
 			
 	{
 		"op" : "add",
-		"path" : "/greeting/nicemice/human",
+		"path" : "/greeting/nicemice_npc/human",
 		"value" : 
 		[
 			
@@ -480,7 +480,7 @@
 	},
 	{
 		"op" : "add",
-		"path" : "/greeting/nicemice/floran",
+		"path" : "/greeting/nicemice_npc/floran",
 		"value" : 
 		[
 			"Vat do you vant?",
@@ -503,7 +503,7 @@
 	},
 	{
 		"op" : "add",
-		"path" : "/greeting/nicemice/glitch",
+		"path" : "/greeting/nicemice_npc/glitch",
 		"value" : 
 		[
 			"Vat do you vant?",
@@ -526,7 +526,7 @@
 	},
 	{
 		"op" : "add",
-		"path" : "/greeting/nicemice/avian",
+		"path" : "/greeting/nicemice_npc/avian",
 		"value" : 
 		[
 			"Vat do you vant?",
@@ -550,7 +550,7 @@
 	},
 	{
 		"op" : "add",
-		"path" : "/greeting/nicemice/hylotl",
+		"path" : "/greeting/nicemice_npc/hylotl",
 		"value" : 
 		[
 			"Vat do you vant?",
@@ -573,7 +573,7 @@
 	},
 	{
 		"op" : "add",
-		"path" : "/greeting/nicemice/novakid",
+		"path" : "/greeting/nicemice_npc/novakid",
 		"value" : 
 		[
 			"Vat do you vant?",
@@ -596,7 +596,7 @@
 	},
 	{
 		"op" : "add",
-		"path" : "/greeting/nicemice/shadow",
+		"path" : "/greeting/nicemice_npc/shadow",
 		"value" : 
 		[
 			"Vat do you vant?",
@@ -619,7 +619,7 @@
 	},
 	{
 		"op" : "add",
-		"path" : "/greeting/nicemice/neki",
+		"path" : "/greeting/nicemice_npc/neki",
 		"value" : 
 		[
 			"Vat do you vant?",
@@ -643,7 +643,7 @@
 	},
 	{
 		"op" : "add",
-		"path" : "/greeting/nicemice/glutt",
+		"path" : "/greeting/nicemice_npc/glutt",
 		"value" : 
 		[
 			"Vat do you vant?",
@@ -666,7 +666,7 @@
 	},
 	{
 		"op" : "add",
-		"path" : "/greeting/nicemice/renamonlk",
+		"path" : "/greeting/nicemice_npc/renamonlk",
 		"value" : 
 		[
 			"Vat do you vant?",
@@ -689,7 +689,7 @@
 	},
 	{
 		"op" : "add",
-		"path" : "/greeting/nicemice/sirene",
+		"path" : "/greeting/nicemice_npc/sirene",
 		"value" : 
 		[
 			"Vat do you vant?",
@@ -712,7 +712,7 @@
 	},
 	{
 		"op" : "add",
-		"path" : "/greeting/nicemice/skumks",
+		"path" : "/greeting/nicemice_npc/skumks",
 		"value" : 
 		[
 			"Vat do you vant?",
@@ -735,7 +735,7 @@
 	},
 	{
 		"op" : "add",
-		"path" : "/greeting/nicemice/denelaun",
+		"path" : "/greeting/nicemice_npc/denelaun",
 		"value" : 
 		[
 			"Vat do you vant?",
@@ -758,7 +758,7 @@
 	},
 	{
 		"op" : "add",
-		"path" : "/greeting/nicemice/aegi",
+		"path" : "/greeting/nicemice_npc/aegi",
 		"value" : 
 		[
 			"Vat do you vant?",
@@ -781,7 +781,7 @@
 	},
 	{
 		"op" : "add",
-		"path" : "/greeting/nicemice/avikan",
+		"path" : "/greeting/nicemice_npc/avikan",
 		"value" : 
 		[
 			"Vat do you vant?",
@@ -804,7 +804,7 @@
 	},
 	{
 		"op" : "add",
-		"path" : "/greeting/nicemice/akkimari",
+		"path" : "/greeting/nicemice_npc/akkimari",
 		"value" : 
 		[
 			"Vat do you vant?",
@@ -828,7 +828,7 @@
 	},
 	{
 		"op" : "add",
-		"path" : "/greeting/nicemice/arcanian",
+		"path" : "/greeting/nicemice_npc/arcanian",
 		"value" : 
 		[
 			"Vat do you vant?",
@@ -851,7 +851,7 @@
 	},
 	{
 		"op" : "add",
-		"path" : "/greeting/nicemice/gelsemis",
+		"path" : "/greeting/nicemice_npc/gelsemis",
 		"value" : 
 		[
 			"Vat do you vant?",
@@ -874,7 +874,7 @@
 	},
 	{
 		"op" : "add",
-		"path" : "/greeting/nicemice/deadbeat",
+		"path" : "/greeting/nicemice_npc/deadbeat",
 		"value" : 
 		[
 			"Vat do you vant?",
@@ -897,7 +897,7 @@
 	},
 	{
 		"op" : "add",
-		"path" : "/greeting/nicemice/bunnykin",
+		"path" : "/greeting/nicemice_npc/bunnykin",
 		"value" : 
 		[
 			"Vat do you vant?",
@@ -920,7 +920,7 @@
 	},
 	{
 		"op" : "add",
-		"path" : "/greeting/nicemice/spacekidds",
+		"path" : "/greeting/nicemice_npc/spacekidds",
 		"value" : 
 		[
 			"Vat do you vant?",
@@ -943,7 +943,7 @@
 	},
 	{
 		"op" : "add",
-		"path" : "/greeting/nicemice/lyceen",
+		"path" : "/greeting/nicemice_npc/lyceen",
 		"value" : 
 		[
 			"Vat do you vant?",
@@ -966,7 +966,7 @@
 	},
 	{
 		"op" : "add",
-		"path" : "/greeting/nicemice/felin",
+		"path" : "/greeting/nicemice_npc/felin",
 		"value" : 
 		[
 			"Vat do you vant?",
@@ -989,7 +989,7 @@
 	},
 	{
 		"op" : "add",
-		"path" : "/greeting/nicemice/saturn",
+		"path" : "/greeting/nicemice_npc/saturn",
 		"value" : 
 		[
 			"Vat do you vant?",
@@ -1012,7 +1012,7 @@
 	},
 	{
 		"op" : "add",
-		"path" : "/greeting/nicemice/saturn2",
+		"path" : "/greeting/nicemice_npc/saturn2",
 		"value" : 
 		[
 			"Vat do you vant?",
@@ -1035,7 +1035,7 @@
 	},
 	{
 		"op" : "add",
-		"path" : "/greeting/nicemice/saturnmothman",
+		"path" : "/greeting/nicemice_npc/saturnmothman",
 		"value" : 
 		[
 			"Vat do you vant?",
@@ -1058,7 +1058,7 @@
 	},
 	{
 		"op" : "add",
-		"path" : "/greeting/nicemice/fenerox",
+		"path" : "/greeting/nicemice_npc/fenerox",
 		"value" : 
 		[
 			"Vat do you vant?",
@@ -1081,7 +1081,7 @@
 	},
 	{
 		"op" : "add",
-		"path" : "/greeting/nicemice/vashknaaren",
+		"path" : "/greeting/nicemice_npc/vashknaaren",
 		"value" : 
 		[
 			"Vat do you vant?",
@@ -1104,7 +1104,30 @@
 	},
 	{
 		"op" : "add",
-		"path" : "/greeting/nicemice/phox",
+		"path" : "/greeting/nicemice_npc/vashknaarenbiped",
+		"value" : 
+		[
+			"Vat do you vant?",
+			"Yuck.",
+			"You ztink. Go avay.",
+			"Not interezted.",
+			"Get lozt.",
+			"Pizz off.",
+			"You zmell terrible.",
+			"No zoliziting.",
+			"Leave me alone, pleaze.",
+			"Azk zomeone elze.",
+			
+			"You look veird and I don't like your fayz.",
+			"Your buildingz are ugly and zo are you.",
+			"I hope you get hit by zomet'ing large and heavy.",
+			"Jump off one of your ugly towerz.",
+			"Nazty zcuttling thing."
+		]
+	},
+	{
+		"op" : "add",
+		"path" : "/greeting/nicemice_npc/phox",
 		"value" : 
 		[
 			"Vat do you vant?",
@@ -1127,7 +1150,7 @@
 	},
 	{
 		"op" : "add",
-		"path" : "/greeting/nicemice/centens",
+		"path" : "/greeting/nicemice_npc/centens",
 		"value" : 
 		[
 			"Vat do you vant?",
@@ -1150,7 +1173,7 @@
 	},
 	{
 		"op" : "add",
-		"path" : "/greeting/nicemice/droden",
+		"path" : "/greeting/nicemice_npc/droden",
 		"value" : 
 		[
 			"Vat do you vant?",
@@ -1173,7 +1196,7 @@
 	},
 	{
 		"op" : "add",
-		"path" : "/greeting/nicemice/avali",
+		"path" : "/greeting/nicemice_npc/avali",
 		"value" : 
 		[
 			"Vat do you vant?",
@@ -1196,7 +1219,7 @@
 	},
 	{
 		"op" : "add",
-		"path" : "/greeting/nicemice/FutaraDragon",
+		"path" : "/greeting/nicemice_npc/FutaraDragon",
 		"value" : 
 		[
 			"Vat do you vant?",
@@ -1219,7 +1242,7 @@
 	},
 	{
 		"op" : "add",
-		"path" : "/greeting/nicemice/protogen",
+		"path" : "/greeting/nicemice_npc/protogen",
 		"value" : 
 		[
 			"Vat do you vant?",
@@ -1242,7 +1265,7 @@
 	},
 	{
 		"op" : "add",
-		"path" : "/greeting/nicemice/mechit",
+		"path" : "/greeting/nicemice_npc/mechit",
 		"value" : 
 		[
 			"Vat do you vant?",
@@ -1272,7 +1295,7 @@
 	
 	{
 		"op" : "add",
-		"path" : "/greeting/nicemice/nicemice",
+		"path" : "/greeting/nicemice_npc/nicemice",
 		"value" : 
 		[
 			"Nize to meet you!",
@@ -1295,7 +1318,7 @@
 	},
 	{
 		"op" : "add",
-		"path" : "/greeting/nicemice/spirittree",
+		"path" : "/greeting/nicemice_npc/spirittree",
 		"value" : 
 		[
 			"Nize to meet you!",
@@ -1318,7 +1341,7 @@
 	},
 	{
 		"op" : "add",
-		"path" : "/greeting/nicemice/thelean",
+		"path" : "/greeting/nicemice_npc/thelean",
 		"value" : 
 		[
 			"Nize to meet you!",
@@ -1341,7 +1364,7 @@
 	},
 	{
 		"op" : "add",
-		"path" : "/greeting/nicemice/shizubelle",
+		"path" : "/greeting/nicemice_npc/shizubelle",
 		"value" : 
 		[
 			"Nize to meet you!",
@@ -1364,7 +1387,7 @@
 	},
 	{
 		"op" : "add",
-		"path" : "/greeting/nicemice/lamia",
+		"path" : "/greeting/nicemice_npc/lamia",
 		"value" : 
 		[
 			"Nize to meet you!",
@@ -1387,7 +1410,7 @@
 	},
 	{
 		"op" : "add",
-		"path" : "/greeting/nicemice/mollopod",
+		"path" : "/greeting/nicemice_npc/mollopod",
 		"value" : 
 		[
 			"Nize to meet you!",
@@ -1410,7 +1433,7 @@
 	},
 	{
 		"op" : "add",
-		"path" : "/greeting/nicemice/vesperian",
+		"path" : "/greeting/nicemice_npc/vesperian",
 		"value" : 
 		[
 			"Nize to meet you!",
@@ -1433,7 +1456,7 @@
 	},
 	{
 		"op" : "add",
-		"path" : "/greeting/nicemice/trink",
+		"path" : "/greeting/nicemice_npc/trink",
 		"value" : 
 		[
 			"Nize to meet you!",
@@ -1456,7 +1479,7 @@
 	},
 	{
 		"op" : "add",
-		"path" : "/greeting/nicemice/scyphojel",
+		"path" : "/greeting/nicemice_npc/scyphojel",
 		"value" : 
 		[
 			"Nize to meet you!",
@@ -1479,7 +1502,7 @@
 	},
 	{
 		"op" : "add",
-		"path" : "/greeting/nicemice/arachne",
+		"path" : "/greeting/nicemice_npc/arachne",
 		"value" : 
 		[
 			"Nize to meet you!",
@@ -1502,7 +1525,7 @@
 	},
 	{
 		"op" : "add",
-		"path" : "/greeting/nicemice/canera",
+		"path" : "/greeting/nicemice_npc/canera",
 		"value" : 
 		[
 			"Nize to meet you!",
@@ -1530,13 +1553,13 @@
 	
 	{
 		"op" : "add",
-		"path" : "/converse/nicemice",
+		"path" : "/converse/nicemice_npc",
 		"value" : {}
 	},
 	
 	{
 		"op" : "add",
-		"path" : "/converse/nicemice/default",
+		"path" : "/converse/nicemice_npc/default",
 		"value" : 
 		[
 			"I have not'ing to zay to you."

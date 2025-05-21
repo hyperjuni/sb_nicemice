@@ -1,13 +1,13 @@
 [
 	{
 		"op" : "add",
-		"path" : "/accuse/nicemice",
+		"path" : "/accuse/nicemice_npc",
 		"value" : {}
 	},
 	
 	{
 		"op" : "add",
-		"path" : "/accuse/nicemice/default",
+		"path" : "/accuse/nicemice_npc/default",
 		"value" : 
 		[
 			"Zut! Zat iz not yourz!",
@@ -20,13 +20,13 @@
 	
 	{
 		"op" : "add",
-		"path" : "/alert/nicemice",
+		"path" : "/alert/nicemice_npc",
 		"value" : {}
 	},
 	
 	{
 		"op" : "add",
-		"path" : "/alert/nicemice/default",
+		"path" : "/alert/nicemice_npc/default",
 		"value" : 
 		[
 			"Guardz! Ziz one iz a t'ief!",

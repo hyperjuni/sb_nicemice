@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "category" : "headarmour",
   "description" : "Designed to protect your eyes in harsh environments.",
-  "shortdescription" : "Private's Visor",
+  "shortdescription" : "Nicemice T1 Helmet",
   "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
@@ -40,8 +40,8 @@
   "itemTags" : [ "tier1armour" ],
 
   "colorOptions" : [
-    // GREY
-    { "ffca8a" : "b5b5b5", "e0975c" : "808080", "a85636" : "555555", "6f2919" : "303030" },
+    // BLACK
+    { "ffca8a" : "838383", "e0975c" : "555555", "a85636" : "383838", "6f2919" : "151515" },
     // BLACK
     { "ffca8a" : "838383", "e0975c" : "555555", "a85636" : "383838", "6f2919" : "151515" },
     // GREY

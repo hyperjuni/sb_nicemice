@@ -6,7 +6,7 @@
   "rarity" : "Common",
   "category" : "legarmour",
   "description" : "A ballistic plate covering for the wearer's navel.",
-  "shortdescription" : "Private's Pants",
+  "shortdescription" : "Nicemice T1 Pants",
   "tooltipKind" : "armor",
 
   "maleFrames" : "pants.png",
@@ -39,8 +39,8 @@
   "itemTags" : [ "tier1armour" ],
 
   "colorOptions" : [
-    // GREY
-    { "ffca8a" : "b5b5b5", "e0975c" : "808080", "a85636" : "555555", "6f2919" : "303030" },
+    // BLACK
+    { "ffca8a" : "838383", "e0975c" : "555555", "a85636" : "383838", "6f2919" : "151515" },
     // BLACK
     { "ffca8a" : "838383", "e0975c" : "555555", "a85636" : "383838", "6f2919" : "151515" },
     // GREY

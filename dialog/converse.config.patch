@@ -1541,7 +1541,7 @@
 		[
 			"I have not'ing to zay to you."
 		]
-	}
+	},
 	
 	////////////////////////////////////////////////////////////////////////
 	//
@@ -1551,5 +1551,816 @@
 	//
 	////////////////////////////////////////////////////////////////////////
 	
+	////////////////////////////////////////////////////////////////////////
+	////////////////////////////////////////////////////////////////////////
+	////////////////////////////////////////////////////////////////////////
 	
+	////////////////////////////////////////////////////////////////////////
+	//
+	//  Other races' reaction to nicemice players
+	//
+	////////////////////////////////////////////////////////////////////////
+	
+	{
+		"op" : "add",
+		"path" : "/converse/human/nicemice",
+		"value" : 
+		[
+			"Eek! A mouse!",
+			"Dude yuck what",
+			"Mice are gross. Ew.",
+			"I like mice, but most humans don't.",
+			"We might need to call an exterminator."
+		]
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/converse/avian/nicemice",
+		"value" : 
+		[
+			"A mouse? You seem larger than usual.",
+			"Do you want some cheese? I have trouble eating it anyway.",
+			"Are you- could you be- cheesed to meet me?",
+			"I don't even know what to say to a mouse.",
+			"The scriptures of Kluex never mentioned anything about how to talk to mice."
+		]
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/converse/apex/nicemice",
+		"value" : 
+		[
+			"Mouse friend, do you like bananas?",
+			"I've heard your kind is closely affiliated with the Miniknog. Is this true?",
+			"Have you considered dipping a banana in cheese?",
+			"Welcome, short friend.",
+			"Big Ape smiles upon your kind, friend."
+		]
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/converse/hylotl/nicemice",
+		"value" : 
+		[
+			"I can't decide how I feel when I look at you.",
+			"Please don't bring any disharmony into our peaceful home.",
+			"You make me uneasy.",
+			"We Hylotl don't eat very much cheese, sorry.",
+			"Rodent visitor. Short, but looks like big trouble. This is a haiku."
+		]
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/converse/floran/nicemice",
+		"value" : 
+		[
+			"Fun sssize meats.",
+			"Floran not sssure who eatsss whom in thisss relationssship.",
+			"Do mice people ssstab? Do they hunt?",
+			"Floran thinksss your earsss too big.",
+			"Tailsss weird to Floran. Take it off!"
+		]
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/converse/glitch/nicemice",
+		"value" : 
+		[
+			"Intimidated. Do you chew on wires?",
+			"Uncertain. Normally rodents are not welcome guests...",
+			"Derisive. May I fascinate you with a piece of cheese?",
+			"Oblivious. My condolences on being so short.",
+			"Assertive. You are quite tall for a rodent!"
+		]
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/converse/novakid/nicemice",
+		"value" : 
+		[
+			"What in the stars are you?",
+			"Lord, that's a big'un.",
+			"What rodeo'd you escape from?",
+			"Somebody better fetch the sheriff for this one.",
+			"Don't go makin' a scene now."
+		]
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/converse/alta/nicemice",
+		"value" : 
+		[
+			"Ashal', little mouse!",
+			"Hey there. Love the ears.",
+			"Do you squeak when you get picked up?",
+			"You're like big mouse, but still so little!",
+			"What a strange little creature you are!"
+		]
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/converse/blattra/nicemice",
+		"value" : 
+		[
+			"Big mouse? BIG MOUSE???",
+			"So here I was, minding my own business MOUSE WHAT MOUSE BIG MOUSE WHAT IS GOING ON",
+			"Ah!",
+			"You are confusingly tall. And large. And mouse shaped.",
+			"You look like someone I'd take on a date to my favorite dumpster. Eh? Eh?"
+		]
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/converse/burmecian/nicemice",
+		"value" : 
+		[
+			"Greetings, small one.",
+			"Traveler, you seem far from home.",
+			"Are you lost? Oh, you're not a child. What are you?",
+			"Step aside, half-stride.",
+			"Your snout is awfully short, isn't it?"
+		]
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/converse/satkyterran/nicemice",
+		"value" : 
+		[
+			"Here to help us dig, mouse friend?",
+			"I love digging holes! You look like you do, too!",
+			"I found a rock today. Nothing special about it, but I like it anyway.",
+			"Sometimes I wonder if we're truly meant to keep digging these tunnels.",
+			"Is the sand soft where you're from?"
+		]
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/converse/moogle/nicemice",
+		"value" : 
+		[
+			"Welcome, kupo!",
+			"Kupopo. Kupokupo. Ku kupo ku-wait, you're not a moogle!",
+			"Your fur looks so sleek! How do you kupokeep it so short?",
+			"How do you stay balanced on those tiny ankles without wings, kupo?",
+			"It must be nice having a longer tail, kupo."
+		]
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/converse/viera/nicemice",
+		"value" : 
+		[
+			"What kind of moogle are you?",
+			"Did someone take your pom, little one?",
+			"Best to keep your visit short. Not all creatures are welcome to stay.",
+			"You don't seem the type. Not one bit.",
+			"Hmph."
+		]
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/converse/femalefeolviera/nicemice",
+		"value" : 
+		[
+			"What kind of moogle are you?",
+			"Did someone take your pom, little one?",
+			"Best to keep your visit short. Not all creatures are welcome to stay.",
+			"You don't seem the type. Not one bit.",
+			"Hmph."
+		]
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/converse/femaleveenaravaviera/nicemice",
+		"value" : 
+		[
+			"What kind of moogle are you?",
+			"Did someone take your pom, little one?",
+			"Best to keep your visit short. Not all creatures are welcome to stay.",
+			"You don't seem the type. Not one bit.",
+			"Hmph."
+		]
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/converse/malefeolviera/nicemice",
+		"value" : 
+		[
+			"What kind of moogle are you?",
+			"Did someone take your pom, little one?",
+			"Best to keep your visit short. Not all creatures are welcome to stay.",
+			"You don't seem the type. Not one bit.",
+			"Hmph."
+		]
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/converse/maleveenaravaviera/nicemice",
+		"value" : 
+		[
+			"What kind of moogle are you?",
+			"Did someone take your pom, little one?",
+			"Best to keep your visit short. Not all creatures are welcome to stay.",
+			"You don't seem the type. Not one bit.",
+			"Hmph."
+		]
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/converse/arcanian/nicemice",
+		"value" : 
+		[
+			"I don't think the guilds accept rodents. Doesn't hurt to ask, I suppose.",
+			"Don't start trouble unless you want trouble.",
+			"Looking at you makes me squint.",
+			"We don't get visitors like you very often.",
+			"Are you a seeker?"
+		]
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/converse/gelsemis/nicemice",
+		"value" : 
+		[
+			"TODO - I don't know how this race acts",
+			"TODO",
+			"TODO",
+			"TODO",
+			"TODO"
+		]
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/converse/gilten/nicemice",
+		"value" : 
+		[
+			"Greetings, small one.",
+			"We're descended from dragons - are you descended from giant mice?",
+			"The seekers are always looking to recruit help - even from creatures like you.",
+			"Have you ever used an energy bow?",
+			"Our golden forests don't have any creatures quite like yourself."
+		]
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/converse/deadbeat/nicemice",
+		"value" : 
+		[
+			"Yeah?",
+			"What's goin' on?",
+			"Keep your head down.",
+			"Lookin' for a fight?",
+			"Nah, I'd win."
+		]
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/converse/glutt/nicemice",
+		"value" : 
+		[
+			"Ms!",
+			"Bg rt!",
+			"Bg ms",
+			"Wht wrd lck",
+			"Frm rnd hr?"
+		]
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/converse/nuu/nicemice",
+		"value" : 
+		[
+			"You do not seem nice.",
+			"I am watching you. Yes, all four.",
+			"Looking at you makes my wings itch.",
+			"I do not want to think about the kinds of parasites you probably have.",
+			"How do you reach items on the top shelf?"
+		]
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/converse/aegi/nicemice",
+		"value" : 
+		[
+			"Who let you in here, little guy?",
+			"Woah! I thought you were a stuffed animal!",
+			"Here to join up with the Alliance?",
+			"Your ears are enormous.",
+			"Wow! A talking animal!"
+		]
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/converse/akkimari/nicemice",
+		"value" : 
+		[
+			"You ugly creature.",
+			"Do not like.",
+			"You leave now.",
+			"You go away.",
+			"You weird looking."
+		]
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/converse/avikan/nicemice",
+		"value" : 
+		[
+			"Rhodeis forgives you.",
+			"You don't look like desert folk to me.",
+			"We call these sands our home - where are you from?",
+			"Does the hot sand hurt your paws?",
+			"Have you ever tried dunestalk bread?"
+		]
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/converse/denelaun/nicemice",
+		"value" : 
+		[
+			"TODO - mimic translator issues, yes",
+			"TODO - mimic translator issues, no",
+			"TODO - mildly threatening, yes",
+			"TODO - random green colored text",
+			"TODO - neutral text, hm"
+		]
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/converse/neki/nicemice",
+		"value" : 
+		[
+			"Food!",
+			"How do I eat you?",
+			"I could chase you all day!",
+			"TODO - cat pun",
+			"TODO - cat pun"
+		]
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/converse/renamonlk/nicemice",
+		"value" : 
+		[
+			"TODO - this mod doesnt add npcs so low prio",
+			"TODO",
+			"TODO",
+			"TODO",
+			"TODO"
+		]
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/converse/sirene/nicemice",
+		"value" : 
+		[
+			"Was there something you needed?",
+			"You seem nice at first glance, but something's off.",
+			"Given the size of your ears, it's surprising you only have two eyes.",
+			"Sorry, I need to polish my scales. Another time though, okay?",
+			"You have feet, and that's weird, and I don't like it!"
+		]
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/converse/skumks/nicemice",
+		"value" : 
+		[
+			"You're like me, but shorter.",
+			"I was just wondering what would happen if I was half as tall as I currently am!",
+			"Wow! A mouse! In space! That's crazy!",
+			"Not very stripy, are you?",
+			"Do you float, like, in water?"
+		]
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/converse/bunnykin/nicemice",
+		"value" : 
+		[
+			"TODO - are there even bunnykin npcs?",
+			"TODO",
+			"TODO",
+			"TODO",
+			"TODO"
+		]
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/converse/arachne/nicemice",
+		"value" : 
+		[
+			"TODO - are there even arachne npcs?",
+			"TODO",
+			"TODO",
+			"TODO",
+			"TODO"
+		]
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/converse/lamia/nicemice",
+		"value" : 
+		[
+			"Hey there, friend! Looking good!",
+			"Love your hair. How does mine look?",
+			"Need help getting anything off the top shelf?",
+			"We should totally be friends.",
+			"I could just coil around you until you squeak!"
+		]
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/converse/mollopod/nicemice",
+		"value" : 
+		[
+			"Huh. Never seen anything like you before.",
+			"Greetings. Can I get you anything? Cheese?",
+			"Can your kind breathe underwater? No?",
+			"We try to keep things quiet around here.",
+			"Your ears are neat. Do they help you swim?"
+		]
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/converse/nicemice/nicemice",
+		"value" : 
+		[
+			"Thank goodnezz. Glad to zee you!",
+			"I've been waiting all day to zpeak with zomeone like you.",
+			"Your earz are zimply lovely!",
+			"Let'z be friendz.",
+			"Adjutant! How can I azzizt?"
+		]
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/converse/scyphojel/nicemice",
+		"value" : 
+		[
+			"Hello mouse-jol!",
+			"Are you lost-jol?",
+			"Such big ears-jol!",
+			"Do you take dust baths-jol?",
+			"You seem nice-jol!"
+		]
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/converse/shizubelle/nicemice",
+		"value" : 
+		[
+			"Hello, nice!",
+			"Nice to meet you, nice!",
+			"Planted any good trees lately, nice?",
+			"We should be pen-pals, nice!",
+			"When I think of the word 'nice', I see your face. Nice! Yup. There it is."
+		]
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/converse/spirittree/nicemice",
+		"value" : 
+		[
+			"Our light welcomes all who respect it.",
+			"We don't seem so different - but where is your light?",
+			"Is your homeworld protected by light, too?",
+			"I hope you don't find our scents distasteful!",
+			"You're always welcome in our home, mouse friend."
+		]
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/converse/trink/nicemice",
+		"value" : 
+		[
+			"Greetings, user.",
+			"The Circuit welcomes you, mouse.",
+			"Can you reach this spot on my back?",
+			"I'm envious of your paws.",
+			"I hope your ears aren't too cold. We keep it chilly around here."
+		]
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/converse/vesperian/nicemice",
+		"value" : 
+		[
+			"TODO - does this race have npcs?",
+			"TODO",
+			"TODO",
+			"TODO",
+			"TODO"
+		]
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/converse/spacekidds/nicemice",
+		"value" : 
+		[
+			"Baa.",
+			"Baa!",
+			"Baaaa.",
+			"Baaaaa!",
+			"Baaaaaaaaa."
+		]
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/converse/peglaci/nicemice",
+		"value" : 
+		[
+			"TODO - does this race have npcs?",
+			"TODO",
+			"TODO",
+			"TODO",
+			"TODO"
+		]
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/converse/lyceen/nicemice",
+		"value" : 
+		[
+			"TODO - does this race have npcs?",
+			"TODO",
+			"TODO",
+			"TODO",
+			"TODO"
+		]
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/converse/felin/nicemice",
+		"value" : 
+		[
+			"TODO - does this race have npcs?",
+			"TODO",
+			"TODO",
+			"TODO",
+			"TODO"
+		]
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/converse/saturn/nicemice",
+		"value" : 
+		[
+			"Squeak? I do that too!",
+			"I don't think we have any cheese, sorry!",
+			"Please don't hurt me.",
+			"Eek! Get away!",
+			"You are very tall for a mouse."
+		]
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/converse/saturn2/nicemice",
+		"value" : 
+		[
+			"Squeak? I do that too!",
+			"I don't think we have any cheese, sorry!",
+			"Please don't hurt me.",
+			"Eek! Get away!",
+			"You are very tall for a mouse."
+		]
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/converse/saturnmothman/nicemice",
+		"value" : 
+		[
+			"Squeak? I do that too!",
+			"I don't think we have any cheese, sorry!",
+			"Please don't hurt me.",
+			"Eek! Get away!",
+			"You are very tall for a mouse."
+		]
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/converse/fenerox/nicemice",
+		"value" : 
+		[
+			"Very short. Not fenerox? Feeling cautious.",
+			"Large ears! Very cute! Can touch?",
+			"Smells nice. Very earthy. Good sniffs!",
+			"Short fur. Big ears! Small fenerox?",
+			"Very small. How strange! Would pet."
+		]
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/converse/vashknaaren/nicemice",
+		"value" : 
+		[
+			"Where'd you come from?",
+			"What do you think of this place?",
+			"Your ears are very big. How do you deal with that?",
+			"You look very soft and squishy.",
+			"I don't know what to make of you."
+		]
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/converse/vashknaarenbiped/nicemice",
+		"value" : 
+		[
+			"Where'd you come from?",
+			"What do you think of this place?",
+			"Your ears are very big. How do you deal with that?",
+			"You look very soft and squishy.",
+			"I don't know what to make of you."
+		]
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/converse/phox/nicemice",
+		"value" : 
+		[
+			"Well you're just all sorts of short, aren't you?",
+			"Can I get you some cheese, mouse?",
+			"Keep out of trouble, will you?",
+			"Yup, you're a mouse.",
+			"Have you always been that short?"
+		]
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/converse/centens/nicemice",
+		"value" : 
+		[
+			"TODO - does this race have any npcs?",
+			"TODO",
+			"TODO",
+			"TODO",
+			"TODO"
+		]
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/converse/droden/nicemice",
+		"value" : 
+		[
+			"This unit does not have a database entry for your species.",
+			"This unit does not know how to respond to you.",
+			"This unit cannot assist at this time.",
+			"This unit must recalibrate to speak at your height.",
+			"This unit does not have a translator installed for your species."
+		]
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/converse/thelean/nicemice",
+		"value" : 
+		[
+			"TODO",
+			"TODO",
+			"TODO",
+			"TODO",
+			"TODO"
+		]
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/converse/bangaa/nicemice",
+		"value" : 
+		[
+			"TODO",
+			"TODO",
+			"TODO",
+			"TODO",
+			"TODO"
+		]
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/converse/squamaeft/nicemice",
+		"value" : 
+		[
+			"TODO",
+			"TODO",
+			"TODO",
+			"TODO",
+			"TODO"
+		]
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/converse/penguin/nicemice",
+		"value" : 
+		[
+			"Ahoy there, short stuff!",
+			"How's it doin', squeaky?",
+			"You look like you'd make a good pirate.",
+			"Ever considered joining a pirate crew?",
+			"What's your pirate name? Captain cheesebeard?"
+		]
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/converse/shadow/nicemice",
+		"value" : 
+		[
+			//not really sure if this is necessary
+			"..."
+		]
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/converse/lastree/nicemice",
+		"value" : 
+		[
+			"TODO - does this race have npcs?",
+			"TODO",
+			"TODO",
+			"TODO",
+			"TODO"
+		]
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/converse/mechit/nicemice",
+		"value" : 
+		[
+			"TODO",
+			"TODO",
+			"TODO",
+			"TODO",
+			"TODO"
+		]
+	},
+	
+	{
+		"op" : "add",
+		"path" : "/converse/canera/nicemice",
+		"value" : 
+		[
+			"Woof! Mouse!",
+			"You look soft.",
+			"A mouse? A mouse!",
+			"You are the right size for head patting.",
+			"I've never seen a mouse in your size before."
+		]
+	}
 ]

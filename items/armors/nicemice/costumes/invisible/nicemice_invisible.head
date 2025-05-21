@@ -1,0 +1,15 @@
+{
+	"itemName" : "nicemice_invisiblehead",
+	"price" : 0,
+	"inventoryIcon" : "icons.png:head",
+	"maxStack" : 1,
+	"rarity" : "Common",
+	"category" : "headwear",
+	"description" : "Hides the item in your head slot.",
+	"shortdescription" : "Invisible Head",
+	"tooltipKind" : "armor",
+	"maleFrames" : "head.png",
+	"femaleFrames" : "head.png",
+	"mask" : "mask.png",
+	"colorOptions" : [{ "ffca8a" : "ffffa7", "e0975c" : "e2c344", "a85636" : "a46e06", "6f2919" : "642f00" }]
+}

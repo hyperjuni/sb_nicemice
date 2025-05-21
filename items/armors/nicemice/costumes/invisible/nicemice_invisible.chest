@@ -1,0 +1,24 @@
+{
+	"itemName" : "nicemice_invisiblechest",
+	"price" : 0,
+	"inventoryIcon" : "icons.png:chest",
+	"maxStack" : 1,
+	"rarity" : "Common",
+	"category" : "chestwear",
+	"description" : "Hides the item in your chest slot.",
+	"shortdescription" : "Invisible Chest",
+	"tooltipKind" : "armor",
+	"maleFrames" : 
+	{
+		"body" : "nicemice_chestm.png",
+		"backSleeve" : "bsleeve.png",
+		"frontSleeve" : "fsleeve.png"
+	},
+	"femaleFrames" : 
+	{
+		"body" : "nicemice_chestf.png",
+		"backSleeve" : "bsleeve.png",
+		"frontSleeve" : "fsleeve.png"
+	},
+	"colorOptions" : [{ "ffca8a" : "ffffa7", "e0975c" : "e2c344", "a85636" : "a46e06", "6f2919" : "642f00" }]
+}

@@ -1,0 +1,57 @@
+{
+  "type" : "nicemice_crewmembermechanic",
+  "baseType" : "nicemice_crewmember",
+
+  "scriptConfig" : {
+    "behaviorConfig" : {
+      "emptyHands" : false
+    },
+
+    "crew" : {
+      "role" : {
+        "type" : "mechanic",
+        "name" : "Mechanic",
+        "field" : "Technical",
+        //"uniformColorIndex" : 8,
+
+        "benefits" : [
+          {
+            "type" : "ShipUpgradeBenefit",
+            "property" : "fuelEfficiency",
+            "value" : 0.1
+          }
+        ]
+      },
+	  
+	  "defaultUniform" : {
+	    "head" : "nicemice_invisiblehead",
+        "chest" : "nicemice_jumpsuitchest",
+        "legs" : "nicemice_jumpsuitlegs"
+      }
+    },
+
+    "dialog" : {
+      "crewmember" : {
+        "roleDescription" : {
+          "default" : {
+            "default" : [
+              "I'll keep clearing out ze carburetor vhile I'm here. Fuel effizienzy iz up ten perzent!"
+            ]
+          }
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "default" : [
+      [0, [
+          {
+            "chest" : [ { "name" : "nicemice_jumpsuitchest" } ],
+            "legs" : [ { "name" : "nicemice_jumpsuitlegs" } ],
+            "primary" : [ "npcwrench" ]
+          }
+        ] ]
+    ]
+  }
+}

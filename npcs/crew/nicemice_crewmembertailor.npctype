@@ -1,0 +1,69 @@
+{
+  "type" : "nicemice_crewmembertailor",
+  "baseType" : "nicemice_crewmember",
+
+  "scriptConfig" : {
+    "behaviorConfig" : {
+      "emptyHands" : true
+    },
+
+    "crew" : {
+      "role" : {
+        "type" : "tailor",
+        "name" : "Tailor",
+        "field" : "Fazhion"
+        //"uniformColorIndex" : 9
+      },
+
+      // This interactActions only happens when in a crew, and only when
+      // interacted with by the captain.
+      "interactAction" : "Message",
+      "interactData" : {
+        "messageType" : "recruits.offerUniformUpdate",
+        "messageArgs" : [ ]
+      },
+	  
+	  "defaultUniform" : {
+	    "head" : "nicemice_invisiblehead",
+        "chest" : "nicemice_jumpsuitchest",
+        "legs" : "nicemice_jumpsuitlegs"
+      }
+    },
+
+    "dialog" : {
+      "crewmember" : {
+        "roleDescription" : {
+          "default" : {
+            "default" : [
+              "Come to me if you vant to update your crew'z uniform!",
+              "My tailoring zkillz let me update your crew'z uniform. Juzt zpeak to me vhen you need my zervicez!"
+            ]
+          }
+        }
+      },
+      "converse" : {
+        "default" : {
+          "default" : [
+            "Zat look iz definitely in ziz zeazon!",
+            "Looking good!",
+            "Ziz outfit vill make your crew really ztand out. Great choize, captain!",
+            "Incredible fazhion zenze, captain!"
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "default" : [
+      [0, [
+          {
+            "chest" : [ { "name" : "nicemice_jumpsuitchest" } ],
+            "legs" : [ { "name" : "nicemice_jumpsuitlegs" } ],
+            //"primary" : ["flowerbouquet"]
+            "sheathedprimary" : [ "npcmachinepistol" ]
+          }
+        ] ]
+    ]
+  }
+}

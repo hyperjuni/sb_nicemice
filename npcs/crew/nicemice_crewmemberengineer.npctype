@@ -1,0 +1,57 @@
+{
+  "type" : "nicemice_crewmemberengineer",
+  "baseType" : "nicemice_crewmember",
+
+  "scriptConfig" : {
+    "behaviorConfig" : {
+      "emptyHands" : true
+    },
+
+    "crew" : {
+      "role" : {
+        "type" : "engineer",
+        "name" : "Engineer",
+        "field" : "Engineering",
+        //"uniformColorIndex" : 5,
+
+        "benefits" : [
+          {
+            "type" : "ShipUpgradeBenefit",
+            "property" : "shipSpeed",
+            "value" : 3.75
+          }
+        ]
+      },
+	  
+	  "defaultUniform" : {
+	    "head" : "nicemice_invisiblehead",
+        "chest" : "nicemice_jumpsuitchest",
+        "legs" : "nicemice_jumpsuitlegs"
+      }
+    },
+
+    "dialog" : {
+      "crewmember" : {
+        "roleDescription" : {
+          "default" : {
+            "default" : [
+              "I'll keep your enginez in good zhape. Thruzt velozity iz up by twenty-five perzent!"
+            ]
+          }
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "default" : [
+      [0, [
+          {
+            "chest" : [ { "name" : "nicemice_jumpsuitchest" } ],
+            "legs" : [ { "name" : "nicemice_jumpsuitlegs" } ],
+            "sheathedprimary" : [ "npcmachinepistol" ]
+          }
+        ] ]
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "type" : "nicemice_crewmemberjanitor",
+  "baseType" : "nicemice_crewmember",
+
+  "scriptConfig" : {
+    "behaviorConfig" : {
+      "emptyHands" : true
+    },
+
+    "crew" : {
+      "role" : {
+        "type" : "janitor",
+        "name" : "Janitor",
+        "field" : "Cleanlinezz"
+        //"uniformColorIndex" : 11
+      },
+	  
+	  "defaultUniform" : {
+	    "head" : "nicemice_invisiblehead",
+        "chest" : "nicemice_jumpsuitchest",
+        "legs" : "nicemice_jumpsuitlegs"
+      }
+    },
+
+    "dialog" : {
+      "crewmember" : {
+        "roleDescription" : {
+          "default" : {
+            "default" : [
+              "I'm <selfname>... Ze janitor.",
+              "Ze name'z <selfname>... Ze janitor."
+            ]
+          }
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "default" : [
+      [0, [
+          {
+            "chest" : [ { "name" : "nicemice_jumpsuitchest" } ],
+            "legs" : [ { "name" : "nicemice_jumpsuitlegs" } ],
+            "primary" : [ "broom" ],
+            "sheathedprimary" : [ "npcmachinepistol" ]
+          }
+        ] ]
+    ]
+  }
+}

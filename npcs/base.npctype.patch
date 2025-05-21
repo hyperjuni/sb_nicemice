@@ -1,17 +1,17 @@
 [
 	{
 		"op" : "add",
-		"path" : "/scriptConfig/chatSounds/nicemice",
+		"path" : "/scriptConfig/chatSounds/nicemice_npc",
 		"value" : {}
 	},
 	{
 		"op" : "add",
-		"path" : "/scriptConfig/chatSounds/nicemice/male",
+		"path" : "/scriptConfig/chatSounds/nicemice_npc/male",
 		"value" : ["/sfx/humanoid/nicemice_chatter_male1.ogg"]
 	},
 	{
 		"op" : "add",
-		"path" : "/scriptConfig/chatSounds/nicemice/female",
+		"path" : "/scriptConfig/chatSounds/nicemice_npc/female",
 		"value" : ["/sfx/humanoid/nicemice_chatter_female1.ogg"]
 	}
 ]

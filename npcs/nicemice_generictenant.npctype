@@ -1,0 +1,21 @@
+{
+  "type" : "nicemice_generictenant",
+  "baseType" : "nicemice_villager",
+  
+  "dropPools" : [],
+
+  "scriptConfig" : {
+    "behaviorConfig" : {
+      "greetingChance" : 0
+    },
+    "questGenerator" : {
+      "pools" : ["common", "tenant"],
+      "enableParticipation" : true,
+
+      "timeLimit" : 30,
+      "nearbyQuestLimit" : 2,
+      "nearbyQuestRange" : 50,
+      "chance" : 0.02
+    }
+  }
+}

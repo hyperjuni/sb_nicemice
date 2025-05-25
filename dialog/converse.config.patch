@@ -143,7 +143,7 @@
 				
 				"Greetingz, bug.",
 				"Dig up anyt'ing interezting today?",
-				"It'z been awhile. How'z the hive?",
+				"It'z been avhile. How'z the hive?",
 				"Zorry, I'm not into bugz.",
 				"Good to zee you, bug."
 			]
@@ -545,7 +545,7 @@
 				"You're food, not a perzon.",
 				"Feazherz are dizguzting.",
 				"Your beak is crooked.",
-				"You neither cute nor velcome here.",
+				"You are neither cute nor velcome here.",
 				"You belong in a fryer."
 			]
 		},
@@ -658,7 +658,7 @@
 				"Leave me alone, pleaze.",
 				"Azk zomeone elze.",
 				
-				"Yuck.",
+				"Yuck. Twize.",
 				"Zpeak clearly, pleaze.",
 				"Ekzcuze me?",
 				"Zorry, vat?",
@@ -1266,6 +1266,29 @@
 		},
 		{
 			"op" : "add",
+			"path" : "/greeting/nicemice_npc/protogenrace1",
+			"value" : 
+			[
+				"Vat do you vant?",
+				"Yuck.",
+				"You ztink. Go avay.",
+				"Not interezted.",
+				"Get lozt.",
+				"Pizz off.",
+				"You zmell terrible.",
+				"No zoliziting.",
+				"Leave me alone, pleaze.",
+				"Azk zomeone elze.",
+				
+				"Vile creature.",
+				"You are not cute. You are dizguzting.",
+				"Your entire zpeciez zhould be ekzterminated.",
+				"Every protogen iz kill-on-zight.",
+				"The fleet iz coming for you, nazty animal."
+			]
+		},
+		{
+			"op" : "add",
 			"path" : "/greeting/nicemice_npc/mechit",
 			"value" : 
 			[
@@ -1472,7 +1495,7 @@
 				"Hi zhere.",
 				
 				"Hello, trink.",
-				"Zend my regardz to the zircuit.",
+				"Zend my regardz to ze Zircuit.",
 				"Velcome, friendbot.",
 				"How goez maintenance?",
 				"Zudo make yourzelf at home. Haha!"

@@ -1,5 +1,10 @@
 function nicemice_getPlayerSkinDirectives()
-	local portrait = world.entityPortrait(entity.id(), "full")
+	return nicemice_getEntitySkinDirectives(entity.id())
+end
+
+function nicemice_getEntitySkinDirectives(id)
+	local portrait = world.entityPortrait(id, "full")
+	if not portrait then return nil end
 	for key, value in pairs(portrait) do
 		if string.find(portrait[key].image, "body.png") then
 			local body_image =  portrait[key].image

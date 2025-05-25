@@ -1,6 +1,6 @@
 require "/scripts/nicemice_util.lua"
 
-function nicemice_scriptedVillagerBehavior(args, board)
+function nicemice_scriptedCrewMemberBehavior(args, board)
 	status.setPersistentEffects("nicemice_recolorable_tail", {"nicemice_recolorable_tail"})
 	return nicemice_setNPCBehavior(args.behavior)
 end

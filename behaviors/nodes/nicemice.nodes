@@ -21,5 +21,18 @@
 		"category": "nicemice",
 		"script": "/npcs/nicemice_scriptedVillagerBehavior.lua",
 		"output": {}
+	},
+	"nicemice_scriptedCrewMemberBehavior" : 
+	{
+		"type": "action",
+		"name": "nicemice_scriptedCrewMemberBehavior",
+		"title": "nicemice_scriptedCrewMemberBehavior",
+		"properties": 
+		{
+			"behavior": {"type": "string", "value": "crewmember"}
+		},
+		"category": "nicemice",
+		"script": "/npcs/crew/nicemice_scriptedCrewMemberBehavior.lua",
+		"output": {}
 	}
 }

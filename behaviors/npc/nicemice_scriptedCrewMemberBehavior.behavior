@@ -1,0 +1,34 @@
+{
+  "name": "nicemice_scriptedCrewMemberBehavior",
+  "description": "",
+  "scripts": [
+    "/scripts/actions/animator.lua",
+    "/scripts/actions/time.lua",
+    "/scripts/actions/movement.lua",
+	"/npcs/nicemice_npcHooks.lua",
+	"/npcs/crew/nicemice_scriptedCrewMemberBehavior.lua"
+  ],
+  "parameters": {
+    "play": true
+  },
+  "root": {
+    "title": "sequence",
+    "type": "composite",
+    "name": "sequence",
+    "parameters": {},
+    "children": [
+	  {
+	    "title": "nicemice_initHooks",
+		"type": "action",
+		"name": "nicemice_initHooks",
+		"parameters": {}
+	  },
+	  {
+	    "title": "nicemice_scriptedCrewMemberBehavior",
+		"type": "action",
+		"name": "nicemice_scriptedCrewMemberBehavior",
+		"parameters": { "behavior" : { "value" : "crewmember"} }
+	  }
+	]
+  }
+}

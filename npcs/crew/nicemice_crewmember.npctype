@@ -12,7 +12,7 @@
   "persistent" : true,
 
   "scriptConfig" : {
-    "behavior" : "crewmember",
+    "behavior" : "nicemice_scriptedCrewMemberBehavior",
     "behaviorConfig" : {
       "emptyHands" : false,
 
@@ -94,7 +94,8 @@
       "defaultUniform" : {
 	    "head" : "nicemice_invisiblehead",
         "chest" : "nicemice_jumpsuitchest",
-        "legs" : "nicemice_jumpsuitlegs"
+        "legs" : "nicemice_jumpsuitlegs",
+		"back" : "nicemice_tail_mouse"
       },
       "uniformSlots" : ["head", "headCosmetic", "chest", "chestCosmetic", "legs", "legsCosmetic", "back", "backCosmetic"]
     },
@@ -215,6 +216,7 @@
           {
             "chest" : [ { "name" : "nicemice_jumpsuitchest" } ],
             "legs" : [ { "name" : "nicemice_jumpsuitlegs" } ],
+			"back" : [ { "name" : "nicemice_tail_mouse" } ],
             "sheathedprimary" : [ "npcmachinepistol" ]
           }
         ] ]

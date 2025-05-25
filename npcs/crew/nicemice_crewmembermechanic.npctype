@@ -26,7 +26,8 @@
 	  "defaultUniform" : {
 	    "head" : "nicemice_invisiblehead",
         "chest" : "nicemice_jumpsuitchest",
-        "legs" : "nicemice_jumpsuitlegs"
+        "legs" : "nicemice_jumpsuitlegs",
+		"back" : "nicemice_tail_mouse"
       }
     },
 
@@ -49,6 +50,7 @@
           {
             "chest" : [ { "name" : "nicemice_jumpsuitchest" } ],
             "legs" : [ { "name" : "nicemice_jumpsuitlegs" } ],
+			"back" : [ { "name" : "nicemice_tail_mouse" } ],
             "primary" : [ "npcwrench" ]
           }
         ] ]

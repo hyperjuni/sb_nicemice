@@ -6,12 +6,7 @@
 			{
 				"fill" : 
 				[
-					{"item" : [ "cannedfood", 1 ]},
-					{"item" : [ "cannedfood", 1 ]},
-					{"item" : [ "cannedfood", 1 ]},
-					{"item" : [ "cannedfood", 1 ]},
-					{"item" : [ "flashlight", 1 ]},
-					{"item" : [ "torch", 10 ]},
+					{"pool" : "starterTreasure"},
 					{"item" : [ "nicemice_nakedvillagerspawner", 10 ]},
 					{"item" : [ "nicemice_villagerspawner", 10 ]},
 					{"item" : [ "nicemice_invisiblehead", 1 ]},

@@ -1,0 +1,34 @@
+{
+  "name": "nicemice_scriptedOutpostVisitorBehavior",
+  "description": "",
+  "scripts": [
+    "/scripts/actions/animator.lua",
+    "/scripts/actions/time.lua",
+    "/scripts/actions/movement.lua",
+	"/npcs/nicemice_npcHooks.lua",
+	"/npcs/outpost/visitors/nicemice_scriptedOutpostVisitorBehavior.lua"
+  ],
+  "parameters": {
+    "play": true
+  },
+  "root": {
+    "title": "sequence",
+    "type": "composite",
+    "name": "sequence",
+    "parameters": {},
+    "children": [
+	  {
+	    "title": "nicemice_initHooks",
+		"type": "action",
+		"name": "nicemice_initHooks",
+		"parameters": {}
+	  },
+	  {
+	    "title": "nicemice_scriptedOutpostVisitorBehavior",
+		"type": "action",
+		"name": "nicemice_scriptedOutpostVisitorBehavior",
+		"parameters": { "behavior" : { "value" : "outpostvisitor"} }
+	  }
+	]
+  }
+}

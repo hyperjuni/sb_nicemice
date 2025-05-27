@@ -1,0 +1,13 @@
+[
+	[
+		{
+			"op" : "add",
+			"path" : "/npctypes/-",
+			"value" : 
+			{
+				"type" : "nicemice_visitor",
+				"species" : [ "nicemice_npc" ]
+			}
+		}
+	]
+]

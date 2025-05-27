@@ -1,0 +1,48 @@
+{
+	"type" : "nicemice_visitor",
+	"baseType" : "outpostvisitor",
+	"damageTeamType" : "friendly",
+	"statusControllerSettings" : 
+	{
+		"statusProperties" : 
+		{
+			"effectDirectives" : ""
+		}
+	},
+
+	"scriptConfig" : 
+	{
+		"behavior" : "nicemice_scriptedOutpostVisitorBehavior",
+		"dialog" : 
+		{
+			"converse" : "/dialog/nicemice_visitor.config:converse"
+		}
+	},
+
+	"matchColorIndices" : true,
+	"items" : 
+	{
+		"override" : 
+		[
+			[
+				0, 
+				[
+					{
+						"back" : 
+						[
+							{ "name" : "nicemice_tail_mouse" }
+						],
+						"chest" :
+						[
+							{ "name" : "nicemice_jumpsuitchest" }
+						],
+						"legs" :
+						[
+							{ "name" : "nicemice_jumpsuitlegs" }
+						]
+					}
+				] 
+			]
+		]
+	}
+}

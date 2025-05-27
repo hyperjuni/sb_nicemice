@@ -34,5 +34,18 @@
 		"category": "nicemice",
 		"script": "/npcs/crew/nicemice_scriptedCrewMemberBehavior.lua",
 		"output": {}
+	},
+	"nicemice_scriptedOutpostVisitorBehavior" : 
+	{
+		"type": "action",
+		"name": "nicemice_scriptedOutpostVisitorBehavior",
+		"title": "nicemice_scriptedOutpostVisitorBehavior",
+		"properties": 
+		{
+			"behavior": {"type": "string", "value": "outpostvisitor"}
+		},
+		"category": "nicemice",
+		"script": "/npcs/outpost/visitors/nicemice_scriptedOutpostVisitorBehavior.lua",
+		"output": {}
 	}
 }

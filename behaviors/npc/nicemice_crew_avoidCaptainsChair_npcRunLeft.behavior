@@ -1,0 +1,49 @@
+{
+	"name": "nicemice_crew_avoidCaptainsChair_npcRunLeft",
+	"description": "",
+	"scripts": 
+	[
+		"/scripts/actions/animator.lua",
+		"/scripts/actions/time.lua",
+		"/scripts/actions/movement.lua",
+		"/npcs/nicemice_npcHooks.lua"
+	],
+	"parameters": 
+	{
+		"alwaysRun" : false
+	},
+	"root": 
+	{
+		"title": "sequence",
+		"type": "composite",
+		"name": "sequence",
+		"parameters": {},
+		"children": 
+		[
+			{
+				"title": "nicemice_npc_move",
+				"type": "action",
+				"name": "nicemice_npc_move",
+				"parameters": 
+				{
+					"direction": {"value": -1},
+					"run": {"key": "<alwaysRun>"},
+					"respectLedges": {"value" : true},
+					"timeout" : 5
+				}
+			},
+			{
+				"title": "nicemice_scriptedCrewMemberBehavior",
+				"type": "action",
+				"name": "nicemice_scriptedCrewMemberBehavior",
+				"parameters": 
+				{ 
+					"behavior" : 
+					{ 
+						"value" : "crewmember"
+					} 
+				}
+			}
+		]
+	}
+}

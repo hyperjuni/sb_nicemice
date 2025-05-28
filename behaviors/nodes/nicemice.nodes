@@ -47,5 +47,37 @@
 		"category": "nicemice",
 		"script": "/npcs/outpost/visitors/nicemice_scriptedOutpostVisitorBehavior.lua",
 		"output": {}
+	},
+	"nicemice_npc_move": 
+	{
+		"type": "action",
+		"name": "nicemice_npc_move",
+		"title": "nicemice_npc_move",
+		"properties": 
+		{
+			"direction": 
+			{
+				"type": "number", 
+				"value": 1
+			},
+			"run": 
+			{
+				"type": "bool", 
+				"value": false
+			},
+			"respectLedges": 
+			{
+				"type": "bool", 
+				"value": true
+			},
+			"timeout" : 
+			{
+				"type" : "number",
+				"value" : 10
+			}
+		},
+		"category": "nicemice",
+		"script": "/npcs/nicemice_npcHooks.lua",
+		"output": {}
 	}
 }

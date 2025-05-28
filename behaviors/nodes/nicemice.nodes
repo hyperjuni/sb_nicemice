@@ -69,11 +69,6 @@
 			{
 				"type": "bool", 
 				"value": true
-			},
-			"timeout" : 
-			{
-				"type" : "number",
-				"value" : 10
 			}
 		},
 		"category": "nicemice",

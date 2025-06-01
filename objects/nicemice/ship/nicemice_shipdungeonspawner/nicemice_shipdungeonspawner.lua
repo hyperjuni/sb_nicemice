@@ -21,12 +21,16 @@ function init()
 	)
 end
 --  the ship upgrade tier manager has spawned successfully
+local upgradeSuccess = false
 function recvReplyUpgrade()
 	upgradeSuccess = true
+	sb.logInfo("upgrade is good")
 end
 --  the ship lower left corner boundary marker has spawned successfully
+local boundarySuccess = false
 function recvReplyBoundary()
 	boundarySuccess = true
+	sb.logInfo("boundary is good")
 end
 
 --  whether or not we've attempted to place a dungeon
@@ -37,34 +41,8 @@ function update(dt)
 end
 
 function awa()
-	--sb.logInfo("dungeonSpawner upd")
-	local smashTier = config.getParameter("smashTier")
-	if world.getProperty("nicemice_currentShipTier") == smashTier then
-		if upgradeSuccess and boundarySuccess then
-			object.smash(true)
-		else
-			world.loadRegion(shipArea) 
-		end
-		return
-	end
-	
-	local requiredTier = config.getParameter("requiredTier")
-	local shipArea = rect.translate({-200, -10, 150, 90}, entity.position())
-	
-	if (world.getProperty("nicemice_currentShipTier") == requiredTier) or (requiredTier == "none") then
-		if not hasSpawned then
-			if world.loadRegion(shipArea) then
-				local p = object.toAbsolutePosition({0,0})
-				if config.getParameter("enableSpaceBoundary") then
-					world.setProperty("nicemice_enableSpaceBoundary", true)
-				end
-				hasSpawned = true
-				world.placeDungeon(config.getParameter("dungeon"), {p[1], p[2]});
-			end
-		end
-	end
-	
 	--  keep the area we're trying to build in loaded until it's safe to despawn
+	local shipArea = rect.translate({-200, -10, 150, 90}, entity.position())
 	if hasSpawned then
 		world.loadRegion(shipArea)
 		local q = world.objectQuery(entity.position(), 5000, { objectName = "nicemice_shipconfirmupgrade" } )
@@ -81,6 +59,31 @@ function awa()
 				if world.entityExists(v) then
 					world.sendEntityMessage(v,"nicemice_confirmWorldInit",{senderId = entity.id()})
 				end
+			end
+		end
+	end
+	
+	--sb.logInfo("dungeonSpawner upd")
+	local smashTier = config.getParameter("smashTier")
+	if world.getProperty("nicemice_currentShipTier") == smashTier then
+		if upgradeSuccess and boundarySuccess then
+			object.smash(true)
+		else
+			world.loadRegion(shipArea) 
+		end
+		return
+	end
+	
+	local requiredTier = config.getParameter("requiredTier")
+	if (world.getProperty("nicemice_currentShipTier") == requiredTier) or (requiredTier == "none") then
+		if not hasSpawned then
+			if world.loadRegion(shipArea) then
+				local p = object.toAbsolutePosition({0,0})
+				if config.getParameter("enableSpaceBoundary") then
+					world.setProperty("nicemice_enableSpaceBoundary", true)
+				end
+				hasSpawned = true
+				world.placeDungeon(config.getParameter("dungeon"), {p[1], p[2]});
 			end
 		end
 	end

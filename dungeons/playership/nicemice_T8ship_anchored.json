@@ -20,7 +20,7 @@
     
         {
          "compression":"zlib",
-         "data":"eJy7xcDAAAADbADb",
+         "data":"eJxjYGBgAAAABAAB",
          "encoding":"base64",
          "height":1,
          "id":2,
@@ -1588,7 +1588,7 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":520,
+                 "width":392,
                  "x":-392,
                  "y":-56
                 },
@@ -1663,6 +1663,60 @@
                  "width":240,
                  "x":888,
                  "y":-296
+                },
+            
+                {
+                 "height":48,
+                 "id":1902,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"dungeonid",
+                         "type":"string",
+                         "value":"65525"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":0,
+                 "y":-56
+                },
+            
+                {
+                 "height":24,
+                 "id":1903,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"dungeonid",
+                         "type":"string",
+                         "value":"65525"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":0,
+                 "y":0
+                },
+            
+                {
+                 "height":80,
+                 "id":1904,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"dungeonid",
+                         "type":"string",
+                         "value":"65525"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":120,
+                 "x":8,
+                 "y":-56
                 }],
          "opacity":1,
          "properties":[
@@ -8208,8 +8262,8 @@
                  "type":"",
                  "visible":true,
                  "width":8,
-                 "x":8,
-                 "y":8
+                 "x":-144,
+                 "y":16
                 },
             
                 {
@@ -8275,7 +8329,7 @@
          "y":0
         }],
  "nextlayerid":38,
- "nextobjectid":1902,
+ "nextobjectid":1905,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.10.0",

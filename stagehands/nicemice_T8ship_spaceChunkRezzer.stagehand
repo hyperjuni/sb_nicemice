@@ -1,0 +1,7 @@
+{
+  "type" : "nicemice_T8ship_spaceChunkRezzer",
+  "keepAlive" : true,
+
+  "scripts" : ["/stagehands/nicemice_T8ship_spaceChunkRezzer.lua"],
+  "scriptDelta" : 1
+}

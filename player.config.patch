@@ -37,5 +37,12 @@
 		"op" : "add",
 		"path" : "/deploymentConfig/scripts/-",
 		"value" : "/scripts/deployment/nicemice_playermechdeployment.lua"
+	},
+	
+	//T8 nicemice ship space exploration
+	{
+		"op" : "add",
+		"path" : "/deploymentConfig/scripts/-",
+		"value" : "/scripts/player/nicemice_t8shipspacegenerator.lua"
 	}
 ]

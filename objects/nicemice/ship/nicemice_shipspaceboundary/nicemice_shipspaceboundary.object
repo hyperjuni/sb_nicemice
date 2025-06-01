@@ -1,0 +1,28 @@
+{
+  "objectName" : "nicemice_shipspaceboundary",
+  "colonyTags" : ["misc"],
+  "rarity" : "Common",
+  "description" : "Zivilized zpeziez build zheir zhipz uzing modern toolz.",
+  "shortdescription" : "Nicemice Ship Component Upgrade Confirmation",
+  "race" : "nicemice",
+  "printable" : false,
+  "category" : "spawner",
+  "price" : 0,
+  "inventoryIcon" : "nicemice_shipspaceboundaryicon.png",
+  "orientations" : [
+    {
+      "image" : "nicemice_shipspaceboundary.png",
+      "imagePosition" : [0, 0],
+      "direction" : "right",
+      "spaceScan" : 0.1,
+      "anchors" : [ ]
+    }
+  ],
+  "scripts" : 
+  [ 
+	"/objects/nicemice/ship/nicemice_shipspaceboundary/nicemice_shipspaceboundary.lua"
+  ],
+  "scriptDelta" : 1,
+  "smashOnBreak" : true,
+  "corner" : "unknown"
+}

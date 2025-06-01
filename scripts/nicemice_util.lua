@@ -23,3 +23,9 @@ function nicemice_setNPCBehavior(b)
     self.board:setPosition("spawn", storage.spawnPosition)	
 	return true
 end
+
+function nicemice_initWorldId()
+	if not world.getProperty("nicemice_worldId") then
+		world.setProperty("nicemice_worldId", sb.makeUuid())
+	end
+end

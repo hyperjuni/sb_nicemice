@@ -1,0 +1,28 @@
+{
+  "objectName" : "nicemice_shipdungeonspawner",
+  "colonyTags" : ["misc"],
+  "rarity" : "Common",
+  "description" : "Zivilized zpeziez build zheir zhipz uzing modern toolz.",
+  "shortdescription" : "Nicemice Ship Component Spawner",
+  "race" : "nicemice",
+  "printable" : false,
+  "category" : "spawner",
+  "price" : 0,
+  "inventoryIcon" : "nicemice_shipdungeonspawnericon.png",
+  "orientations" : [
+    {
+      "image" : "nicemice_shipdungeonspawner.png",
+      "imagePosition" : [0, 0],
+      "direction" : "right",
+      "spaceScan" : 0.1,
+      "anchors" : [ ]
+    }
+  ],
+  "scripts" : 
+  [ 
+	"/objects/nicemice/ship/nicemice_shipdungeonspawner/nicemice_shipdungeonspawner.lua"
+  ],
+  "scriptDelta" : 1,
+  "smashOnBreak" : true,
+  "dungeon" : "nicemice_T0ship"
+}

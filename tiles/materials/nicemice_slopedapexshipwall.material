@@ -1,0 +1,26 @@
+{
+  "materialId" : 58710,
+  "materialName" : "nicemice_slopedapexshipwall",
+  "particleColor" : [182, 182, 182, 255],
+  "itemDrop" : "nicemice_slopedapexshipwall",
+
+  "description" : "A sleek metal wall panel.",
+  "glitchDescription" : "Impressed. These removable panels are smooth and strong.",
+  "floranDescription" : "Metal panel makess ssmooth wall.",
+  "novakidDescription" : "A panel made outta metal.",
+
+  "shortdescription" : "Sloped Wall Panel",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 20,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "nicemice_slopedapexshipwall.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 4999
+  }
+}

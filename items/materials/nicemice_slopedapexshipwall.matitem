@@ -1,0 +1,15 @@
+{
+  "itemName" : "nicemice_slopedapexshipwall",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "nicemice_slopedapexshipwall.png",
+  "description" : "A sleek metal wall panel.",
+  "shortdescription" : "Sloped Wall Panel",
+  "glitchdescription" : "Impressed. These removable panels are smooth and strong.",
+  "florandescription" : "Metal panel makess ssmooth wall.",
+  "novakiddescription" : "A panel made outta metal.",
+
+  "materialId" : 58710,
+  "learnBlueprintsOnPickup" : [ "apexshipwall" ]
+}

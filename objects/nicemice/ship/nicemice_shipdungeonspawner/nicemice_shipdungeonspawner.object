@@ -22,7 +22,7 @@
   [ 
 	"/objects/nicemice/ship/nicemice_shipdungeonspawner/nicemice_shipdungeonspawner.lua"
   ],
-  "scriptDelta" : 1,
+  "scriptDelta" : 10,
   "smashOnBreak" : true,
   "dungeon" : "nicemice_T0ship"
 }

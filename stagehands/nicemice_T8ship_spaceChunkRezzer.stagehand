@@ -3,5 +3,5 @@
   "keepAlive" : true,
 
   "scripts" : ["/stagehands/nicemice_T8ship_spaceChunkRezzer.lua"],
-  "scriptDelta" : 1
+  "scriptDelta" : 10
 }

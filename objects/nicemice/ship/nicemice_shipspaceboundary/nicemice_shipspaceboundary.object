@@ -22,7 +22,7 @@
   [ 
 	"/objects/nicemice/ship/nicemice_shipspaceboundary/nicemice_shipspaceboundary.lua"
   ],
-  "scriptDelta" : 1,
+  "scriptDelta" : 10,
   "smashOnBreak" : true,
   "corner" : "unknown"
 }

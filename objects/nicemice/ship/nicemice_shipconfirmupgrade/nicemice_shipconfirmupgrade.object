@@ -22,7 +22,7 @@
   [ 
 	"/objects/nicemice/ship/nicemice_shipconfirmupgrade/nicemice_shipconfirmupgrade.lua"
   ],
-  "scriptDelta" : 1,
+  "scriptDelta" : 10,
   "smashOnBreak" : true,
   "currentTier" : "T0"
 }

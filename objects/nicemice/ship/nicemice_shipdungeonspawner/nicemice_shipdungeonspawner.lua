@@ -33,7 +33,7 @@ end
 local hasSpawned = false
 
 function update(dt)
-	pcall(awa)
+	pcall(awa) -- testing indicates that anything blasting world.loadRegion should be inside pcall
 end
 
 function awa()
@@ -43,7 +43,7 @@ function awa()
 		if upgradeSuccess and boundarySuccess then
 			object.smash(true)
 		else
-			world.loadRegion(shipArea)
+			world.loadRegion(shipArea) 
 		end
 		return
 	end
@@ -70,13 +70,17 @@ function awa()
 		local q = world.objectQuery(entity.position(), 5000, { objectName = "nicemice_shipconfirmupgrade" } )
 		if q then
 			for k, v in pairs(q) do
-				world.sendEntityMessage(v,"nicemice_confirmWorldInit",{senderId = entity.id()})
+				if world.entityExists(v) then
+					world.sendEntityMessage(v,"nicemice_confirmWorldInit",{senderId = entity.id()})
+				end
 			end
 		end
 		q = world.objectQuery(entity.position(), 5000, { objectName = "nicemice_shipspaceboundary" } )
 		if q then
 			for k, v in pairs(q) do
-				world.sendEntityMessage(v,"nicemice_confirmWorldInit",{senderId = entity.id()})
+				if world.entityExists(v) then
+					world.sendEntityMessage(v,"nicemice_confirmWorldInit",{senderId = entity.id()})
+				end
 			end
 		end
 	end

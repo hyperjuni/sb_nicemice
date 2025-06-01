@@ -23,7 +23,7 @@ function update(dt)
 		return
 	end
 	if rockNRoll then
-		pcall(awa)
+		pcall(awa) -- testing indicates that anything blasting world.loadRegion should be inside pcall
 	end
 end
 function awa()

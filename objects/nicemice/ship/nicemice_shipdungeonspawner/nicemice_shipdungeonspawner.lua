@@ -24,13 +24,13 @@ end
 local upgradeSuccess = false
 function recvReplyUpgrade()
 	upgradeSuccess = true
-	sb.logInfo("upgrade is good")
+	--sb.logInfo("upgrade is good")
 end
 --  the ship lower left corner boundary marker has spawned successfully
 local boundarySuccess = false
 function recvReplyBoundary()
 	boundarySuccess = true
-	sb.logInfo("boundary is good")
+	--sb.logInfo("boundary is good")
 end
 
 --  whether or not we've attempted to place a dungeon
@@ -45,7 +45,7 @@ function awa()
 	local shipArea = rect.translate({-200, -10, 150, 90}, entity.position())
 	if hasSpawned then
 		world.loadRegion(shipArea)
-		local q = world.objectQuery(entity.position(), 5000, { objectName = "nicemice_shipconfirmupgrade" } )
+		local q = world.objectQuery(entity.position(), 5000, { name = "nicemice_shipconfirmupgrade" } )
 		if q then
 			for k, v in pairs(q) do
 				if world.entityExists(v) then
@@ -53,7 +53,7 @@ function awa()
 				end
 			end
 		end
-		q = world.objectQuery(entity.position(), 5000, { objectName = "nicemice_shipspaceboundary" } )
+		q = world.objectQuery(entity.position(), 5000, { name = "nicemice_shipspaceboundary" } )
 		if q then
 			for k, v in pairs(q) do
 				if world.entityExists(v) then
@@ -81,8 +81,20 @@ function awa()
 				local p = object.toAbsolutePosition({0,0})
 				if config.getParameter("enableSpaceBoundary") then
 					world.setProperty("nicemice_enableSpaceBoundary", true)
+				else
+					boundarySuccess = true
 				end
 				hasSpawned = true
+				if world.getProperty("nicemice_deadShipRecovery") then
+					sb.logInfo("Recovering dead ship...")
+					local recoveryDungeons = config.getParameter("recoveryDungeons")
+					if recoveryDungeons then
+						for d, v in ipairs(recoveryDungeons) do
+							world.placeDungeon(recoveryDungeons[d], {p[1]-d, p[2]});
+						end
+					end
+					world.setProperty("nicemice_deadShipRecovery",nil)
+				end
 				world.placeDungeon(config.getParameter("dungeon"), {p[1], p[2]});
 			end
 		end

@@ -39,7 +39,26 @@ function getCell(pos)
 	return nil
 end
 
-avoidSpam = {}
+function getWorldId(recursiveCount)
+
+	if not recursiveCount then 
+		recursiveCount = 0 
+	end
+	recursiveCount = recursiveCount + 1
+	
+	if recursiveCount > 100 then
+		return 0
+	end
+	
+	local id = world.getProperty("nicemice_worldId")
+	if not id then
+		nicemice_initWorldId()
+		return getWorldId(recursiveCount)
+	end
+	return id
+end
+
+local avoidSpam = {}
 function ignoreCell(cell)
 	--sb.logInfo("processing cell: " .. tostring(cell[1]) .. ", " .. tostring(cell[2]))
 
@@ -51,8 +70,8 @@ function ignoreCell(cell)
 	end
 	
 	--  ignore any cell we have already placed a dungeon for this session (for this world id)
-	if avoidSpam[world.getProperty("nicemice_worldId")] then
-		for i, v in ipairs(avoidSpam[world.getProperty("nicemice_worldId")]) do
+	if avoidSpam[getWorldId()] then
+		for i, v in ipairs(avoidSpam[getWorldId()]) do
 			if v[1] == cell[1] then
 				if v[2] == cell[2] then
 					--sb.logInfo("ignoring - spamguard")
@@ -71,10 +90,19 @@ function ignoreCell(cell)
 	}
 	local dungeonId = world.dungeonId(approximateCellCenter)
 	if dungeonId then
-		--  don't know if this returns a string or an int and don't care
-		if tostring(dungeonId) == "65525" then
-			--sb.logInfo("ignoring - dungeonId set")
-			return "dungeonid"
+		
+		--  don't run cleanup on clean zones
+		if world.getProperty("nicemice_cleanSpaceBoundary") then
+			if tostring(dungeonId) == "65535" then
+				--sb.logInfo("ignoring - dungeonId set")
+				return "dungeonid"
+			end
+		else
+			--  don't know if this returns a string or an int and don't care
+			if tostring(dungeonId) == "65525" then
+				--sb.logInfo("ignoring - dungeonId set")
+				return "dungeonid"
+			end
 		end
 	end
 	
@@ -93,7 +121,7 @@ function ignoreCell(cell)
 	return "build"
 end
 
-local timeSinceLastScan = 999.0
+local timeSinceLastScan = -10.0
 function update(dt)
 	timeSinceLastScan = timeSinceLastScan + dt
 	if timeSinceLastScan < 2 then return end
@@ -135,12 +163,20 @@ function update(dt)
 						cornerLowerLeft[2] + (CELL_SIZE * cell[2]) + (CELL_SIZE)
 					}
 					cellCorner = world.xwrap(cellCorner)
-					if not avoidSpam[world.getProperty("nicemice_worldId")] then
-						avoidSpam[world.getProperty("nicemice_worldId")] = {}
+					if not avoidSpam[getWorldId()] then
+						avoidSpam[getWorldId()] = {}
 					end
-					world.spawnStagehand(cellCorner, "nicemice_T8ship_spaceChunkRezzer")
-					table.insert( avoidSpam[world.getProperty("nicemice_worldId")], cell )
-					sb.logInfo("Making space at cell " .. cell[1] .. ", " .. cell[2])
+					
+					--  if we're in cleanup mode, remove zeroG
+					if world.getProperty("nicemice_cleanSpaceBoundary") then
+						sb.logInfo("Cleaning up zeroG at cell " .. cell[1] .. ", " .. cell[2])
+						world.spawnStagehand(cellCorner, "nicemice_T8ship_spaceChunkDeRezzer")
+					else
+						sb.logInfo("Adding zeroG at cell " .. cell[1] .. ", " .. cell[2])
+						world.spawnStagehand(cellCorner, "nicemice_T8ship_spaceChunkRezzer")
+					end
+					table.insert( avoidSpam[getWorldId()], cell )
+					
 				end
 			end
 		end

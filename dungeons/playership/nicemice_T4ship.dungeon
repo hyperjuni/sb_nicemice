@@ -1,0 +1,21 @@
+{
+	"metadata": 
+	{
+		"name": "nicemice_T4ship",
+		"species": "nicemice",
+		"rules": [],
+		"anchor": ["nicemice_T4ship"],
+		"gravity": 80,
+		"maxRadius": 1000000,
+		"maxParts": 1,
+		"protected": false
+	},
+	"parts": 
+	[
+		{
+			"name": "nicemice_T4ship",
+			"rules": [],
+			"def": ["tmx", "nicemice_T4ship_anchored.json"]
+		}
+	]
+}

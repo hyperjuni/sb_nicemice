@@ -1,0 +1,21 @@
+{
+	"metadata": 
+	{
+		"name": "nicemice_2x2zerog",
+		"species": "nicemice",
+		"rules": [],
+		"anchor": ["nicemice_2x2zerog"],
+		"gravity": 80,
+		"maxRadius": 1000000,
+		"maxParts": 1,
+		"protected": false
+	},
+	"parts": 
+	[
+		{
+			"name": "nicemice_2x2zerog",
+			"rules": [],
+			"def": ["tmx", "nicemice_2x2zerog.json"]
+		}
+	]
+}

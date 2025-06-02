@@ -1,0 +1,91 @@
+Developer notes - ship setup with Tiled
+
+The Nicemice ship uses several advanced, technical tricks in order to hook up the ship to Tiled.
+To my knowledge, I am the first person to ever do this.
+
+I wanted to document this process for future modders who want to modernize their toolbox.
+
+//////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////
+
+Trick #1:
+
+In nicemiceBlockKey.config I set up several object spawns for each tier of the ship.
+These fall into 3 categories:
+- Dungeon spawners
+- Confirmation world property objects
+- Space exploration world property objects
+
+The dungeon spawners are 1x1 scripted objects with no requirements for anchors.
+These spawners use world.placeDungeon to take advantage of Tiled's features after the initial ship loads.
+
+The confirmation world property objects set a world property to match the tier of the ship.
+This is used by the dungeon spawners to confirm that they are allowed to spawn the ship dungeon for the tier.
+
+The space exploration world property objects set a world property to enable space chunk spawning on the T8 ship.
+A script attached to the player will dynamically spawn more zeroG areas if the player explores with their mech.
+Dynamic spawning is a requirement for this feature because trying to place a world-sized zeroG dungeon
+on an actively running player ship will crash the game (stack-heap collision).
+
+//////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////
+
+Trick #2:
+
+In the ship block images, 
+the dungeon spawners and confirmation object spawners are offset by 1 pixel horizontally per tier.
+
+This means even if all of the tiers of the ship are spawned at the same time, no spawner objects will overlap.
+Preventing overlaps is important, because objects that call world.placeDungeon must persist until the call finishes.
+
+The dungeon files are also offset appropriately in Tiled to accommodate for the spawner positions.
+
+//////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////
+
+Trick #3:
+
+The confirmation world property objects detect the absence of their prerequisite world properties.
+
+If a player's ship file becomes corrupt, or they manually delete the ship file,
+the confirmation world property objects will "ladder up" into the correct world property value, from T0 to T8.
+
+//////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////
+
+Trick #4:
+
+The dungeon spawner has a list of dungeons to place if a corrupt world recovery has been detected.
+
+This allows the dungeon spawner to rebuild, in order, each tier of the ship, up to the player's current tier.
+
+//////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////
+
+Trick #5:
+
+On tiers 4 and above, any area that is replaced with hazard blocks to unlock new rooms on the ship
+is supplemented by another dungeon spawner designed specifically to clear stale metamaterials.
+
+This prevents the player's ship from having invisible, unbreakable blocks where walls used to be,
+after a scripted rebuild of the ship's interiors.
+
+//////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////
+
+Together, all of these tricks combined allowed me to use Tiled to edit the player ship, while
+also providing several layers of failsafes to ensure that the player experience was as smooth as possible.
+
+I wanted the anchor to be at a (mostly) consistent location, so I used a 1x1 dungeon and took advantage of
+the engine's ability to load materials, objects, etc by abusing non-tile layers which extend
+beyond the edges of the 1x1 dungeon's tile grid.
+
+You don't need to do it this way if you don't want to, but if you choose to use tile layers instead,
+it means you'll need to adjust your dungeon spawn anchor locations in your ship block images, which
+will probably be a tedious process. Whether or not that's worth the extra effort is up to you.

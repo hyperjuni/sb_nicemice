@@ -1,0 +1,28 @@
+{
+  "objectName" : "nicemice_delayedzerogspawner",
+  "colonyTags" : ["misc"],
+  "rarity" : "Common",
+  "description" : "Zivilized zpeziez build zheir zhipz uzing modern toolz.",
+  "shortdescription" : "Nicemice Ship ZeroG Finalizer",
+  "race" : "nicemice",
+  "printable" : false,
+  "category" : "spawner",
+  "price" : 0,
+  "inventoryIcon" : "nicemice_delayedzerogspawner.png",
+  "orientations" : [
+    {
+      "image" : "nicemice_delayedzerogspawner.png",
+      "imagePosition" : [0, 0],
+      "direction" : "right",
+      "spaceScan" : 0.1,
+      "anchors" : [ ]
+    }
+  ],
+  "scripts" : 
+  [ 
+	"/objects/nicemice/ship/nicemice_delayedzerogspawner/nicemice_delayedzerogspawner.lua"
+  ],
+  "scriptDelta" : 10,
+  "smashOnBreak" : true,
+  "dungeon" : "nicemice_2x2zerog"
+}

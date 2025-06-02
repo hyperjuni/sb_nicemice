@@ -13,12 +13,24 @@
 					{"item" : [ "nicemice_invisiblechest", 1 ]},
 					{"item" : [ "nicemice_invisiblelegs", 1 ]},
 					{"item" : [ "nicemice_invisibleback", 1 ]},
-					{"item" : [ "apexshipwall", 1000 ]},
-					{"item" : [ "apexshipwall", 1000 ]},
-					{"item" : [ "apexshipdetails", 1000 ]},
-					{"item" : [ "apexshipsupport", 1000 ]},
 					{"item" : [ "apexshiplight", 20 ]},
 					{"item" : [ "cheese", 1 ]}
+				]
+			}
+		]
+	],
+	"nicemice_t4ship_railkit" : 
+	[
+		[
+			0,
+			{
+				"fill" : 
+				[
+					{"item" : [ "railcraftingtable", 1 ] },
+					{"item" : [ "compositerail", 100 ] },
+					{"item" : [ "stationtram", 2 ] },
+					{"item" : [ "railtramstop", 4 ] },
+					{"item" : [ "tinywallbutton", 4 ] }
 				]
 			}
 		]

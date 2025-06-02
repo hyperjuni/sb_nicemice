@@ -1,0 +1,28 @@
+{
+  "objectName" : "nicemice_shipmetamaterialsremover",
+  "colonyTags" : ["misc"],
+  "rarity" : "Common",
+  "description" : "Zivilized zpeziez build zheir zhipz uzing modern toolz.",
+  "shortdescription" : "Nicemice Ship Metamaterials Remover",
+  "race" : "nicemice",
+  "printable" : false,
+  "category" : "spawner",
+  "price" : 0,
+  "inventoryIcon" : "nicemice_shipmetamaterialsremovericon.png",
+  "orientations" : [
+    {
+      "image" : "nicemice_shipmetamaterialsremover.png",
+      "imagePosition" : [0, 0],
+      "direction" : "right",
+      "spaceScan" : 0.1,
+      "anchors" : [ ]
+    }
+  ],
+  "scripts" : 
+  [ 
+	"/objects/nicemice/ship/nicemice_shipmetamaterialsremover/nicemice_shipmetamaterialsremover.lua"
+  ],
+  "scriptDelta" : 10,
+  "smashOnBreak" : true,
+  "dungeon" : ""
+}

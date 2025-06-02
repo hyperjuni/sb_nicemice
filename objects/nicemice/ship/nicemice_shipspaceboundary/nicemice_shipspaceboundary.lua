@@ -22,6 +22,12 @@ function update(dt)
 		object.smash(true)
 		return
 	end
+	local p = world.getProperty("nicemice_currentShipTier")
+	if p then
+		if p == "BYOS" then
+			rockNRoll = true
+		end
+	end
 	if rockNRoll then
 		pcall(awa) -- testing indicates that anything blasting world.loadRegion should be inside pcall
 	end

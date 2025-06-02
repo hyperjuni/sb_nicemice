@@ -1,0 +1,21 @@
+{
+	"metadata": 
+	{
+		"name": "nicemice_T8ship_spaceChunkRemove",
+		"species": "nicemice",
+		"rules": [],
+		"anchor": ["nicemice_T8ship_spaceChunkRemove"],
+		"gravity": 80,
+		"maxRadius": 1000000,
+		"maxParts": 1,
+		"protected": false
+	},
+	"parts": 
+	[
+		{
+			"name": "nicemice_T8ship_spaceChunkRemove",
+			"rules": [],
+			"def": ["tmx", "nicemice_T8ship_spaceChunkRemove.json"]
+		}
+	]
+}

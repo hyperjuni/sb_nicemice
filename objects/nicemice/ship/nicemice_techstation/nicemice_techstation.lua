@@ -30,6 +30,73 @@ function init()
 
 	self.findTechStation = coroutine.create(findTechstationByUniqueId)
 	self.lastKnownTechStation = nil
+	
+	-- (\_/) Scripted Artificial Intelligence Lattice integration begins here
+	if usingCustomSAIL() then
+		self.fallback = false
+		object.setConfigParameter("retainScriptStorageInItem", true)
+		object.setConfigParameter("animationScripts", {"/objects/scripts/changeObjectSprite.lua"})
+		storage.data = storage.data or {}
+		storage.imageconfig = storage.imageconfig or nil
+		object.setAnimationParameter("imageConfig", storage.imageconfig) 
+		message.setHandler
+		(
+			"setFallback", 
+			function(_,_, value) 
+				self.fallback = value 
+			end
+		)
+		message.setHandler
+		(
+			"storeData", 
+			function(_,_, widget, data) 
+				storage.data[widget] = data 
+			end
+		)
+		message.setHandler
+		(
+			"returnData", 
+			function() 
+				return storage.data 
+			end
+		)
+		message.setHandler
+		(
+			"screwdriverInteraction", 
+			function() 
+				return {config.getParameter("screwdriverInteractAction"), config.getParameter("screwdriverInteractData")} 
+			end
+		)
+		message.setHandler
+		(
+			"setImage", 
+			function(_,_, imageconfig)
+				storage.imageconfig = imageconfig
+				object.setAnimationParameter("imageConfig", imageconfig) 
+			end
+		)
+		message.setHandler
+		(
+			"setInterfaceObj", 
+			function(_,_, itemDesc) 
+				storage.interfaceObjIDesc = itemDesc 
+			end
+		)
+		message.setHandler
+		(
+			"gibInterfaceObj", 
+			function() 
+				return storage.interfaceObjIDesc 
+			end
+		)
+	end
+end
+
+function usingCustomSAIL()
+	if root.itemConfig("screwdriver") ~= nil then
+		return true
+	end
+	return false
 end
 
 function findTechstationByUniqueId()
@@ -63,7 +130,15 @@ function onInteraction()
 		sayNext()
 		return nil
 	else
-		return config.getParameter("interactAction")
+		if usingCustomSAIL() then
+			if not self.fallback then
+				return {config.getParameter("interactAction"), config.getParameter("interactData")}
+			else
+				return {config.getParameter("fallbackInteractAction"), config.getParameter("fallbackInteractData")}
+			end
+		else
+			return config.getParameter("vanillaInteractAction")
+		end
 	end
 end
 

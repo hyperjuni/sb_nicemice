@@ -3,7 +3,18 @@
 	"colonyTags" : ["nicemice"],
 	"printable" : false,
 	"rarity" : "Common",
-	"interactAction" : "OpenAiInterface",
+	
+	"vanillaInteractAction" : "OpenAiInterface",
+	
+	//custom SAIL integration
+		"interactAction" : "ScriptPane",
+		"interactData" : "/interface/ai/nicemice_aicustom.config",
+		"animationScripts" : [],
+		"fallbackInteractAction" : "OpenAiInterface",
+		"fallbackInteractData" : "",
+		"screwdriverInteractAction" : "ScriptPane",
+		"screwdriverInteractData" : "/interface/ai/backpanel.config",
+	
 	"category" : "decorative",
 	"description" : "Mobile Assault Unit System, or M.A.U.S for short.",
 	"shortdescription" : "M.A.U.S",

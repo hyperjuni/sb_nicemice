@@ -8,11 +8,11 @@
 
   "backgroundOverlays" : 
   [
-    //{
-    //  "image" : "nicemiceT8overlayfullbright.png",
-    //  "position" : [0, 0],
-    //  "fullbright" : true
-    //},
+    {
+      "image" : "nicemiceT8overlayfullbright.png",
+      "position" : [0, 0],
+      "fullbright" : true
+    },
     {
       "image" : "nicemiceT8overlay.png",
       "position" : [0, 0]
@@ -21,11 +21,11 @@
   
   "foregroundOverlays" : 
   [
-    //{
-    //  "image" : "nicemiceT8overlayfullbright.png",
-    //  "position" : [0, 0],
-    //  "fullbright" : true
-    //},
+    {
+      "image" : "nicemiceT8overlayfullbrightfg.png",
+      "position" : [0, 0],
+      "fullbright" : true
+    },
     {
       "image" : "nicemiceT8overlayfg.png",
       "position" : [0, 0]

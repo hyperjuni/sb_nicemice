@@ -18,6 +18,19 @@
       "position" : [0, 0]
     }
   ],
+  
+  "foregroundOverlays" : 
+  [
+    {
+      "image" : "nicemiceT4overlayfullbrightfg.png",
+      "position" : [0, 0],
+      "fullbright" : true
+    },
+    {
+      "image" : "nicemiceT4overlayfg.png",
+      "position" : [0, 0]
+    }
+  ],
 
   "blockKey" : "nicemiceBlockKey.config:blockKey",
   "blockImage" : "nicemiceT4blocks.png"

@@ -1,0 +1,11 @@
+{
+  "config" : {
+    "shipUpgrades" : {
+      "capabilities" : ["teleport", "planetTravel", "systemTravel"],
+      "crewSize" : 12
+    }
+  },
+
+  "blockKey" : "nicemiceBlockKey.config:blockKey",
+  "blockImage" : "nicemiceBYOSblocks.png"
+}

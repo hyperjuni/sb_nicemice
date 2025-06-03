@@ -1,0 +1,38 @@
+[
+	{
+      "op": "test",
+      "path": "/audio/0" //This game is cursed. Ok so 1772263578 causes infinite loading unless we do this
+    },
+	{
+		"op": "add",
+		"path": "/panels/-",
+		"value": 
+			{
+				"drawables": 
+				[	
+					{
+						"image": "/interface/nicemice/version.png:default"
+					}
+				],
+				"animationFrames": 1,
+				"startTime": 4.0,
+				"keyframes": 
+				[
+					{
+						"timecode": 0,
+						"alpha": 1,
+						"position": [96,90],
+						"zoom": 1.5,
+						"frame": 0
+					},
+					
+					{
+						"timecode" : 10000,
+						"alpha" : 1,
+						"zoom" : 1,
+						"frame" : 80000
+					}
+				]
+			}
+    }
+]

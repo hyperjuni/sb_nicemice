@@ -124,59 +124,59 @@ end
 local timeSinceLastScan = -10.0
 function update(dt)
 	timeSinceLastScan = timeSinceLastScan + dt
-	if timeSinceLastScan < 2 then return end
-	
-	--sb.logInfo("scanning")
-	nicemice_initWorldId()
-	--  only generate space chunks for ship worlds that are eligible for space chunks
-	if world.getProperty("nicemice_enableSpaceBoundary") then
-		local q = world.entityQuery(entity.position(), CELL_SIZE * 3, { includedTypes = {"stagehand"} } )
-		if q then
-			for k, v in pairs(q) do
-				--sb.logInfo("found stagehand: " .. tostring(v) .. " -> " .. world.stagehandType(v))
-				if world.stagehandType(v) == "nicemice_T8ship_spaceChunkRezzer" then
-					if world.entityExists(v) then
-						world.sendEntityMessage(v,"nicemice_confirmWorldInit",{senderId = entity.id()})
+	if timeSinceLastScan >= 2 then
+		--sb.logInfo("scanning")
+		nicemice_initWorldId()
+		--  only generate space chunks for ship worlds that are eligible for space chunks
+		if world.getProperty("nicemice_enableSpaceBoundary") then
+			local q = world.entityQuery(entity.position(), CELL_SIZE * 3, { includedTypes = {"stagehand"} } )
+			if q then
+				for k, v in pairs(q) do
+					--sb.logInfo("found stagehand: " .. tostring(v) .. " -> " .. world.stagehandType(v))
+					if world.stagehandType(v) == "nicemice_T8ship_spaceChunkRezzer" then
+						if world.entityExists(v) then
+							world.sendEntityMessage(v,"nicemice_confirmWorldInit",{senderId = entity.id()})
+						end
 					end
 				end
 			end
-		end
-		--sb.logInfo("world is valid")
-		--  scan in 8 directions for areas without dungeon id 65525
-		local offsets = 
-		{
-			{-CELL_SIZE/1, CELL_SIZE/1}, {0, CELL_SIZE/1}, {CELL_SIZE/1, CELL_SIZE/1},
-			{-CELL_SIZE/1,  0},          {0,0},            {CELL_SIZE/1,  0},
-			{-CELL_SIZE/1,-CELL_SIZE/1}, {0,-CELL_SIZE/1}, {CELL_SIZE/1,-CELL_SIZE/1}
-		}
-		for i, v in ipairs(offsets) do
-			local wrapped = world.xwrap(vec2.add(world.entityPosition(player.id()),v))
-			local cell = getCell(wrapped)
-			if cell then
-				local ignore = ignoreCell(cell)
-				world.debugText(ignore, vec2.add(vec2.add(entity.position(),vec2.div(v,CELL_SIZE/4)),{4,4}), { 255, 255, 0, 255 })
-				if ignore == "build" then
-					local cornerLowerLeft = world.getProperty("nicemice_spaceBoundary:lowerLeft")
-					local cellCorner = 
-					{
-						cornerLowerLeft[1] + (CELL_SIZE * cell[1]),
-						cornerLowerLeft[2] + (CELL_SIZE * cell[2]) + (CELL_SIZE)
-					}
-					cellCorner = world.xwrap(cellCorner)
-					if not avoidSpam[getWorldId()] then
-						avoidSpam[getWorldId()] = {}
+			--sb.logInfo("world is valid")
+			--  scan in 8 directions for areas without dungeon id 65525
+			local offsets = 
+			{
+				{-CELL_SIZE/1, CELL_SIZE/1}, {0, CELL_SIZE/1}, {CELL_SIZE/1, CELL_SIZE/1},
+				{-CELL_SIZE/1,  0},          {0,0},            {CELL_SIZE/1,  0},
+				{-CELL_SIZE/1,-CELL_SIZE/1}, {0,-CELL_SIZE/1}, {CELL_SIZE/1,-CELL_SIZE/1}
+			}
+			for i, v in ipairs(offsets) do
+				local wrapped = world.xwrap(vec2.add(world.entityPosition(player.id()),v))
+				local cell = getCell(wrapped)
+				if cell then
+					local ignore = ignoreCell(cell)
+					world.debugText(ignore, vec2.add(vec2.add(entity.position(),vec2.div(v,CELL_SIZE/4)),{4,4}), { 255, 255, 0, 255 })
+					if ignore == "build" then
+						local cornerLowerLeft = world.getProperty("nicemice_spaceBoundary:lowerLeft")
+						local cellCorner = 
+						{
+							cornerLowerLeft[1] + (CELL_SIZE * cell[1]),
+							cornerLowerLeft[2] + (CELL_SIZE * cell[2]) + (CELL_SIZE)
+						}
+						cellCorner = world.xwrap(cellCorner)
+						if not avoidSpam[getWorldId()] then
+							avoidSpam[getWorldId()] = {}
+						end
+						
+						--  if we're in cleanup mode, remove zeroG
+						if world.getProperty("nicemice_cleanSpaceBoundary") then
+							sb.logInfo("Cleaning up zeroG at cell " .. cell[1] .. ", " .. cell[2])
+							world.spawnStagehand(cellCorner, "nicemice_T8ship_spaceChunkDeRezzer")
+						else
+							sb.logInfo("Adding zeroG at cell " .. cell[1] .. ", " .. cell[2])
+							world.spawnStagehand(cellCorner, "nicemice_T8ship_spaceChunkRezzer")
+						end
+						table.insert( avoidSpam[getWorldId()], cell )
+						
 					end
-					
-					--  if we're in cleanup mode, remove zeroG
-					if world.getProperty("nicemice_cleanSpaceBoundary") then
-						sb.logInfo("Cleaning up zeroG at cell " .. cell[1] .. ", " .. cell[2])
-						world.spawnStagehand(cellCorner, "nicemice_T8ship_spaceChunkDeRezzer")
-					else
-						sb.logInfo("Adding zeroG at cell " .. cell[1] .. ", " .. cell[2])
-						world.spawnStagehand(cellCorner, "nicemice_T8ship_spaceChunkRezzer")
-					end
-					table.insert( avoidSpam[getWorldId()], cell )
-					
 				end
 			end
 		end

@@ -6,15 +6,15 @@
 			{
 				"fill" : 
 				[
-					{"pool" : "starterTreasure"},
 					{"item" : [ "nicemice_nakedvillagerspawner", 10 ]},
 					{"item" : [ "nicemice_villagerspawner", 10 ]},
+					{"item" : [ "cheese", 1 ]},
+					{"item" : [ "capturepod", 1 ]},
 					{"item" : [ "nicemice_invisiblehead", 1 ]},
 					{"item" : [ "nicemice_invisiblechest", 1 ]},
 					{"item" : [ "nicemice_invisiblelegs", 1 ]},
 					{"item" : [ "nicemice_invisibleback", 1 ]},
-					{"item" : [ "apexshiplight", 20 ]},
-					{"item" : [ "cheese", 1 ]}
+					{"pool" : "starterTreasure"}
 				]
 			}
 		]

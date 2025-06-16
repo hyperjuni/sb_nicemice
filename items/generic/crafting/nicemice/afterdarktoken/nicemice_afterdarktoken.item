@@ -1,0 +1,10 @@
+{
+  "itemName" : "nicemice_afterdarktoken",
+  "price" : 0,
+  "rarity" : "Legendary",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "nicemice_afterdarktoken.png",
+  "description" : "These tokens are used by specialty vendors to change the appearance of compatible items.",
+  "shortdescription" : "Afterdark Token",
+  "itemTags" : [ "reagent" ]
+}

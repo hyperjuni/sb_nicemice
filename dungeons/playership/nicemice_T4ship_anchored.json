@@ -302,6 +302,42 @@
                  "width":8,
                  "x":-72,
                  "y":-336
+                },
+            
+                {
+                 "height":8,
+                 "id":1997,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"back",
+                         "type":"string",
+                         "value":"apexshipsupport"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":-24,
+                 "y":-160
+                },
+            
+                {
+                 "height":8,
+                 "id":1998,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"back",
+                         "type":"string",
+                         "value":"apexshipsupport"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":-72,
+                 "y":-160
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -350,6 +386,24 @@
                  "width":40,
                  "x":-64,
                  "y":-336
+                },
+            
+                {
+                 "height":8,
+                 "id":1996,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"back",
+                         "type":"string",
+                         "value":"outpost"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":40,
+                 "x":-64,
+                 "y":-160
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -719,7 +773,7 @@
                 },
             
                 {
-                 "height":80,
+                 "height":88,
                  "id":1525,
                  "name":"",
                  "properties":[
@@ -737,7 +791,7 @@
                 },
             
                 {
-                 "height":16,
+                 "height":8,
                  "id":1527,
                  "name":"",
                  "properties":[
@@ -751,7 +805,7 @@
                  "visible":true,
                  "width":152,
                  "x":-168,
-                 "y":-160
+                 "y":-152
                 },
             
                 {
@@ -1040,6 +1094,24 @@
                  "width":16,
                  "x":344,
                  "y":-352
+                },
+            
+                {
+                 "height":8,
+                 "id":1995,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"material",
+                         "type":"string",
+                         "value":"metamaterial:structure"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":80,
+                 "x":-152,
+                 "y":-160
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -1217,7 +1289,7 @@
          "y":0
         }],
  "nextlayerid":38,
- "nextobjectid":1995,
+ "nextobjectid":2005,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.10.0",
@@ -1389,12 +1461,12 @@
         },
     
         {
-         "firstgid":8752,
+         "firstgid":8700,
          "source":"..\/..\/..\/..\/win32\/unpacked_assets\/tilesets\/packed\/huge-objects.json"
         },
     
         {
-         "firstgid":8853,
+         "firstgid":8801,
          "source":"..\/..\/..\/..\/win32\/unpacked_assets\/tilesets\/packed\/objects-by-category\/breakable.json"
         }],
  "tilewidth":8,

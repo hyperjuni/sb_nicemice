@@ -30,6 +30,7 @@
 					{"item" : [ "compositerail", 100 ] },
 					{"item" : [ "stationtram", 2 ] },
 					{"item" : [ "railtramstop", 4 ] },
+					{"item" : [ "outpostplatform", 50 ] },
 					{"item" : [ "tinywallbutton", 4 ] }
 				]
 			}

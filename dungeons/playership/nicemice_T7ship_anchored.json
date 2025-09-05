@@ -2214,24 +2214,6 @@
             
                 {
                  "height":8,
-                 "id":1551,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"material",
-                         "type":"string",
-                         "value":"metamaterial:structure"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":288,
-                 "x":-128,
-                 "y":-64
-                },
-            
-                {
-                 "height":8,
                  "id":1573,
                  "name":"",
                  "properties":[
@@ -2916,24 +2898,6 @@
             
                 {
                  "height":8,
-                 "id":1890,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"material",
-                         "type":"string",
-                         "value":"metamaterial:structure"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":32,
-                 "x":-40,
-                 "y":-56
-                },
-            
-                {
-                 "height":8,
                  "id":1891,
                  "name":"",
                  "properties":[
@@ -2966,6 +2930,78 @@
                  "width":16,
                  "x":-128,
                  "y":-144
+                },
+            
+                {
+                 "height":8,
+                 "id":1917,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"material",
+                         "type":"string",
+                         "value":"metamaterial:structure"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":200,
+                 "x":-40,
+                 "y":-64
+                },
+            
+                {
+                 "height":8,
+                 "id":1918,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"material",
+                         "type":"string",
+                         "value":"metamaterial:structure"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":32,
+                 "x":-40,
+                 "y":-56
+                },
+            
+                {
+                 "height":8,
+                 "id":1919,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"material",
+                         "type":"string",
+                         "value":"metamaterial:structure"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":32,
+                 "x":-128,
+                 "y":-64
+                },
+            
+                {
+                 "height":8,
+                 "id":1920,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"material",
+                         "type":"string",
+                         "value":"metamaterial:structure"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":-104,
+                 "y":-56
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -3224,7 +3260,7 @@
          "y":0
         }],
  "nextlayerid":38,
- "nextobjectid":1917,
+ "nextobjectid":1921,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.10.0",
@@ -3396,12 +3432,12 @@
         },
     
         {
-         "firstgid":8752,
+         "firstgid":8700,
          "source":"..\/..\/..\/..\/win32\/unpacked_assets\/tilesets\/packed\/huge-objects.json"
         },
     
         {
-         "firstgid":8853,
+         "firstgid":8801,
          "source":"..\/..\/..\/..\/win32\/unpacked_assets\/tilesets\/packed\/objects-by-category\/breakable.json"
         }],
  "tilewidth":8,

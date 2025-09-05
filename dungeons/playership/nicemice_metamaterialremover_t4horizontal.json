@@ -1,13 +1,13 @@
 { "backgroundcolor":"#000000",
  "compressionlevel":-1,
- "height":2,
+ "height":8,
  "infinite":false,
  "layers":[
         {
          "compression":"zlib",
-         "data":"eJw7zsDAcJwMDABGwwrj",
+         "data":"eJw7zsDAcHwYYwBkjSuJ",
          "encoding":"base64",
-         "height":2,
+         "height":8,
          "id":1,
          "name":"back",
          "opacity":0.5,
@@ -19,9 +19,9 @@
         }, 
         {
          "compression":"zlib",
-         "data":"eJxjYCAPAAAAOAAB",
+         "data":"eJxjYBjeAAAA4AAB",
          "encoding":"base64",
-         "height":2,
+         "height":8,
          "id":2,
          "name":"front",
          "opacity":1,
@@ -101,6 +101,72 @@
                  "width":8,
                  "x":0,
                  "y":0
+                }, 
+                {
+                 "height":8,
+                 "id":1723,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"back",
+                         "type":"string",
+                         "value":"outpost"
+                        }, 
+                        {
+                         "name":"front",
+                         "type":"string",
+                         "value":"hazard"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":40,
+                 "x":8,
+                 "y":56
+                }, 
+                {
+                 "height":8,
+                 "id":1724,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"back",
+                         "type":"string",
+                         "value":"apexshipsupport"
+                        }, 
+                        {
+                         "name":"front",
+                         "type":"string",
+                         "value":"hazard"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":48,
+                 "y":56
+                }, 
+                {
+                 "height":8,
+                 "id":1725,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"back",
+                         "type":"string",
+                         "value":"apexshipsupport"
+                        }, 
+                        {
+                         "name":"front",
+                         "type":"string",
+                         "value":"hazard"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":0,
+                 "y":56
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -109,7 +175,7 @@
          "y":0
         }],
  "nextlayerid":26,
- "nextobjectid":1723,
+ "nextobjectid":1726,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.10.0",
@@ -252,11 +318,11 @@
          "source":"..\/..\/..\/..\/win32\/unpacked_assets\/tilesets\/packed\/objects-by-type\/teleporter.json"
         }, 
         {
-         "firstgid":8752,
+         "firstgid":8700,
          "source":"..\/..\/..\/..\/win32\/unpacked_assets\/tilesets\/packed\/huge-objects.json"
         }, 
         {
-         "firstgid":8853,
+         "firstgid":8801,
          "source":"..\/..\/..\/..\/win32\/unpacked_assets\/tilesets\/packed\/objects-by-category\/breakable.json"
         }],
  "tilewidth":8,

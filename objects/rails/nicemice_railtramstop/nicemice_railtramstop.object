@@ -1,0 +1,40 @@
+{
+  "objectName" : "nicemice_railtramstop",
+  "colonyTags" : ["rails"],
+  "rarity" : "Common",
+
+  "category" : "railPoint",
+  "price" : 600,
+  "description" : "Callz and ztops rail tramz.",
+  "shortdescription" : "M.A.U.S. Rail Tram Stop",
+  "race" : "nicemice",
+
+  "inventoryIcon" : "nicemice_railtramstopicon.png",
+  "orientations" : [
+    {
+      "image" : "nicemice_railtramstop.png:default.on",
+      "imagePosition" : [-2, -8],
+
+      "materialSpaces" : [
+        [[0, 0], "metamaterial:rail"]
+      ],
+      "bgAnchors" : [[0, 0]],
+      "direction" : "right"
+    }
+  ],
+
+  "animation" : "nicemice_railtramstop.animation",
+  "animationParts" : {
+    "stop" : "nicemice_railtramstop.png",
+    "stopfullbright" : "nicemice_railtramstopfullbright.png"
+  },
+  "animationPosition" : [-2, -8],
+
+  "scripts" : [
+    "/objects/rails/nicemice_railtramstop/nicemice_railtramstop.lua"
+  ],
+  "scriptDelta" : 5,
+
+  "inputNodes" : [ [0, 0], [0, 1] ],
+  "outputNodes" : [ [0, -1] ]
+}

@@ -1,0 +1,9 @@
+{
+  "frameGrid" : {
+    "size" : [12, 24],
+    "dimensions" : [10, 1],
+    "names" : [
+      [ "default.off", "default.on", "default.wait.1", "default.wait.2", "default.wait.3", "default.wait.4", "default.wait.5", "default.wait.6", "default.wait.7", "default.wait.8" ]
+    ]
+  }
+}

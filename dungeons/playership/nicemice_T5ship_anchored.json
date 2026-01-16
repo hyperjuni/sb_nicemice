@@ -119,7 +119,7 @@
          "name":"sloped wall panel",
          "objects":[
                 {
-                 "height":8,
+                 "height":64,
                  "id":1967,
                  "name":"",
                  "properties":[
@@ -131,135 +131,9 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":264,
+                 "width":72,
                  "x":-24,
                  "y":-136
-                },
-            
-                {
-                 "height":8,
-                 "id":1968,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"back",
-                         "type":"string",
-                         "value":"nicemice_slopedapexshipwall"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":256,
-                 "x":-24,
-                 "y":-128
-                },
-            
-                {
-                 "height":8,
-                 "id":1969,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"back",
-                         "type":"string",
-                         "value":"nicemice_slopedapexshipwall"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":248,
-                 "x":-24,
-                 "y":-120
-                },
-            
-                {
-                 "height":8,
-                 "id":1970,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"back",
-                         "type":"string",
-                         "value":"nicemice_slopedapexshipwall"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":240,
-                 "x":-24,
-                 "y":-112
-                },
-            
-                {
-                 "height":8,
-                 "id":1971,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"back",
-                         "type":"string",
-                         "value":"nicemice_slopedapexshipwall"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":232,
-                 "x":-24,
-                 "y":-104
-                },
-            
-                {
-                 "height":8,
-                 "id":1972,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"back",
-                         "type":"string",
-                         "value":"nicemice_slopedapexshipwall"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":224,
-                 "x":-24,
-                 "y":-96
-                },
-            
-                {
-                 "height":8,
-                 "id":1973,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"back",
-                         "type":"string",
-                         "value":"nicemice_slopedapexshipwall"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":216,
-                 "x":-24,
-                 "y":-88
-                },
-            
-                {
-                 "height":8,
-                 "id":1974,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"back",
-                         "type":"string",
-                         "value":"nicemice_slopedapexshipwall"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":208,
-                 "x":-24,
-                 "y":-80
                 },
             
                 {
@@ -296,6 +170,186 @@
                  "width":40,
                  "x":-72,
                  "y":-136
+                },
+            
+                {
+                 "height":64,
+                 "id":2008,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"back",
+                         "type":"string",
+                         "value":"nicemice_slopedapexshipwall"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":80,
+                 "y":-136
+                },
+            
+                {
+                 "height":64,
+                 "id":2012,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"back",
+                         "type":"string",
+                         "value":"nicemice_slopedapexshipwall"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":56,
+                 "y":-136
+                },
+            
+                {
+                 "height":64,
+                 "id":2014,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"back",
+                         "type":"string",
+                         "value":"nicemice_slopedapexshipwall"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":152,
+                 "y":-136
+                },
+            
+                {
+                 "height":8,
+                 "id":2017,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"back",
+                         "type":"string",
+                         "value":"nicemice_slopedapexshipwall"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":176,
+                 "y":-136
+                },
+            
+                {
+                 "height":8,
+                 "id":2018,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"back",
+                         "type":"string",
+                         "value":"nicemice_slopedapexshipwall"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":56,
+                 "x":176,
+                 "y":-128
+                },
+            
+                {
+                 "height":8,
+                 "id":2019,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"back",
+                         "type":"string",
+                         "value":"nicemice_slopedapexshipwall"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":48,
+                 "x":176,
+                 "y":-120
+                },
+            
+                {
+                 "height":8,
+                 "id":2020,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"back",
+                         "type":"string",
+                         "value":"nicemice_slopedapexshipwall"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":40,
+                 "x":176,
+                 "y":-112
+                },
+            
+                {
+                 "height":8,
+                 "id":2021,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"back",
+                         "type":"string",
+                         "value":"nicemice_slopedapexshipwall"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":32,
+                 "x":176,
+                 "y":-104
+                },
+            
+                {
+                 "height":8,
+                 "id":2022,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"back",
+                         "type":"string",
+                         "value":"nicemice_slopedapexshipwall"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":24,
+                 "x":176,
+                 "y":-96
+                },
+            
+                {
+                 "height":8,
+                 "id":2023,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"back",
+                         "type":"string",
+                         "value":"nicemice_slopedapexshipwall"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":176,
+                 "y":-88
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -323,7 +377,7 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":200,
+                 "width":72,
                  "x":-24,
                  "y":-72
                 },
@@ -361,6 +415,60 @@
                  "visible":true,
                  "width":16,
                  "x":-96,
+                 "y":-72
+                },
+            
+                {
+                 "height":8,
+                 "id":2009,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"back",
+                         "type":"string",
+                         "value":"apexshipdetails"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":80,
+                 "y":-72
+                },
+            
+                {
+                 "height":8,
+                 "id":2011,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"back",
+                         "type":"string",
+                         "value":"apexshipdetails"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":56,
+                 "y":-72
+                },
+            
+                {
+                 "height":8,
+                 "id":2013,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"back",
+                         "type":"string",
+                         "value":"apexshipdetails"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":152,
                  "y":-72
                 }],
          "opacity":1,
@@ -410,6 +518,78 @@
                  "width":8,
                  "x":-80,
                  "y":-152
+                },
+            
+                {
+                 "height":80,
+                 "id":2001,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"back",
+                         "type":"string",
+                         "value":"apexshipsupport"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":72,
+                 "y":-144
+                },
+            
+                {
+                 "height":80,
+                 "id":2004,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"back",
+                         "type":"string",
+                         "value":"apexshipsupport"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":48,
+                 "y":-144
+                },
+            
+                {
+                 "height":80,
+                 "id":2005,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"back",
+                         "type":"string",
+                         "value":"apexshipsupport"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":168,
+                 "y":-144
+                },
+            
+                {
+                 "height":80,
+                 "id":2006,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"back",
+                         "type":"string",
+                         "value":"apexshipsupport"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":144,
+                 "y":-144
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -437,7 +617,7 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":272,
+                 "width":72,
                  "x":-24,
                  "y":-144
                 },
@@ -494,6 +674,78 @@
                  "width":40,
                  "x":-72,
                  "y":-64
+                },
+            
+                {
+                 "height":8,
+                 "id":2007,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"back",
+                         "type":"string",
+                         "value":"outpost"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":80,
+                 "y":-144
+                },
+            
+                {
+                 "height":8,
+                 "id":2010,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"back",
+                         "type":"string",
+                         "value":"outpost"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":56,
+                 "y":-144
+                },
+            
+                {
+                 "height":8,
+                 "id":2015,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"back",
+                         "type":"string",
+                         "value":"outpost"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":152,
+                 "y":-144
+                },
+            
+                {
+                 "height":8,
+                 "id":2016,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"back",
+                         "type":"string",
+                         "value":"outpost"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":72,
+                 "x":176,
+                 "y":-144
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -690,24 +942,6 @@
             
                 {
                  "height":8,
-                 "id":1564,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"front",
-                         "type":"string",
-                         "value":"metamaterial:structure"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":176,
-                 "y":-80
-                },
-            
-                {
-                 "height":8,
                  "id":1565,
                  "name":"",
                  "properties":[
@@ -866,6 +1100,42 @@
                  "width":8,
                  "x":336,
                  "y":-240
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        },
+    
+        {
+         "color":"#55ffff",
+         "draworder":"topdown",
+         "id":39,
+         "name":"combo layer",
+         "objects":[
+                {
+                 "height":8,
+                 "id":1564,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"back",
+                         "type":"string",
+                         "value":"nicemice_slopedapexshipwall"
+                        },
+                    
+                        {
+                         "name":"front",
+                         "type":"string",
+                         "value":"metamaterial:structure"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":176,
+                 "y":-80
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -1843,7 +2113,7 @@
                  "type":"",
                  "visible":true,
                  "width":16,
-                 "x":8,
+                 "x":56,
                  "y":-136
                 },
             
@@ -1856,20 +2126,7 @@
                  "type":"",
                  "visible":true,
                  "width":16,
-                 "x":88,
-                 "y":-136
-                },
-            
-                {
-                 "gid":6407,
-                 "height":8,
-                 "id":1999,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":16,
-                 "x":168,
+                 "x":152,
                  "y":-136
                 }],
          "opacity":1,
@@ -1891,8 +2148,8 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":38,
- "nextobjectid":2000,
+ "nextlayerid":40,
+ "nextobjectid":2025,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.10.0",

@@ -35,5 +35,29 @@
 				]
 			}
 		]
+	],
+	"nicemice_t6ship_shippetkit" : 
+	[
+		[
+			0,
+			{
+				"fill" : 
+				[
+					{"item" : [ "money", 1 ] }
+				]
+			}
+		]
+	],
+	"nicemice_t8ship_mechkit" : 
+	[
+		[
+			0,
+			{
+				"fill" : 
+				[
+					{"item" : [ "money", 1 ] }
+				]
+			}
+		]
 	]
 }

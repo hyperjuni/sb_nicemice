@@ -40,30 +40,6 @@
          "name":"spaaaaaaaaaaaaaaaaaaaaaaaaaaaaaace",
          "objects":[
                 {
-                 "height":16,
-                 "id":1748,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":-488,
-                 "y":-424
-                },
-            
-                {
-                 "height":16,
-                 "id":1750,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":-344,
-                 "y":-280
-                },
-            
-                {
                  "height":72,
                  "id":1766,
                  "name":"",
@@ -802,330 +778,6 @@
                 },
             
                 {
-                 "height":72,
-                 "id":1828,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"dungeonid",
-                         "type":"string",
-                         "value":"65525"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":-416,
-                 "y":-352
-                },
-            
-                {
-                 "height":80,
-                 "id":1829,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"dungeonid",
-                         "type":"string",
-                         "value":"65525"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":-424,
-                 "y":-360
-                },
-            
-                {
-                 "height":88,
-                 "id":1830,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"dungeonid",
-                         "type":"string",
-                         "value":"65525"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":-432,
-                 "y":-368
-                },
-            
-                {
-                 "height":96,
-                 "id":1831,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"dungeonid",
-                         "type":"string",
-                         "value":"65525"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":-440,
-                 "y":-376
-                },
-            
-                {
-                 "height":104,
-                 "id":1832,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"dungeonid",
-                         "type":"string",
-                         "value":"65525"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":-448,
-                 "y":-384
-                },
-            
-                {
-                 "height":112,
-                 "id":1833,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"dungeonid",
-                         "type":"string",
-                         "value":"65525"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":-456,
-                 "y":-392
-                },
-            
-                {
-                 "height":120,
-                 "id":1834,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"dungeonid",
-                         "type":"string",
-                         "value":"65525"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":-464,
-                 "y":-400
-                },
-            
-                {
-                 "height":128,
-                 "id":1835,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"dungeonid",
-                         "type":"string",
-                         "value":"65525"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":-472,
-                 "y":-408
-                },
-            
-                {
-                 "height":64,
-                 "id":1839,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"dungeonid",
-                         "type":"string",
-                         "value":"65525"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":-408,
-                 "y":-344
-                },
-            
-                {
-                 "height":56,
-                 "id":1840,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"dungeonid",
-                         "type":"string",
-                         "value":"65525"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":-400,
-                 "y":-336
-                },
-            
-                {
-                 "height":48,
-                 "id":1841,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"dungeonid",
-                         "type":"string",
-                         "value":"65525"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":-392,
-                 "y":-328
-                },
-            
-                {
-                 "height":40,
-                 "id":1842,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"dungeonid",
-                         "type":"string",
-                         "value":"65525"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":-384,
-                 "y":-320
-                },
-            
-                {
-                 "height":32,
-                 "id":1843,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"dungeonid",
-                         "type":"string",
-                         "value":"65525"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":-376,
-                 "y":-312
-                },
-            
-                {
-                 "height":24,
-                 "id":1844,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"dungeonid",
-                         "type":"string",
-                         "value":"65525"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":-368,
-                 "y":-304
-                },
-            
-                {
-                 "height":16,
-                 "id":1845,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"dungeonid",
-                         "type":"string",
-                         "value":"65525"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":-360,
-                 "y":-296
-                },
-            
-                {
-                 "height":8,
-                 "id":1846,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"dungeonid",
-                         "type":"string",
-                         "value":"65525"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":-352,
-                 "y":-288
-                },
-            
-                {
-                 "height":136,
-                 "id":1847,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"dungeonid",
-                         "type":"string",
-                         "value":"65525"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":-480,
-                 "y":-416
-                },
-            
-                {
-                 "height":48,
-                 "id":1848,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"dungeonid",
-                         "type":"string",
-                         "value":"65525"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":-488,
-                 "y":-328
-                },
-            
-                {
                  "height":192,
                  "id":1849,
                  "name":"",
@@ -1144,7 +796,7 @@
                 },
             
                 {
-                 "height":128,
+                 "height":216,
                  "id":1850,
                  "name":"",
                  "properties":[
@@ -1158,11 +810,11 @@
                  "visible":true,
                  "width":8,
                  "x":-344,
-                 "y":-184
+                 "y":-272
                 },
             
                 {
-                 "height":224,
+                 "height":216,
                  "id":1851,
                  "name":"",
                  "properties":[
@@ -1176,7 +828,7 @@
                  "visible":true,
                  "width":144,
                  "x":-488,
-                 "y":-280
+                 "y":-272
                 },
             
                 {
@@ -1717,6 +1369,42 @@
                  "width":120,
                  "x":8,
                  "y":-56
+                },
+            
+                {
+                 "height":152,
+                 "id":1937,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"dungeonid",
+                         "type":"string",
+                         "value":"65525"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":-488,
+                 "y":-424
+                },
+            
+                {
+                 "height":144,
+                 "id":1938,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"dungeonid",
+                         "type":"string",
+                         "value":"65525"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":-472,
+                 "y":-416
                 }],
          "opacity":1,
          "properties":[
@@ -1769,7 +1457,7 @@
                  "type":"",
                  "visible":true,
                  "width":56,
-                 "x":112,
+                 "x":-104,
                  "y":-528
                 },
             
@@ -1879,6 +1567,24 @@
                  "width":16,
                  "x":312,
                  "y":-392
+                },
+            
+                {
+                 "height":16,
+                 "id":1941,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"material",
+                         "type":"string",
+                         "value":"hazard"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":56,
+                 "x":360,
+                 "y":-528
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -3743,510 +3449,6 @@
             
                 {
                  "height":8,
-                 "id":1640,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"front",
-                         "type":"string",
-                         "value":"metamaterial:structure"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":-464,
-                 "y":-416
-                },
-            
-                {
-                 "height":8,
-                 "id":1641,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"front",
-                         "type":"string",
-                         "value":"metamaterial:structure"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":-456,
-                 "y":-408
-                },
-            
-                {
-                 "height":8,
-                 "id":1642,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"front",
-                         "type":"string",
-                         "value":"metamaterial:structure"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":-448,
-                 "y":-400
-                },
-            
-                {
-                 "height":8,
-                 "id":1643,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"front",
-                         "type":"string",
-                         "value":"metamaterial:structure"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":-440,
-                 "y":-392
-                },
-            
-                {
-                 "height":8,
-                 "id":1644,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"front",
-                         "type":"string",
-                         "value":"metamaterial:structure"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":-432,
-                 "y":-384
-                },
-            
-                {
-                 "height":8,
-                 "id":1645,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"front",
-                         "type":"string",
-                         "value":"metamaterial:structure"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":-424,
-                 "y":-376
-                },
-            
-                {
-                 "height":8,
-                 "id":1646,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"front",
-                         "type":"string",
-                         "value":"metamaterial:structure"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":-416,
-                 "y":-368
-                },
-            
-                {
-                 "height":8,
-                 "id":1647,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"front",
-                         "type":"string",
-                         "value":"metamaterial:structure"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":-408,
-                 "y":-360
-                },
-            
-                {
-                 "height":8,
-                 "id":1648,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"front",
-                         "type":"string",
-                         "value":"metamaterial:structure"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":-400,
-                 "y":-352
-                },
-            
-                {
-                 "height":8,
-                 "id":1649,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"front",
-                         "type":"string",
-                         "value":"metamaterial:structure"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":-392,
-                 "y":-344
-                },
-            
-                {
-                 "height":8,
-                 "id":1650,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"front",
-                         "type":"string",
-                         "value":"metamaterial:structure"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":-384,
-                 "y":-336
-                },
-            
-                {
-                 "height":8,
-                 "id":1651,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"front",
-                         "type":"string",
-                         "value":"metamaterial:structure"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":-376,
-                 "y":-328
-                },
-            
-                {
-                 "height":8,
-                 "id":1652,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"front",
-                         "type":"string",
-                         "value":"metamaterial:structure"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":-368,
-                 "y":-320
-                },
-            
-                {
-                 "height":8,
-                 "id":1653,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"front",
-                         "type":"string",
-                         "value":"metamaterial:structure"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":-360,
-                 "y":-312
-                },
-            
-                {
-                 "height":8,
-                 "id":1654,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"front",
-                         "type":"string",
-                         "value":"metamaterial:structure"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":-352,
-                 "y":-304
-                },
-            
-                {
-                 "height":8,
-                 "id":1655,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"front",
-                         "type":"string",
-                         "value":"metamaterial:structure"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":-344,
-                 "y":-296
-                },
-            
-                {
-                 "height":8,
-                 "id":1656,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"front",
-                         "type":"string",
-                         "value":"metamaterial:structure"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":-336,
-                 "y":-288
-                },
-            
-                {
-                 "height":8,
-                 "id":1657,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"front",
-                         "type":"string",
-                         "value":"metamaterial:structure"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":-320,
-                 "y":-304
-                },
-            
-                {
-                 "height":8,
-                 "id":1658,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"front",
-                         "type":"string",
-                         "value":"metamaterial:structure"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":-328,
-                 "y":-312
-                },
-            
-                {
-                 "height":8,
-                 "id":1659,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"front",
-                         "type":"string",
-                         "value":"metamaterial:structure"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":-336,
-                 "y":-320
-                },
-            
-                {
-                 "height":8,
-                 "id":1660,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"front",
-                         "type":"string",
-                         "value":"metamaterial:structure"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":-344,
-                 "y":-328
-                },
-            
-                {
-                 "height":8,
-                 "id":1661,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"front",
-                         "type":"string",
-                         "value":"metamaterial:structure"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":-352,
-                 "y":-336
-                },
-            
-                {
-                 "height":8,
-                 "id":1662,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"front",
-                         "type":"string",
-                         "value":"metamaterial:structure"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":-360,
-                 "y":-344
-                },
-            
-                {
-                 "height":8,
-                 "id":1663,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"front",
-                         "type":"string",
-                         "value":"metamaterial:structure"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":-368,
-                 "y":-352
-                },
-            
-                {
-                 "height":8,
-                 "id":1664,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"front",
-                         "type":"string",
-                         "value":"metamaterial:structure"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":-376,
-                 "y":-360
-                },
-            
-                {
-                 "height":8,
-                 "id":1665,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"front",
-                         "type":"string",
-                         "value":"metamaterial:structure"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":-384,
-                 "y":-368
-                },
-            
-                {
-                 "height":8,
-                 "id":1666,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"front",
-                         "type":"string",
-                         "value":"metamaterial:structure"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":-392,
-                 "y":-376
-                },
-            
-                {
-                 "height":8,
-                 "id":1667,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"front",
-                         "type":"string",
-                         "value":"metamaterial:structure"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":-400,
-                 "y":-384
-                },
-            
-                {
-                 "height":8,
                  "id":1700,
                  "name":"",
                  "properties":[
@@ -4275,42 +3477,6 @@
          "id":29,
          "name":"metamaterials",
          "objects":[
-                {
-                 "height":80,
-                 "id":1480,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"material",
-                         "type":"string",
-                         "value":"metamaterial:structure"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":-344,
-                 "y":-264
-                },
-            
-                {
-                 "height":80,
-                 "id":1481,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"material",
-                         "type":"string",
-                         "value":"metamaterial:structure"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":-488,
-                 "y":-408
-                },
-            
                 {
                  "height":8,
                  "id":1488,
@@ -4396,7 +3562,7 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":648,
+                 "width":432,
                  "x":-536,
                  "y":-528
                 },
@@ -4414,8 +3580,8 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":344,
-                 "x":168,
+                 "width":96,
+                 "x":416,
                  "y":-528
                 },
             
@@ -4522,8 +3688,8 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":624,
-                 "x":-48,
+                 "width":352,
+                 "x":224,
                  "y":-432
                 },
             
@@ -4582,7 +3748,7 @@
                 },
             
                 {
-                 "height":40,
+                 "height":80,
                  "id":1504,
                  "name":"",
                  "properties":[
@@ -4648,7 +3814,7 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":296,
+                 "width":168,
                  "x":-272,
                  "y":-352
                 },
@@ -4780,24 +3946,6 @@
                 },
             
                 {
-                 "height":16,
-                 "id":1518,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"material",
-                         "type":"string",
-                         "value":"metamaterial:structure"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":176,
-                 "x":-296,
-                 "y":-384
-                },
-            
-                {
                  "height":72,
                  "id":1520,
                  "name":"",
@@ -4810,8 +3958,8 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":8,
-                 "x":-296,
+                 "width":16,
+                 "x":-304,
                  "y":-368
                 },
             
@@ -6041,546 +5189,6 @@
             
                 {
                  "height":8,
-                 "id":1668,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"material",
-                         "type":"string",
-                         "value":"metamaterial:structure"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":56,
-                 "x":-352,
-                 "y":-344
-                },
-            
-                {
-                 "height":8,
-                 "id":1669,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"material",
-                         "type":"string",
-                         "value":"metamaterial:structure"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":48,
-                 "x":-344,
-                 "y":-336
-                },
-            
-                {
-                 "height":8,
-                 "id":1670,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"material",
-                         "type":"string",
-                         "value":"metamaterial:structure"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":40,
-                 "x":-336,
-                 "y":-328
-                },
-            
-                {
-                 "height":8,
-                 "id":1671,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"material",
-                         "type":"string",
-                         "value":"metamaterial:structure"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":32,
-                 "x":-328,
-                 "y":-320
-                },
-            
-                {
-                 "height":8,
-                 "id":1672,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"material",
-                         "type":"string",
-                         "value":"metamaterial:structure"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":24,
-                 "x":-320,
-                 "y":-312
-                },
-            
-                {
-                 "height":8,
-                 "id":1673,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"material",
-                         "type":"string",
-                         "value":"metamaterial:structure"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":16,
-                 "x":-312,
-                 "y":-304
-                },
-            
-                {
-                 "height":8,
-                 "id":1674,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"material",
-                         "type":"string",
-                         "value":"metamaterial:structure"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":64,
-                 "x":-360,
-                 "y":-352
-                },
-            
-                {
-                 "height":8,
-                 "id":1675,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"material",
-                         "type":"string",
-                         "value":"metamaterial:structure"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":72,
-                 "x":-368,
-                 "y":-360
-                },
-            
-                {
-                 "height":8,
-                 "id":1676,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"material",
-                         "type":"string",
-                         "value":"metamaterial:structure"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":80,
-                 "x":-376,
-                 "y":-368
-                },
-            
-                {
-                 "height":8,
-                 "id":1677,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"material",
-                         "type":"string",
-                         "value":"metamaterial:structure"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":88,
-                 "x":-384,
-                 "y":-376
-                },
-            
-                {
-                 "height":8,
-                 "id":1678,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"material",
-                         "type":"string",
-                         "value":"metamaterial:structure"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":96,
-                 "x":-392,
-                 "y":-384
-                },
-            
-                {
-                 "height":8,
-                 "id":1679,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"material",
-                         "type":"string",
-                         "value":"metamaterial:structure"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":-472,
-                 "y":-416
-                },
-            
-                {
-                 "height":8,
-                 "id":1680,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"material",
-                         "type":"string",
-                         "value":"metamaterial:structure"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":-464,
-                 "y":-408
-                },
-            
-                {
-                 "height":8,
-                 "id":1681,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"material",
-                         "type":"string",
-                         "value":"metamaterial:structure"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":-456,
-                 "y":-400
-                },
-            
-                {
-                 "height":8,
-                 "id":1682,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"material",
-                         "type":"string",
-                         "value":"metamaterial:structure"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":-480,
-                 "y":-424
-                },
-            
-                {
-                 "height":8,
-                 "id":1683,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"material",
-                         "type":"string",
-                         "value":"metamaterial:structure"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":-448,
-                 "y":-392
-                },
-            
-                {
-                 "height":8,
-                 "id":1684,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"material",
-                         "type":"string",
-                         "value":"metamaterial:structure"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":-440,
-                 "y":-384
-                },
-            
-                {
-                 "height":8,
-                 "id":1685,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"material",
-                         "type":"string",
-                         "value":"metamaterial:structure"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":-432,
-                 "y":-376
-                },
-            
-                {
-                 "height":8,
-                 "id":1686,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"material",
-                         "type":"string",
-                         "value":"metamaterial:structure"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":-424,
-                 "y":-368
-                },
-            
-                {
-                 "height":8,
-                 "id":1687,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"material",
-                         "type":"string",
-                         "value":"metamaterial:structure"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":-416,
-                 "y":-360
-                },
-            
-                {
-                 "height":8,
-                 "id":1688,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"material",
-                         "type":"string",
-                         "value":"metamaterial:structure"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":-408,
-                 "y":-352
-                },
-            
-                {
-                 "height":8,
-                 "id":1689,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"material",
-                         "type":"string",
-                         "value":"metamaterial:structure"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":-400,
-                 "y":-344
-                },
-            
-                {
-                 "height":8,
-                 "id":1690,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"material",
-                         "type":"string",
-                         "value":"metamaterial:structure"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":-392,
-                 "y":-336
-                },
-            
-                {
-                 "height":8,
-                 "id":1691,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"material",
-                         "type":"string",
-                         "value":"metamaterial:structure"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":-384,
-                 "y":-328
-                },
-            
-                {
-                 "height":8,
-                 "id":1692,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"material",
-                         "type":"string",
-                         "value":"metamaterial:structure"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":-376,
-                 "y":-320
-                },
-            
-                {
-                 "height":8,
-                 "id":1693,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"material",
-                         "type":"string",
-                         "value":"metamaterial:structure"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":-368,
-                 "y":-312
-                },
-            
-                {
-                 "height":8,
-                 "id":1694,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"material",
-                         "type":"string",
-                         "value":"metamaterial:structure"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":-360,
-                 "y":-304
-                },
-            
-                {
-                 "height":8,
-                 "id":1695,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"material",
-                         "type":"string",
-                         "value":"metamaterial:structure"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":-352,
-                 "y":-296
-                },
-            
-                {
-                 "height":8,
-                 "id":1696,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"material",
-                         "type":"string",
-                         "value":"metamaterial:structure"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":-344,
-                 "y":-288
-                },
-            
-                {
-                 "height":8,
-                 "id":1697,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"material",
-                         "type":"string",
-                         "value":"metamaterial:structure"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":40,
-                 "x":-336,
-                 "y":-280
-                },
-            
-                {
-                 "height":8,
                  "id":1699,
                  "name":"",
                  "properties":[
@@ -6793,6 +5401,168 @@
                  "width":64,
                  "x":-112,
                  "y":-56
+                },
+            
+                {
+                 "height":16,
+                 "id":1925,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"material",
+                         "type":"string",
+                         "value":"metamaterial:structure"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":264,
+                 "x":-384,
+                 "y":-384
+                },
+            
+                {
+                 "height":136,
+                 "id":1926,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"material",
+                         "type":"string",
+                         "value":"metamaterial:structure"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":-464,
+                 "y":-416
+                },
+            
+                {
+                 "height":8,
+                 "id":1927,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"material",
+                         "type":"string",
+                         "value":"metamaterial:structure"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":168,
+                 "x":-464,
+                 "y":-280
+                },
+            
+                {
+                 "height":64,
+                 "id":1928,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"material",
+                         "type":"string",
+                         "value":"metamaterial:structure"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":16,
+                 "x":-400,
+                 "y":-384
+                },
+            
+                {
+                 "height":16,
+                 "id":1929,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"material",
+                         "type":"string",
+                         "value":"metamaterial:structure"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":80,
+                 "x":-384,
+                 "y":-368
+                },
+            
+                {
+                 "height":16,
+                 "id":1931,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"material",
+                         "type":"string",
+                         "value":"metamaterial:structure"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":72,
+                 "x":-48,
+                 "y":-352
+                },
+            
+                {
+                 "height":8,
+                 "id":1932,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"material",
+                         "type":"string",
+                         "value":"metamaterial:structure"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":56,
+                 "x":-104,
+                 "y":-344
+                },
+            
+                {
+                 "height":16,
+                 "id":1939,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"material",
+                         "type":"string",
+                         "value":"metamaterial:structure"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":104,
+                 "x":-48,
+                 "y":-432
+                },
+            
+                {
+                 "height":16,
+                 "id":1940,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"material",
+                         "type":"string",
+                         "value":"metamaterial:structure"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":408,
+                 "x":-48,
+                 "y":-528
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -7160,7 +5930,7 @@
                  "type":"",
                  "visible":true,
                  "width":8,
-                 "x":112,
+                 "x":-104,
                  "y":-528
                 },
             
@@ -7181,6 +5951,50 @@
                  "width":8,
                  "x":-8,
                  "y":-16
+                },
+            
+                {
+                 "gid":7358,
+                 "height":12,
+                 "id":1934,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"parameters",
+                         "type":"string",
+                         "value":"{\"treasurePools\":[\"nicemice_t8ship_mechkit\"]}"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":13,
+                 "x":-1368,
+                 "y":-528
+                },
+            
+                {
+                 "gid":6242,
+                 "height":8,
+                 "id":1942,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"object",
+                         "type":"string",
+                         "value":"nicemice_shipmetamaterialsremover"
+                        },
+                    
+                        {
+                         "name":"parameters",
+                         "type":"string",
+                         "value":"{ \"dungeon\" : \"nicemice_metamaterialremover_horizontal\", \"dungeonOffset\" : [ 0, 0 ] }"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":360,
+                 "y":-528
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -7202,7 +6016,7 @@
          "y":0
         }],
  "nextlayerid":38,
- "nextobjectid":1925,
+ "nextobjectid":1944,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.10.0",

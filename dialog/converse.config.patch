@@ -119,7 +119,7 @@
 				"Zee zomet'ing you like?",
 				
 				"Greetingz, child of Elin.",
-				"Your zpeciez is much taller in perzon.",
+				"Your zpeciez iz much taller in perzon.",
 				"Keep your diztance pleaze- I don't vant to be zhocked.",
 				"Odd veather ve're having.",
 				"Zend my regardz to Elin."
@@ -544,8 +544,8 @@
 				"Nazty bird.",
 				"You're food, not a perzon.",
 				"Feazherz are dizguzting.",
-				"Your beak is crooked.",
-				"You are neither cute nor velcome here.",
+				"Your beak iz crooked.",
+				"You are neit'er cute nor velcome here.",
 				"You belong in a fryer."
 			]
 		},
@@ -869,7 +869,7 @@
 				"No, I do not vant more tea.",
 				"You reek of pollution.",
 				"Tea iz grozz.",
-				"The anzwer is no.",
+				"The anzwer iz no.",
 				"You look ridiculouz."
 			]
 		},
@@ -935,11 +935,11 @@
 				"Leave me alone, pleaze.",
 				"Azk zomeone elze.",
 				
-				"Your vool is ztained.",
+				"Your vool iz ztained. Zut!",
 				"Your earz are crooked.",
 				"You ztink like a farm.",
 				"Get a haircut, ztinky.",
-				"How'z the zpazekiddz mod coming along? Lotz of updatez?"
+				"How'z ze zpazekiddz mod coming along? Lotz of updatez?"
 			]
 		},
 		{
@@ -1077,7 +1077,7 @@
 				"No thankz. Ugly fokz.",
 				"Zmelly fokz. Feeling dizguzted.",
 				"Nazty animal. Not velcome.",
-				"You veird halfbreed. You are neizer fokz nor monkey. Your ekziztenze is an unfortunate blight upon the univerze."
+				"You veird halfbreed. You are neizer fokz nor monkey. Your ekziztenze iz an unfortunate blight upon the univerze."
 			]
 		},
 		{
@@ -1100,7 +1100,7 @@
 				"Your buildingz are ugly and zo are you.",
 				"I hope you get hit by zomet'ing large and heavy.",
 				"Jump off one of your ugly towerz.",
-				"Nazty zcuttling thing."
+				"Nazty zcuttling t'ing."
 			]
 		},
 		{
@@ -1123,7 +1123,7 @@
 				"Your buildingz are ugly and zo are you.",
 				"I hope you get hit by zomet'ing large and heavy.",
 				"Jump off one of your ugly towerz.",
-				"Nazty zcuttling thing."
+				"Nazty zcuttling t'ing."
 			]
 		},
 		{
@@ -1215,7 +1215,7 @@
 				"You are not cute. You are dizguzting.",
 				"Your entire zpeciez zhould be ekzterminated.",
 				"Every avali iz kill-on-zight.",
-				"The fleet iz coming for you, nazty bird."
+				"Ze fleet iz coming for you, nazty bird."
 			]
 		},
 		{
@@ -1261,7 +1261,7 @@
 				"You are not cute. You are dizguzting.",
 				"Your entire zpeciez zhould be ekzterminated.",
 				"Every protogen iz kill-on-zight.",
-				"The fleet iz coming for you, nazty animal."
+				"Ze fleet iz coming for you, nazty animal."
 			]
 		},
 		{
@@ -1284,7 +1284,7 @@
 				"You are not cute. You are dizguzting.",
 				"Your entire zpeciez zhould be ekzterminated.",
 				"Every protogen iz kill-on-zight.",
-				"The fleet iz coming for you, nazty animal."
+				"Ze fleet iz coming for you, nazty animal."
 			]
 		},
 		{
@@ -1595,8 +1595,8 @@
 			"path" : "/converse/nicemice_npc/nicemice",
 			"value" : 
 			[
-				"Thank goodnezz. Glad to zee you!",
-				"I've been waiting all day to zpeak with zomeone like you.",
+				"T'ank goodnezz. Glad to zee you!",
+				"I've been vaiting all day to zpeak with zomeone like you.",
 				"Your earz are zimply lovely!",
 				"Let'z be friendz.",
 				"Adjutant! How can I azzizt?"
